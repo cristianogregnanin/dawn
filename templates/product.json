@@ -3,15 +3,28 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
-            "text_style": "uppercase",
-            "text": "{{ product.vendor }}"
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
           }
-        },
-        "title": {
-          "type": "title"
         },
         "subtitle": {
           "type": "text",
@@ -20,43 +33,272 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price"
-        },
         "variant_picker": {
-          "type": "variant_picker"
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         },
-        "quantity_selector": {
-          "type": "quantity_selector"
+        "price": {
+          "type": "price",
+          "settings": {
+          }
         },
-        "buy_buttons": {
-          "type": "buy_buttons"
-        },
-        "description": {
-          "type": "description"
-        },
-        "share": {
-          "type": "share"
+        "50a4b7f7-29f2-400a-8406-973fb0dcbb72": {
+          "type": "popup",
+          "settings": {
+            "text": "Dettaglio costi",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "subtitle",
-        "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
+        "share",
         "description",
-        "share"
-      ]
+        "vendor",
+        "subtitle",
+        "variant_picker",
+        "price",
+        "50a4b7f7-29f2-400a-8406-973fb0dcbb72"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1637185714df29ebbf": {
+      "type": "multicolumn",
+      "blocks": {
+        "1637185714f72c4a7b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1637185714f72c4a7b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1637185714f72c4a7b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637185714f72c4a7b-0",
+        "1637185714f72c4a7b-1",
+        "1637185714f72c4a7b-2"
+      ],
+      "settings": {
+        "title": "Materiale necessario",
+        "image_width": "third",
+        "image_ratio": "portrait",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "163718571838645ff8": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637185718e8ab5b66-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dettagli"
+          }
+        },
+        "1637185718e8ab5b66-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Scarpe da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti<\/p><p><\/p><p><strong>Durata<\/strong><br\/>4\/6 ore<\/p>"
+          }
+        },
+        "1637185718e8ab5b66-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Richiedi informazioni",
+            "button_link": "shopify:\/\/pages\/contacts"
+          }
+        }
+      },
+      "block_order": [
+        "1637185718e8ab5b66-0",
+        "1637185718e8ab5b66-1",
+        "1637185718e8ab5b66-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pink-snow-covered-mountain-tops.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "layout": "image_first"
+      }
+    },
+    "163718595294971582": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637185952f4e2f539-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Difficolta"
+          }
+        },
+        "1637185952f4e2f539-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dislivello 1230 MT<\/p><p>molto difficile<\/p><p>tempo medio di percorrenza 5 ore<\/p>"
+          }
+        },
+        "1637185952f4e2f539-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Approfondisci",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637185952f4e2f539-0",
+        "1637185952f4e2f539-1",
+        "1637185952f4e2f539-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
+    "163718534225228dba": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Richiedi informazioni"
+      }
     },
     "product-recommendations": {
-      "type": "product-recommendations"
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1637185277595a85ab": {
+      "type": "collection-list",
+      "blocks": {
+        "1637185277ecf15f32-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ferrate"
+          }
+        },
+        "1637185277ecf15f32-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ciaspolate"
+          }
+        },
+        "1637185277ecf15f32-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sci-alpinismo"
+          }
+        }
+      },
+      "block_order": [
+        "1637185277ecf15f32-0",
+        "1637185277ecf15f32-1",
+        "1637185277ecf15f32-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": true
+      }
+    },
+    "1637185175e3c684fb": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Altre attività estive",
+        "collection": "arrampicata-classica-in-montagna",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1637185148035fd747": {
+      "type": "newsletter",
+      "blocks": {
+        "1637185148dd57c2c6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter"
+          }
+        },
+        "1637185148dd57c2c6-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività<\/p>"
+          }
+        },
+        "1637185148dd57c2c6-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1637185148dd57c2c6-0",
+        "1637185148dd57c2c6-1",
+        "1637185148dd57c2c6-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "1637185714df29ebbf",
+    "163718571838645ff8",
+    "163718595294971582",
+    "163718534225228dba",
+    "product-recommendations",
+    "1637185277595a85ab",
+    "1637185175e3c684fb",
+    "1637185148035fd747"
   ]
 }

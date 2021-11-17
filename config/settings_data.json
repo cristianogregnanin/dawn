@@ -1,5 +1,84 @@
 {
-  "current": "Default",
+  "current": {
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#e57708",
+    "colors_accent_2": "#334fb4",
+    "colors_text": "#1a1b18",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#f5f5f5",
+    "colors_background_2": "#dcdcdc",
+    "type_header_font": "assistant_n4",
+    "type_body_font": "assistant_n4",
+    "social_facebook_link": "https:\/\/www.facebook.com\/laguidalpina\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/la_guidalpina\/",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "accent-1",
+          "logo_width": 100,
+          "logo_position": "top-center",
+          "menu": "main-menu",
+          "show_line_separator": false,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Footer menu",
+              "menu": "main-menu"
+            }
+          },
+          "0def0fa2-941e-4413-b415-550dc235c39f": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logo_bergfuhrer.png",
+              "image_width": 200,
+              "alignment": "right"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "0def0fa2-941e-4413-b415-550dc235c39f"
+        ],
+        "settings": {
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
     "Default": {
       "colors_solid_button_labels": "#FFFFFF",
@@ -24,7 +103,9 @@
           },
           "block_order": [
             "announcement-bar-0"
-          ]
+          ],
+          "settings": {
+          }
         }
       }
     },
@@ -41,21 +122,25 @@
       "sections": {
         "footer": {
           "type": "footer",
-          "settings": {
-            "color_scheme": "accent-1"
-          },
           "blocks": {
             "menu": {
-              "type": "link_list"
+              "type": "link_list",
+              "settings": {
+              }
             },
             "text": {
-              "type": "text"
+              "type": "text",
+              "settings": {
+              }
             }
           },
           "block_order": [
             "menu",
             "text"
-          ]
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
         }
       }
     }

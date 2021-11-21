@@ -19,13 +19,6 @@
           "settings": {
           }
         },
-        "subtitle": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -37,11 +30,17 @@
           "settings": {
           }
         },
+        "c09f1997-e392-4ece-906e-f3a90f4a52e5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72": {
           "type": "popup",
           "settings": {
-            "text": "Dettaglio costi",
-            "page": ""
+            "text": "Condizioni contrattuali",
+            "page": "condizioni-contrattuali"
           }
         }
       },
@@ -49,9 +48,9 @@
         "title",
         "share",
         "description",
-        "subtitle",
         "variant_picker",
         "price",
+        "c09f1997-e392-4ece-906e-f3a90f4a52e5",
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72"
       ],
       "settings": {
@@ -67,8 +66,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Casco",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }

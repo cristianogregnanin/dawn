@@ -19,13 +19,6 @@
           "settings": {
           }
         },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -56,7 +49,6 @@
         "title",
         "share",
         "description",
-        "vendor",
         "subtitle",
         "variant_picker",
         "price",

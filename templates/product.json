@@ -179,6 +179,24 @@
         "layout": "image_first"
       }
     },
+    "1637602446d311a7e4": {
+      "type": "my-product-faq",
+      "blocks": {
+        "163760244687d6bda1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        }
+      },
+      "block_order": [
+        "163760244687d6bda1-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "163718534225228dba": {
       "type": "contact-form",
       "settings": {
@@ -286,6 +304,7 @@
     "1637185714df29ebbf",
     "163718571838645ff8",
     "163718595294971582",
+    "1637602446d311a7e4",
     "163718534225228dba",
     "product-recommendations",
     "1637185277595a85ab",

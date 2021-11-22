@@ -78,9 +78,9 @@
           "type": "product",
           "settings": {
             "product": "via-ferrata-f-susatti-a-cima-capi",
-            "secondary_background": false,
             "second_image": false,
-            "image_padding": false
+            "image_padding": false,
+            "secondary_background": false
           }
         },
         "collection": {

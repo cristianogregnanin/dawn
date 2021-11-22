@@ -179,13 +179,38 @@
         "layout": "image_first"
       }
     },
+    "163760600479781804": {
+      "type": "my-product-googlemaps",
+      "blocks": {
+        "1637606004d36262b0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Logistica"
+          }
+        },
+        "1637606004d36262b0-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Al momento della prenotazione per comodità logistica è possibile organizzare punti di ritrovo alternativi al fine di condividere il viaggio. L'orario di ritrovo sarà deciso qualche giorno prima in base al meteo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637606004d36262b0-0",
+        "1637606004d36262b0-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false
+      }
+    },
     "1637602446d311a7e4": {
       "type": "my-product-faq",
       "blocks": {
         "163760244687d6bda1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails"
+            "heading": "Domande?"
           }
         }
       },
@@ -194,7 +219,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": true
+        "full_width": false
       }
     },
     "163718534225228dba": {
@@ -304,6 +329,7 @@
     "1637185714df29ebbf",
     "163718571838645ff8",
     "163718595294971582",
+    "163760600479781804",
     "1637602446d311a7e4",
     "163718534225228dba",
     "product-recommendations",

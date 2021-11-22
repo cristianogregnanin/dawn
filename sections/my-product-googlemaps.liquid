@@ -16,21 +16,21 @@
 
 
 
-{% if product.metafields.my_fields.google_maps_link %}
-     <iframe src="{{product.metafields.my_fields.google_maps_link}}" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-{% endif %}
- 
-{% if product.metafields.my_fields.google_maps_share_link %}
-  {% if product.metafields.my_fields.google_maps_meeting_point_name %}
-    <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>{% render 'icon-accordion', icon: 'map_pin' %} <a href="{{product.metafields.my_fields.google_maps_share_link}}" target="_blank">{{product.metafields.my_fields.google_maps_meeting_point_name}}</a></div>
-  {% endif %}
-{% endif %}
+    {% if product.metafields.my_fields.google_maps_link %}
+        <iframe src="{{product.metafields.my_fields.google_maps_link}}" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+    {% endif %}
+    
+    {% if product.metafields.my_fields.google_maps_share_link %}
+      {% if product.metafields.my_fields.google_maps_meeting_point_name %}
+        <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>{% render 'icon-accordion', icon: 'map_pin' %} <a href="{{product.metafields.my_fields.google_maps_share_link}}" target="_blank">{{product.metafields.my_fields.google_maps_meeting_point_name}}</a></div>
+      {% endif %}
+    {% endif %}
 
-{% if product.metafields.my_fields.meeting_time %}
-  <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>{% render 'icon-accordion', icon: 'plane' %} {{product.metafields.my_fields.meeting_time}}</div>
-{% endif %}
+    {% if product.metafields.my_fields.meeting_time %}
+      <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>{% render 'icon-accordion', icon: 'plane' %} {{product.metafields.my_fields.meeting_time}}</div>
+    {% endif %}
 
-</div>
+  </div>
 </div>
 
 {% schema %}

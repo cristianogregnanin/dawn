@@ -1,9 +1,17 @@
+{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
 {{ 'my-product-faq.css' | asset_url | stylesheet_tag }}
 
 <div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
 	<div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient">
-
-		<h2 class="title">Domande?</h2>
+		
+		{%- for block in section.blocks -%}
+			{%- case block.type -%}
+				{%- when 'heading' -%}
+					<h2 class="h1">{{ block.settings.heading | escape }}</h2>
+			{%- endcase -%}
+		{%- endfor -%}
+	
 		<div class="faq">
 			<div class="tab">
 				<input type="checkbox" id="tab12{{forloop.index}}" class="tab-toggle">
@@ -30,12 +38,10 @@
 "name": "my-product-faq",
 "tag": "section",
 "class": "spaced-section spaced-section--full-width",
-"settings": [
-{
+"settings": [{
 "type": "select",
 "id": "color_scheme",
-"options": [
-{
+"options": [{
 "value": "accent-1",
 "label": "t:sections.newsletter.settings.color_scheme.options__1.label"
 },
@@ -66,31 +72,24 @@
 "label": "t:sections.newsletter.settings.full_width.label"
 }
 ],
-"blocks": [
-{
+"blocks": [{
 "type": "heading",
 "name": "t:sections.newsletter.blocks.heading.name",
 "limit": 1,
-"settings": [
-{
+"settings": [{
 "type": "text",
 "id": "heading",
-"default": "Subscribe to our emails",
+"default": "Domande?",
 "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
-}
-]
+}]
 }
 
 ],
-"presets": [
-{
+"presets": [{
 "name": "my-product-faq",
-"blocks": [
-{
+"blocks": [{
 "type": "heading"
-}
-]
-}
-]
+}]
+}]
 }
 {% endschema %}

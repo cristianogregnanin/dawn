@@ -1,7 +1,7 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
 <div class="contact page-width page-width--narrow spaced-section">
-  <h2 class="title">{{ section.settings.heading | escape }}</h2>
+  <h2 class="title" id="MyContactForm">{{ section.settings.heading | escape }}</h2>
   {%- form 'contact', id: 'ContactForm' -%}
     {%- if form.posted_successfully? -%}
       <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
@@ -65,7 +65,7 @@
       <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
     </div>
     <div class="contact__button">
-      <button type="submit" class="button">
+      <button type="submit" class="button button--full-width">
         {{ 'templates.contact.form.send' | t }}
       </button>
     </div>

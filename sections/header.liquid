@@ -489,6 +489,7 @@
         </a>
       {%- endif -%}
 
+      {%- if shop.customer_accounts_enabled -%}
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
@@ -507,6 +508,7 @@
           </div>
         {%- endif -%}
       </a>
+      {%- endif -%}
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>

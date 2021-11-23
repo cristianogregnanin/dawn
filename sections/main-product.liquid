@@ -110,6 +110,12 @@
                 {{ product.description }}
               </div>
             {%- endif -%}
+          {%- when 'my-button' -%}
+            <a  href="{{ block.settings.my_button_link }}" 
+                id="my-button-{{ block.id }}-{{ section.id }}"
+                class="button button--primary {% if block.settings.my_button_class_full_width %} button--full-width {% endif %}"
+                {% if block.settings.my_button_target %} target="_blank" {% endif %}
+            >{{ block.settings.my_button_text }}</a>  
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
@@ -297,7 +303,7 @@
                     >
                         <span>
                           {%- if product.selected_or_first_available_variant.available -%}
-                            <a href="#MyContactForm" class="button button--primary">Richiedi informazioni</a>
+                            {{ 'products.product.add_to_cart' | t }}
                           {%- else -%}
                             {{ 'products.product.sold_out' | t }}
                           {%- endif -%}
@@ -619,6 +625,39 @@
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
       "limit": 1
+    },
+    {
+      "type": "my-button",
+      "name": "My Button",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "text",
+          "id": "my_button_text",
+          "default": "Richiedi informazioni",
+          "info": "Titolo",
+        },
+        {
+          "type": "text",
+          "id": "my_button_link",
+          "default": "#MyContactForm",
+          "info": "Link",
+        },
+        {
+          "type": "checkbox",
+          "id": "my_button_target_blank",
+          "default": false,
+          "label": "Target blank",
+          "info": "Apri link in una nuova finestra"
+        },
+        {
+          "type": "checkbox",
+          "id": "my_button_class_full_width",
+          "default": true,
+          "label": "Full width",
+          "info": "Larghezza pagina"
+        }
+      ]
     },
     {
       "type": "share",

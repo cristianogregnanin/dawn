@@ -30,10 +30,13 @@
           "settings": {
           }
         },
-        "c09f1997-e392-4ece-906e-f3a90f4a52e5": {
-          "type": "buy_buttons",
+        "c41acd56-30b6-4267-9d54-f75726d511d7": {
+          "type": "my-button",
           "settings": {
-            "show_dynamic_checkout": false
+            "my_button_text": "Richiedi informazioni",
+            "my_button_link": "#MyContactForm",
+            "my_button_target_blank": false,
+            "my_button_class_full_width": true
           }
         },
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72": {
@@ -50,7 +53,7 @@
         "description",
         "variant_picker",
         "price",
-        "c09f1997-e392-4ece-906e-f3a90f4a52e5",
+        "c41acd56-30b6-4267-9d54-f75726d511d7",
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72"
       ],
       "settings": {

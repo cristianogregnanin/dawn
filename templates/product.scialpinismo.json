@@ -65,22 +65,22 @@
     "1637185714df29ebbf": {
       "type": "multicolumn",
       "blocks": {
-        "1637185714f72c4a7b-0": {
+        "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Casco",
-            "text": "<p>Noleggio gratis<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_skis_456553-removebg-preview.png",
+            "title": "Sci da freeride\/scialpinismo",
+            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "1637185714f72c4a7b-1": {
+        "4e5562ad-546a-4a99-9b6b-2d9a4e2d090a": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/PelleFoca1.png",
+            "title": "Pelli di foca",
+            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -88,18 +88,62 @@
         "1637185714f72c4a7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_Ski_Pole_707634-removebg-preview.png",
+            "title": "Bastoncini da sci",
+            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1637185714f72c4a7b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_ski_boot_707643-removebg-preview.png",
+            "title": "Scarponi da freeride\/scialpinismo",
+            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a9f808dc-d9aa-4df8-a4ad-ead349edb1e3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_Walkie_Talkie_1193522-removebg-preview.png",
+            "title": "Artva",
+            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "675cd973-801a-4c9a-ad62-85db2a06fe1d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_Shovel_456550-removebg-preview.png",
+            "title": "Pala",
+            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2d5be8d4-b714-433c-9472-0f3bf2c65d1e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_probes_456547-removebg-preview.png",
+            "title": "Sonda",
+            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "1637185714f72c4a7b-0",
         "1637185714f72c4a7b-1",
-        "1637185714f72c4a7b-2"
+        "4e5562ad-546a-4a99-9b6b-2d9a4e2d090a",
+        "1637185714f72c4a7b-2",
+        "1637185714f72c4a7b-0",
+        "a9f808dc-d9aa-4df8-a4ad-ead349edb1e3",
+        "675cd973-801a-4c9a-ad62-85db2a06fe1d",
+        "2d5be8d4-b714-433c-9472-0f3bf2c65d1e"
       ],
       "settings": {
         "title": "Materiale necessario",

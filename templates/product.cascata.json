@@ -78,9 +78,9 @@
         "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
+            "title": "Imbrago",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -88,9 +88,29 @@
         "1637185714f72c4a7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_crampon_456546-removebg-preview.png",
+            "title": "Ramponi",
+            "text": "<p>Noleggio solo previa prenotazione<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c204541e-6bee-4948-a981-32a7b42637b9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_ice_axe_2913984-removebg-preview.png",
+            "title": "PIccozze",
+            "text": "<p>Noleggio solo previa prenotazione<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "08ca0255-8b9a-4914-9127-0388fa5caeb2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_mountain_shoes_707638-removebg-preview.png",
+            "title": "Scarponi da ghiaccio",
+            "text": "<p>Noleggio solo previa prenotazione<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -99,7 +119,9 @@
       "block_order": [
         "1637185714f72c4a7b-0",
         "1637185714f72c4a7b-1",
-        "1637185714f72c4a7b-2"
+        "1637185714f72c4a7b-2",
+        "c204541e-6bee-4948-a981-32a7b42637b9",
+        "08ca0255-8b9a-4914-9127-0388fa5caeb2"
       ],
       "settings": {
         "title": "Materiale necessario",

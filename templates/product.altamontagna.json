@@ -78,9 +78,9 @@
         "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
+            "title": "Imbrago",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -88,9 +88,19 @@
         "1637185714f72c4a7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_ice_axe_456552-removebg-preview.png",
+            "title": "Piccozza",
+            "text": "<p>Noleggio gratis<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "93a01aa1-98eb-4bb1-be2f-d78d71bee0af": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noun_crampon_456546-removebg-preview.png",
+            "title": "Ramponi",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -99,7 +109,8 @@
       "block_order": [
         "1637185714f72c4a7b-0",
         "1637185714f72c4a7b-1",
-        "1637185714f72c4a7b-2"
+        "1637185714f72c4a7b-2",
+        "93a01aa1-98eb-4bb1-be2f-d78d71bee0af"
       ],
       "settings": {
         "title": "Materiale necessario",

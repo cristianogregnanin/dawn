@@ -118,17 +118,18 @@
         "1637185718e8ab5b66-0": {
           "type": "heading",
           "settings": {
-            "heading": "Dettagli"
+            "heading": ""
           }
         },
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Scarpe da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti<\/p><p><\/p><p><strong>Durata<\/strong><br\/>4\/6 ore<\/p>"
+            "text": "<p><strong>Requisiti necessari: <\/strong>Non soffrire di vertigini<\/p><p><\/p><p><strong>Durata: <\/strong>{{ product.metafields.my_fields.dettagli | metafield_tag }}<\/p><p><\/p><p><strong>Materiale necessario:<\/strong><br\/>Scarpe\/scarponi da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti da ferrata<\/p><p><\/p><p><\/p>"
           }
         },
         "1637185718e8ab5b66-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Richiedi informazioni",
             "button_link": "shopify:\/\/pages\/contacts"
@@ -141,9 +142,9 @@
         "1637185718e8ab5b66-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pink-snow-covered-mountain-tops.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-2",
+        "image": "shopify:\/\/shop_images\/DSC06334_1500x_58af33a5-ac05-4e15-b2db-30b725e2d118.jpg",
+        "height": "small",
+        "color_scheme": "background-2",
         "layout": "image_first"
       }
     },
@@ -164,6 +165,7 @@
         },
         "1637185952f4e2f539-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Approfondisci",
             "button_link": ""
@@ -176,10 +178,10 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/IMG_20210815_115940.jpg",
+        "height": "small",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     },
     "163760600479781804": {
@@ -234,8 +236,24 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
-        "image_ratio": "adapt",
+        "heading": "",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1637185175e3c684fb": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Altre ferrate interessanti",
+        "collection": "ferrate",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
         "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": true,
@@ -255,13 +273,13 @@
         "1637185277ecf15f32-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ciaspolate"
+            "collection": "arrampicata-classica-in-montagna"
           }
         },
         "1637185277ecf15f32-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sci-alpinismo"
+            "collection": "arrampicata-sportiva"
           }
         }
       },
@@ -277,22 +295,6 @@
         "swipe_on_mobile": true,
         "image_padding": false,
         "show_view_all": true
-      }
-    },
-    "1637185175e3c684fb": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Altre attività estive",
-        "collection": "arrampicata-classica-in-montagna",
-        "products_to_show": 2,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
       }
     },
     "1637185148035fd747": {
@@ -336,8 +338,8 @@
     "1637602446d311a7e4",
     "163718534225228dba",
     "product-recommendations",
-    "1637185277595a85ab",
     "1637185175e3c684fb",
+    "1637185277595a85ab",
     "1637185148035fd747"
   ]
 }

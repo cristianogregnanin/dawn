@@ -1,17 +1,219 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16378694532ffa68ba": {
+      "type": "image-banner",
+      "blocks": {
+        "1637869453b7e1711f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "laguidalpina.it",
+            "heading_size": "large"
+          }
+        },
+        "1637869453b7e1711f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "+393406256592 | cristiano.gregnanin@gmail.com"
+          }
+        },
+        "1637869453b7e1711f-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1637869453b7e1711f-0",
+        "1637869453b7e1711f-1",
+        "1637869453b7e1711f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1_847020b8-37c0-48cc-a32b-628bd59f0752.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": true,
+        "image_overlay_opacity": 10,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16378712970f81369c": {
+      "type": "rich-text",
+      "blocks": {
+        "1637871297f6b30ce9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "laguidalpina.it",
+            "heading_size": "h1"
+          }
+        },
+        "1637871297f6b30ce9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/laguidalpina.it\/whatsapp.html\" target=\"_blank\" title=\"https:\/\/laguidalpina.it\/whatsapp.html\">Whatsapp - +393406256592<\/a><\/p><p><\/p><p>cristiano.gregnanin@gmail.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637871297f6b30ce9-0",
+        "1637871297f6b30ce9-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true
+      }
     },
     "form": {
       "type": "contact-form",
       "settings": {
         "heading": ""
       }
+    },
+    "16378693998edcc94c": {
+      "type": "my-product-googlemaps",
+      "disabled": true,
+      "blocks": {
+        "1637869399667ab168-0": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "1637869399667ab168-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": ""
+          }
+        },
+        "b6f3bb7e-16b8-4ef8-ad1b-867bf6843a3b": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637869399667ab168-0",
+        "1637869399667ab168-1",
+        "b6f3bb7e-16b8-4ef8-ad1b-867bf6843a3b"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1637870962452094be": {
+      "type": "collection-list",
+      "blocks": {
+        "1637870962c7f3cf93-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sci-alpinismo"
+          }
+        },
+        "1637870962c7f3cf93-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "arrampicata-sportiva"
+          }
+        },
+        "1637870962c7f3cf93-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "arrampicata-classica-in-montagna"
+          }
+        },
+        "3e1cca2b-2202-4e2c-8532-b9942f884ae0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ferrate"
+          }
+        },
+        "4627a3ce-fde0-41c3-84e3-4fe06481a8a3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ciaspolate"
+          }
+        },
+        "61fb9204-5333-4cda-bb81-eed96d9ee7d7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637870962c7f3cf93-0",
+        "1637870962c7f3cf93-1",
+        "1637870962c7f3cf93-2",
+        "3e1cca2b-2202-4e2c-8532-b9942f884ae0",
+        "4627a3ce-fde0-41c3-84e3-4fe06481a8a3",
+        "61fb9204-5333-4cda-bb81-eed96d9ee7d7"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "accent-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16378720032a54ceea": {
+      "type": "newsletter",
+      "blocks": {
+        "16378720036b010de7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter"
+          }
+        },
+        "16378720036b010de7-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Iscriviti alla newsletter per ricevere aggiornamenti sulle prossime attività<\/p>"
+          }
+        },
+        "16378720036b010de7-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16378720036b010de7-0",
+        "16378720036b010de7-1",
+        "16378720036b010de7-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "16378694532ffa68ba",
+    "16378712970f81369c",
+    "form",
+    "16378693998edcc94c",
+    "1637870962452094be",
+    "16378720032a54ceea"
   ]
 }

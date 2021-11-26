@@ -142,7 +142,7 @@
         "1637185952f4e2f539-0": {
           "type": "heading",
           "settings": {
-            "heading": "Difficolta"
+            "heading": "Dettagli tecnici"
           }
         },
         "1637185952f4e2f539-1": {
@@ -168,7 +168,7 @@
         "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
         "height": "adapt",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     },
     "163760600479781804": {

@@ -118,13 +118,13 @@
         "1637185718e8ab5b66-0": {
           "type": "heading",
           "settings": {
-            "heading": ""
+            "heading": "Requisiti & Materiale"
           }
         },
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari: <\/strong>Non soffrire di vertigini<\/p><p><\/p><p><strong>Durata: <\/strong>{{ product.metafields.my_fields.dettagli | metafield_tag }}<\/p><p><\/p><p><strong>Materiale necessario:<\/strong><br\/>Scarpe\/scarponi da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti da ferrata<\/p><p><\/p><p><\/p>"
+            "text": "<p><strong>Requisiti necessari: <\/strong><\/p><p>Non aver paura del vuoto<\/p><p>Non soffrire di vertigini<\/p><p><\/p><p><strong>Materiale necessario:<\/strong><\/p><p>Scarpe\/scarponi da trekking<\/p><p>Abbigliamento sportivo<\/p><p>Zaino con acqua e snack<\/p><p>Giacca impermeabile<\/p><p>Guanti da ferrata<\/p><p><\/p><p><\/p>"
           }
         },
         "1637185718e8ab5b66-2": {
@@ -144,7 +144,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC06334_1500x_58af33a5-ac05-4e15-b2db-30b725e2d118.jpg",
         "height": "small",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-2",
         "layout": "image_first"
       }
     },
@@ -154,13 +154,13 @@
         "1637185952f4e2f539-0": {
           "type": "heading",
           "settings": {
-            "heading": "Difficolta"
+            "heading": "Dettagli tecnici"
           }
         },
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dislivello 1230 MT<\/p><p>molto difficile<\/p><p>tempo medio di percorrenza 5 ore<\/p>"
+            "text": "<p><strong>Dislivello:<\/strong> {{ product.metafields.my_fields.dislivello.value }} metri<\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>"
           }
         },
         "1637185952f4e2f539-2": {

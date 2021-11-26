@@ -222,7 +222,8 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": false
+        "full_width": false,
+        "product_faq": true
       }
     },
     "163718534225228dba": {

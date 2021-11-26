@@ -209,18 +209,8 @@
     },
     "1637602446d311a7e4": {
       "type": "my-product-faq",
-      "blocks": {
-        "163760244687d6bda1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Domande?"
-          }
-        }
-      },
-      "block_order": [
-        "163760244687d6bda1-0"
-      ],
       "settings": {
+        "title": "Domande?",
         "color_scheme": "background-1",
         "full_width": false,
         "product_faq": true

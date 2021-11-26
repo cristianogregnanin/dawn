@@ -42,9 +42,9 @@
         "1637869453b7e1711f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1_847020b8-37c0-48cc-a32b-628bd59f0752.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": true,
+        "image_2": "shopify:\/\/shop_images\/217950656_2926765497584694_9034443262752520872_n.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 10,

@@ -1,5 +1,24 @@
 {
   "sections": {
+    "163791582072089dd9": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/217950656_2926765497584694_9034443262752520872_n.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 10,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
     "1637870962452094be": {
       "type": "collection-list",
       "blocks": {
@@ -55,25 +74,6 @@
         "swipe_on_mobile": true,
         "image_padding": false,
         "show_view_all": false
-      }
-    },
-    "163791582072089dd9": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DJI_0833.jpg",
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 10,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "settings": {
       }
     }
   },

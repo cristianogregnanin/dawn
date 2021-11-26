@@ -107,7 +107,7 @@
         "1637185718e8ab5b66-0": {
           "type": "heading",
           "settings": {
-            "heading": "Dettagli"
+            "heading": "Requisiti & Materiale"
           }
         },
         "1637185718e8ab5b66-1": {
@@ -118,6 +118,7 @@
         },
         "1637185718e8ab5b66-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Richiedi informazioni",
             "button_link": "shopify:\/\/pages\/contacts"
@@ -148,11 +149,12 @@
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dislivello 1230 MT<\/p><p>molto difficile<\/p><p>tempo medio di percorrenza 5 ore<\/p>"
+            "text": "<p><strong>Dislivello:<\/strong> {{ product.metafields.my_fields.dislivello.value }} metri<\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>"
           }
         },
         "1637185952f4e2f539-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Approfondisci",
             "button_link": ""
@@ -167,7 +169,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
         "height": "adapt",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "layout": "text_first"
       }
     },

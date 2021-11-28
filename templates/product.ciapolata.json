@@ -107,13 +107,13 @@
         "1637185718e8ab5b66-0": {
           "type": "heading",
           "settings": {
-            "heading": "Dettagli"
+            "heading": "Requisiti & Materiale"
           }
         },
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Scarpe da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti<\/p><p><\/p><p><strong>Durata<\/strong><br\/>4\/6 ore<\/p>"
+            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>Abitudine al freddo, anche intenso<\/p><p>Buona forma fisica<\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>Scarponi da trekking resistenti all’acqua (NO moon boot)<\/p><p>Zaino<\/p><p>Abbigliamento invernale<\/p><p>Giacca impermeabile<\/p><p>Guanti<\/p><p>Berretto <\/p><p>Acqua o thermos di the caldo<\/p>"
           }
         },
         "1637185718e8ab5b66-2": {
@@ -131,7 +131,7 @@
         "1637185718e8ab5b66-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pink-snow-covered-mountain-tops.jpg",
+        "image": "shopify:\/\/shop_images\/249880958_3003790949882148_4541193894131453339_n.jpg",
         "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "image_first"
@@ -167,7 +167,7 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
+        "image": "shopify:\/\/shop_images\/253429460_3009550139306229_8735372555886109173_n.jpg",
         "height": "adapt",
         "color_scheme": "accent-1",
         "layout": "text_first"

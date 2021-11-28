@@ -162,17 +162,18 @@
         "1637185718e8ab5b66-0": {
           "type": "heading",
           "settings": {
-            "heading": "Dettagli"
+            "heading": "Requisiti & Materiale"
           }
         },
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Scarpe da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti<\/p><p><\/p><p><strong>Durata<\/strong><br\/>4\/6 ore<\/p>"
+            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Scarpe da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti<\/p>"
           }
         },
         "1637185718e8ab5b66-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Richiedi informazioni",
             "button_link": "shopify:\/\/pages\/contacts"
@@ -185,7 +186,7 @@
         "1637185718e8ab5b66-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pink-snow-covered-mountain-tops.jpg",
+        "image": "shopify:\/\/shop_images\/traversata_Sennes-Braies_photo_Carlo_Cosi.jpg",
         "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "image_first"
@@ -221,7 +222,7 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
+        "image": "shopify:\/\/shop_images\/Sennes_photo_Carlo_Cosi.jpg",
         "height": "adapt",
         "color_scheme": "accent-1",
         "layout": "text_first"

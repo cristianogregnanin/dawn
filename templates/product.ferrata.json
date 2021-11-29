@@ -143,7 +143,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC06334_1500x_58af33a5-ac05-4e15-b2db-30b725e2d118.jpg",
-        "height": "small",
+        "height": "large",
         "color_scheme": "accent-2",
         "layout": "image_first"
       }
@@ -179,7 +179,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_20210815_115940.jpg",
-        "height": "small",
+        "height": "large",
         "color_scheme": "accent-1",
         "layout": "text_first"
       }

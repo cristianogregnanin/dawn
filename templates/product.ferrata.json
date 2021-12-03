@@ -19,15 +19,6 @@
           "settings": {
           }
         },
-        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Cosa si intende per escursione individuale ed escursione di gruppo?",
-            "content": "<p><strong>Le escursioni individuali<\/strong><\/p><p>prevedono una guida alpina dedicata. Sono esperienze esclusive, che puoi effettuare da solo, con la famiglia o gli amici. Si intende individuale perché è prenotabile in un unico processo\/momento per un numero di partecipanti che non superi il numero massimo previsto. Il prezzo indicato si intende per escursione, a prescindere dal numero dei partecipanti.<\/p><p><strong>Le escursioni di gruppo<\/strong><\/p><p> prevedono una guida alpina condivisa. Sono esperienze, vissute assieme ad altri appassionati della montagna che si prenotano per la stessa escursione (in più processi e momenti), che puoi effettuare da solo, con la famiglia o gli amici. La prenotazione può essere fatta per un numero di partecipanti che non supera il numero dei posti rimasti disponibili nella data scelta, all’atto della tua prenotazione. Il prezzo indicato nella scheda dell’escursione si intende per persona.<\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -37,6 +28,15 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cosa si intende per escursione individuale ed escursione di gruppo?",
+            "content": "<p><strong>Le escursioni individuali<\/strong><\/p><p>prevedono una guida alpina dedicata. Sono esperienze esclusive, che puoi effettuare da solo, con la famiglia o gli amici. Si intende individuale perché è prenotabile in un unico processo\/momento per un numero di partecipanti che non superi il numero massimo previsto. Il prezzo indicato si intende per escursione, a prescindere dal numero dei partecipanti.<\/p><p><strong>Le escursioni di gruppo<\/strong><\/p><p> prevedono una guida alpina condivisa. Sono esperienze, vissute assieme ad altri appassionati della montagna che si prenotano per la stessa escursione (in più processi e momenti), che puoi effettuare da solo, con la famiglia o gli amici. La prenotazione può essere fatta per un numero di partecipanti che non supera il numero dei posti rimasti disponibili nella data scelta, all’atto della tua prenotazione. Il prezzo indicato nella scheda dell’escursione si intende per persona.<\/p>",
+            "page": "",
+            "icon": "check_mark"
           }
         },
         "c41acd56-30b6-4267-9d54-f75726d511d7": {
@@ -60,9 +60,9 @@
         "title",
         "share",
         "description",
-        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa",
         "variant_picker",
         "price",
+        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa",
         "c41acd56-30b6-4267-9d54-f75726d511d7",
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72"
       ],

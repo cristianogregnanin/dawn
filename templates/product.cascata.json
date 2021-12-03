@@ -19,15 +19,6 @@
           "settings": {
           }
         },
-        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Cosa si intende per escursione individuale ed escursione di gruppo?",
-            "content": "<p><strong>Le escursioni individuali<\/strong><\/p><p>prevedono una guida alpina dedicata. Sono esperienze esclusive, che puoi effettuare da solo, con la famiglia o gli amici. Si intende individuale perché è prenotabile in un unico processo\/momento per un numero di partecipanti che non superi il numero massimo previsto. Il prezzo indicato si intende per escursione, a prescindere dal numero dei partecipanti.<\/p><p><strong>Le escursioni di gruppo<\/strong><\/p><p> prevedono una guida alpina condivisa. Sono esperienze, vissute assieme ad altri appassionati della montagna che si prenotano per la stessa escursione (in più processi e momenti), che puoi effettuare da solo, con la famiglia o gli amici. La prenotazione può essere fatta per un numero di partecipanti che non supera il numero dei posti rimasti disponibili nella data scelta, all’atto della tua prenotazione. Il prezzo indicato nella scheda dell’escursione si intende per persona.<\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -37,6 +28,15 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cosa si intende per escursione individuale ed escursione di gruppo?",
+            "content": "<p><strong>Le escursioni individuali<\/strong><\/p><p>prevedono una guida alpina dedicata. Sono esperienze esclusive, che puoi effettuare da solo, con la famiglia o gli amici. Si intende individuale perché è prenotabile in un unico processo\/momento per un numero di partecipanti che non superi il numero massimo previsto. Il prezzo indicato si intende per escursione, a prescindere dal numero dei partecipanti.<\/p><p><strong>Le escursioni di gruppo<\/strong><\/p><p> prevedono una guida alpina condivisa. Sono esperienze, vissute assieme ad altri appassionati della montagna che si prenotano per la stessa escursione (in più processi e momenti), che puoi effettuare da solo, con la famiglia o gli amici. La prenotazione può essere fatta per un numero di partecipanti che non supera il numero dei posti rimasti disponibili nella data scelta, all’atto della tua prenotazione. Il prezzo indicato nella scheda dell’escursione si intende per persona.<\/p>",
+            "page": "",
+            "icon": "check_mark"
           }
         },
         "c41acd56-30b6-4267-9d54-f75726d511d7": {
@@ -62,6 +62,7 @@
         "description",
         "variant_picker",
         "price",
+        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa",
         "c41acd56-30b6-4267-9d54-f75726d511d7",
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72"
       ],
@@ -241,6 +242,34 @@
     },
     "1637602446d311a7e4": {
       "type": "my-product-faq",
+      "blocks": {
+        "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Devo saper arrampicare per salire una via ferrata?",
+            "faq-content": "No, non serve saper arrampicare. \nUna via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso."
+          }
+        },
+        "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
+            "faq-content": "Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili."
+          }
+        },
+        "08539a61-e038-457c-bf19-04c0d33af1c8": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Come ci si comporta in caso di mal tempo?",
+            "faq-content": "Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data."
+          }
+        }
+      },
+      "block_order": [
+        "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
+        "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
+        "08539a61-e038-457c-bf19-04c0d33af1c8"
+      ],
       "settings": {
         "title": "Domande?",
         "color_scheme": "background-1",

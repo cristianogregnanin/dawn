@@ -253,8 +253,8 @@
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
-            "faq-content": "Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili."
+            "faq-title": "Devo saper fare la corda doppia e altre manovre di corda?",
+            "faq-content": "Non non ti è richiesta nessuna competenza, la Guida Alpina si occuperà di tutto."
           }
         },
         "08539a61-e038-457c-bf19-04c0d33af1c8": {
@@ -263,12 +263,20 @@
             "faq-title": "Come ci si comporta in caso di mal tempo?",
             "faq-content": "Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data."
           }
+        },
+        "6c13e5e5-7dd2-4da0-92cf-dcff7fbe7476": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?",
+            "faq-content": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo? \nGeneralmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate."
+          }
         }
       },
       "block_order": [
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
-        "08539a61-e038-457c-bf19-04c0d33af1c8"
+        "08539a61-e038-457c-bf19-04c0d33af1c8",
+        "6c13e5e5-7dd2-4da0-92cf-dcff7fbe7476"
       ],
       "settings": {
         "title": "Domande?",

@@ -225,15 +225,22 @@
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Devo saper arrampicare per salire una via ferrata?",
-            "faq-content": "No, non serve saper arrampicare. \nUna via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso."
+            "faq-title": "Devo saper già arrampicare per fare una giornata di arrampicata?",
+            "faq-content": "No, non serve saper arrampicare. \nQueste giornate sono dedicate a chi non ha mai scalato e vuole provare oppure a chi ha già scalato ma che preferisce essere seguito per affinare meglio la tecnica e le manovre di corda."
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
-            "faq-content": "Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili."
+            "faq-title": "Posso provare ad arrampicare anche se soffro di vertigini e ho paura dell’altezza?",
+            "faq-content": "Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza. Nelle giornate di prova si arriva ad un'altezza massima di 30 metri e in caso di timore si può scendere immediatamente."
+          }
+        },
+        "a0b3b960-0d1c-494e-8701-804231f0c869": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Devo saper fare la corda doppia e altre manovre di corda?",
+            "faq-content": "No, non ti è richiesta nessuna competenza, la Guida Alpina si occuperà di tutto."
           }
         },
         "08539a61-e038-457c-bf19-04c0d33af1c8": {
@@ -247,6 +254,7 @@
       "block_order": [
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
+        "a0b3b960-0d1c-494e-8701-804231f0c869",
         "08539a61-e038-457c-bf19-04c0d33af1c8"
       ],
       "settings": {

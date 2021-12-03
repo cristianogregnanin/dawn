@@ -269,15 +269,36 @@
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Devo saper arrampicare per salire una via ferrata?",
-            "faq-content": "No, non serve saper arrampicare. \nUna via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso."
+            "faq-title": "Devo saper sciare per poter fare freeride?",
+            "faq-content": "Si, è necessario che tu sappia già scendere le piste nere con buona tecnica (no spazzaneve)"
+          }
+        },
+        "f513629b-c06b-4fa6-ab5f-612702b10fc1": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Devo saper fare scialpinismo?",
+            "faq-content": "Non è necessario saper fare scialpinismo, anche se è consigliato."
+          }
+        },
+        "728727e4-5760-419e-863a-0d7c2fac5523": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Posso usare la mia attrezzatura da scialpinismo oppure me ne serve una specifica'",
+            "faq-content": "Puoi usare la tua attrezzatura da sci alpinismo."
+          }
+        },
+        "f79c3f40-87c4-411e-b773-eda16f1916e9": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Sono senza attrezzatura, è possibile noleggiarla?",
+            "faq-content": "Si è possibile purché ci sia un preavviso di almeno 15 giorni"
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
-            "faq-content": "Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili."
+            "faq-title": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?",
+            "faq-content": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?Generalmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate."
           }
         },
         "08539a61-e038-457c-bf19-04c0d33af1c8": {
@@ -290,6 +311,9 @@
       },
       "block_order": [
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
+        "f513629b-c06b-4fa6-ab5f-612702b10fc1",
+        "728727e4-5760-419e-863a-0d7c2fac5523",
+        "f79c3f40-87c4-411e-b773-eda16f1916e9",
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
         "08539a61-e038-457c-bf19-04c0d33af1c8"
       ],

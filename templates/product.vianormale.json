@@ -213,18 +213,16 @@
       "blocks": {
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
           "type": "faq-content",
-          "disabled": true,
           "settings": {
-            "faq-title": "Devo saper arrampicare per salire una via ferrata?",
-            "faq-content": "No, non serve saper arrampicare. \nUna via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso."
+            "faq-title": "Devo saper arrampicare per salire una via normale?",
+            "faq-content": "No, non serve saper arrampicare. \nGeneralmente i passaggi di arrampicata sono elementari, è invece obbligatoria una buona forma fisica e abitudine a muoversi in montagna su terreni esposti e scoscesi."
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
           "type": "faq-content",
-          "disabled": true,
           "settings": {
-            "faq-title": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
-            "faq-content": "Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili."
+            "faq-title": "Devo saper fare la corda doppia e altre manovre di corda?",
+            "faq-content": "No, non ti è richiesta nessuna competenza, la Guida Alpina si occuperà di tutto."
           }
         },
         "08539a61-e038-457c-bf19-04c0d33af1c8": {

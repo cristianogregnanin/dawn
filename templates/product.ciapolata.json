@@ -214,15 +214,22 @@
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Devo saper arrampicare per salire una via ferrata?",
-            "faq-content": "No, non serve saper arrampicare. \nUna via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso."
+            "faq-title": "Non ho mai fatto una ciaspolata, posso partecipare?",
+            "faq-content": "Se sei in buona forma fisica ed hai un minimo di abitudine a camminare in montagna o fai sport in generale puoi partecipare. \nChi ha meno esperienza può contattarmi così da valutare assieme se l'escursione in programma può essere alla portata o meno."
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
-            "faq-content": "Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili."
+            "faq-title": "C'è una tabella di marcia da rispettare?",
+            "faq-content": "L'obiettivo dell'escursione è godersi la giornata facendo anche frequenti pause. Generalmente le escursioni sono organizzate senza dover sostenere ritmi sostenuti, è comunque più che consigliato essere in buona forma fisica."
+          }
+        },
+        "5ba08eb9-244a-48af-9099-eeb1fe8f6352": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?",
+            "faq-content": "Generalmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate."
           }
         },
         "08539a61-e038-457c-bf19-04c0d33af1c8": {
@@ -236,6 +243,7 @@
       "block_order": [
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
+        "5ba08eb9-244a-48af-9099-eeb1fe8f6352",
         "08539a61-e038-457c-bf19-04c0d33af1c8"
       ],
       "settings": {

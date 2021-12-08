@@ -9,8 +9,8 @@
 		<div class="faq">
 			{%- for block in section.blocks -%}
 				<div class="tab">
-					<input type="checkbox" id="tab{{forloop.index}}" class="tab-toggle">
-					<label for="tab{{forloop.index}}" class="tab-label">{{block.settings.faq-title}}</label>
+					<input type="checkbox" id="tab-{{block.id}}{{forloop.index}}" class="tab-toggle">
+					<label for="tab-{{block.id}}{{forloop.index}}" class="tab-label">{{block.settings.faq-title}}</label>
 					<div class="tab-content">{{block.settings.faq-content}}</div>
 				</div>
 			{%- endfor -%}

@@ -3,11 +3,47 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "image_ratio": "square"
+        "title": "Attività",
+        "sort": "products_high",
+        "image_ratio": "square",
+        "color_scheme": "accent-1",
+        "image_padding": false
+      }
+    },
+    "16388966462b1f9c6b": {
+      "type": "newsletter",
+      "blocks": {
+        "163889664613a16f12-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter"
+          }
+        },
+        "163889664613a16f12-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Iscriviti alla newsletter per ricevere aggiornamenti sulle prossime attività<\/p>"
+          }
+        },
+        "163889664613a16f12-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163889664613a16f12-0",
+        "163889664613a16f12-1",
+        "163889664613a16f12-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16388966462b1f9c6b"
   ]
 }

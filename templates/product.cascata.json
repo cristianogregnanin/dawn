@@ -174,7 +174,7 @@
         "1637185718e8ab5b66-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pink-snow-covered-mountain-tops.jpg",
+        "image": "shopify:\/\/shop_images\/DJI_0113.jpg",
         "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "image_first"
@@ -197,6 +197,7 @@
         },
         "1637185952f4e2f539-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Approfondisci",
             "button_link": ""
@@ -209,7 +210,7 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
+        "image": "shopify:\/\/shop_images\/DSC00435.jpg",
         "height": "adapt",
         "color_scheme": "accent-1",
         "layout": "text_first"
@@ -246,8 +247,8 @@
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Devo saper arrampicare per salire una via ferrata?",
-            "faq-content": "No, non serve saper arrampicare. \nUna via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso."
+            "faq-title": "Devo saper arrampicare per salire una cascata di ghiaccio?",
+            "faq-content": "Arrampicare una cascata di ghiaccio è un gesto molto simile a scalare su roccia, quindi sebbene non indispensabile, è fortemente consigliato aver già arrampicato su roccia qualche volta, oppure aver salito alcune vie ferrate."
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
@@ -255,6 +256,20 @@
           "settings": {
             "faq-title": "Devo saper fare la corda doppia e altre manovre di corda?",
             "faq-content": "Non non ti è richiesta nessuna competenza, la Guida Alpina si occuperà di tutto."
+          }
+        },
+        "84e6ccd0-5009-4774-bbb4-69146184fed6": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Devo per forza avere gli scarponi da alta montagna?",
+            "faq-content": "è fortemente consigliato indossare calzature semi-ramponabili o ramponabili. Generalmente questi scarponi sono sufficientemente termici per affrontare una giornata in cascata. Le pedule estive non sono consigliate."
+          }
+        },
+        "1763e3db-b013-4516-a8eb-a178c7f72d25": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Il freddo è sempre molto intenso?",
+            "faq-content": "Inevitabilmente una giornata in cascata implica stare tutto il giorno diversi gradi sotto zero, è indispensabile avere un abbigliamento adeguato e scarponi termici."
           }
         },
         "08539a61-e038-457c-bf19-04c0d33af1c8": {
@@ -268,13 +283,15 @@
           "type": "faq-content",
           "settings": {
             "faq-title": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?",
-            "faq-content": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo? \nGeneralmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate."
+            "faq-content": "Generalmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate."
           }
         }
       },
       "block_order": [
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
+        "84e6ccd0-5009-4774-bbb4-69146184fed6",
+        "1763e3db-b013-4516-a8eb-a178c7f72d25",
         "08539a61-e038-457c-bf19-04c0d33af1c8",
         "6c13e5e5-7dd2-4da0-92cf-dcff7fbe7476"
       ],
@@ -293,6 +310,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "image_ratio": "adapt",

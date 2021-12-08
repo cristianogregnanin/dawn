@@ -222,7 +222,7 @@
           "type": "faq-content",
           "settings": {
             "faq-title": "C'è una tabella di marcia da rispettare?",
-            "faq-content": "L'obiettivo dell'escursione è godersi la giornata facendo anche frequenti pause. Generalmente le escursioni sono organizzate senza dover sostenere ritmi sostenuti, è comunque più che consigliato essere in buona forma fisica."
+            "faq-content": "L'obiettivo dell'escursione è godersi la giornata facendo anche frequenti pause. Generalmente le escursioni sono organizzate senza dover tenere ritmi sostenuti, è comunque più che consigliato essere in buona forma fisica."
           }
         },
         "5ba08eb9-244a-48af-9099-eeb1fe8f6352": {
@@ -261,6 +261,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "image_ratio": "adapt",
@@ -274,16 +275,16 @@
     "1637185277595a85ab": {
       "type": "collection-list",
       "blocks": {
-        "1637185277ecf15f32-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ferrate"
-          }
-        },
         "1637185277ecf15f32-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "ciaspolate"
+          }
+        },
+        "1637185277ecf15f32-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "freeride"
           }
         },
         "1637185277ecf15f32-2": {
@@ -294,8 +295,8 @@
         }
       },
       "block_order": [
-        "1637185277ecf15f32-0",
         "1637185277ecf15f32-1",
+        "1637185277ecf15f32-0",
         "1637185277ecf15f32-2"
       ],
       "settings": {
@@ -310,8 +311,8 @@
     "1637185175e3c684fb": {
       "type": "featured-collection",
       "settings": {
-        "title": "Altre attività estive",
-        "collection": "arrampicata-classica-in-montagna",
+        "title": "Altre attività invernali",
+        "collection": "sci-alpinismo",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -335,7 +336,7 @@
         "1637185148dd57c2c6-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività<\/p>"
+            "text": "<p>Iscriviti alla newsletter per ricevere il programma delle attività<\/p>"
           }
         },
         "1637185148dd57c2c6-2": {

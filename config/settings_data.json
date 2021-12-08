@@ -45,6 +45,13 @@
               "menu": "footer-products"
             }
           },
+          "16611b61-9340-4ce5-bed4-3397aeb7cf9c": {
+            "type": "text",
+            "settings": {
+              "heading": "Laguidalpina.it",
+              "subtext": "<p>Cristiano Gregnanin<\/p><p>+393406256592<\/p><p>cristiano.gregnanin@gmail.com<\/p>"
+            }
+          },
           "0def0fa2-941e-4413-b415-550dc235c39f": {
             "type": "image",
             "settings": {
@@ -57,6 +64,7 @@
         "block_order": [
           "footer-0",
           "6c90fb18-1b1c-4c7c-9157-db79d4bd78f3",
+          "16611b61-9340-4ce5-bed4-3397aeb7cf9c",
           "0def0fa2-941e-4413-b415-550dc235c39f"
         ],
         "settings": {

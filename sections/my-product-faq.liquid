@@ -2,9 +2,9 @@
 {{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
 {{ 'my-product-faq.css' | asset_url | stylesheet_tag }}
 
-<div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
+<div class="newsletter {% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
 	<div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient">
-		<h2 class="h1">{{ section.settings.title | escape }}</h2>
+		<h2 class="h1 center">{{ section.settings.title | escape }}</h2>
 
 		<div class="faq">
 			{%- for block in section.blocks -%}

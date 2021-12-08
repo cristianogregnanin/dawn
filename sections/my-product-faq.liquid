@@ -4,118 +4,111 @@
 
 <div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
 	<div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient">
-      <h2 class="h1">{{ section.settings.title | escape }}</h2>
-      
-      <div class="faq">
-        {%- for block in section.blocks -%}
-        	<div class="tab">
-              <input type="checkbox" id="tab{{forloop.index}}" class="tab-toggle">
-              <label for="tab{{forloop.index}}" class="tab-label">{{block.settings.faq-title}}</label>
-              <div class="tab-content">{{block.settings.faq-content}}</div>
-        	</div>
-		{%- endfor -%}
-      </div>
+		<h2 class="h1">{{ section.settings.title | escape }}</h2>
 
-	
-      {% if section.settings.product_faq == true %}
 		<div class="faq">
-			<div class="tab">
-				<input type="checkbox" id="tab332{{forloop.index}}" class="tab-toggle">
-				<label for="tab332{{forloop.index}}" class="tab-label">section.settings.product_faq == true</label>
-				<div class="tab-content">asdasd</div>
-			</div>
-			<div class="tab">
-				<input type="checkbox" id="tab31{{forloop.index}}" class="tab-toggle">
-				<label for="tab31{{forloop.index}}" class="tab-label">section.settings.product_faq == true</label>
-				<div class="tab-content">asdasfsdfadsf</div>
-			</div>
-			<div class="tab">
-				<input type="checkbox" id="tab113{{forloop.index}}" class="tab-toggle">
-				<label for="tab113{{forloop.index}}" class="tab-label">section.settings.product_faq == true</label>
-				<div class="tab-content">ewewwwwwwwwwwww</div>
-			</div>
+			{%- for block in section.blocks -%}
+				<div class="tab">
+					<input type="checkbox" id="tab{{forloop.index}}" class="tab-toggle">
+					<label for="tab{{forloop.index}}" class="tab-label">{{block.settings.faq-title}}</label>
+					<div class="tab-content">{{block.settings.faq-content}}</div>
+				</div>
+			{%- endfor -%}
+
+			{% if section.settings.product_faq == true %}
+				{% assign product_faqs = product.metafields.my_fields.faq_for_product.value %}
+				{%- if product_faqs -%}
+					{%- for question_answer in product_faqs -%}
+
+						<div class="tab">
+							<input type="checkbox" id="tab{{forloop.index}}" class="tab-toggle">
+							<label for="tab{{forloop.index}}" class="tab-label">{{question_answer.question}}</label>
+							<div class="tab-content">{{question_answer.answer}}</div>
+						</div>
+
+						{% endfor %}
+				{%- endif -%}
+			{%- endif -%}
 		</div>
-      
-      {% endif %}
-	
-  </div>
+	</div>
 </div>
+
 
 
 {% schema %}
 
 {
-	"name": "Faq",
-	"tag": "section",
-	"class": "spaced-section spaced-section--full-width",
-	"settings": [{
-			"type": "text",
-			"id": "title",
-			"default": "Domande?",
-			"label": "Inserire il titolo"
-		}, {
-			"type": "select",
-			"id": "color_scheme",
-			"options": [{
-					"value": "accent-1",
-					"label": "t:sections.newsletter.settings.color_scheme.options__1.label"
-				},
-				{
-					"value": "accent-2",
-					"label": "t:sections.newsletter.settings.color_scheme.options__2.label"
-				},
-				{
-					"value": "background-1",
-					"label": "t:sections.newsletter.settings.color_scheme.options__3.label"
-				},
-				{
-					"value": "background-2",
-					"label": "t:sections.newsletter.settings.color_scheme.options__4.label"
-				},
-				{
-					"value": "inverse",
-					"label": "t:sections.newsletter.settings.color_scheme.options__5.label"
-				}
-			],
-			"default": "background-1",
-			"label": "t:sections.newsletter.settings.color_scheme.label"
-		},
-		{
-			"type": "checkbox",
-			"id": "full_width",
-			"default": true,
-			"label": "t:sections.newsletter.settings.full_width.label"
-		}, {
-			"type": "checkbox",
-			"id": "product_faq",
-			"default": false,
-			"label": "Faq per la pagina del prodotto?"
-		}
-	],
-	"blocks": [{
-			"type": "faq-content",
-			"name": "FAQ content",
-			"settings": [{
-					"id": "faq-title",
-					"type": "text",
-					"label": "Faq Title"
-				},
-				{
-					"id": "faq-content",
-					"type": "textarea",
-					"label": "Faq Content"
-				}
-			]
-		}
-	],
-	"presets": [{
-		"name": "Faq",
-		"blocks": [{
+"name": "Faq",
+"tag": "section",
+"class": "spaced-section spaced-section--full-width",
+"settings": [{
+"type": "text",
+"id": "title",
+"default": "Domande?",
+"label": "Inserire il titolo"
+}, {
+"type": "select",
+"id": "color_scheme",
+"options": [{
+"value": "accent-1",
+"label": "t:sections.newsletter.settings.color_scheme.options__1.label"
+},
+{
+"value": "accent-2",
+"label": "t:sections.newsletter.settings.color_scheme.options__2.label"
+},
+{
+"value": "background-1",
+"label": "t:sections.newsletter.settings.color_scheme.options__3.label"
+},
+{
+"value": "background-2",
+"label": "t:sections.newsletter.settings.color_scheme.options__4.label"
+},
+{
+"value": "inverse",
+"label": "t:sections.newsletter.settings.color_scheme.options__5.label"
+}
+],
+"default": "background-1",
+"label": "t:sections.newsletter.settings.color_scheme.label"
+},
+{
+"type": "checkbox",
+"id": "full_width",
+"default": true,
+"label": "t:sections.newsletter.settings.full_width.label"
+}, {
+"type": "checkbox",
+"id": "product_faq",
+"default": false,
+"label": "Faq per la pagina del prodotto?"
+}
+],
+"blocks": [{
+"type": "faq-content",
+"name": "FAQ content",
+"settings": [{
+"id": "faq-title",
+"type": "text",
+"label": "Faq Title"
+},
+{
+"id": "faq-content",
+"type": "textarea",
+"label": "Faq Content"
+}
+]
+}
+],
+"presets": [{
+"name": "Faq",
+"blocks": [{
 
-			"type": "faq-content"
+"type": "faq-content"
 
-		}]
-	}]
+}]
+}]
 }
 
 

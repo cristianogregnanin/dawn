@@ -197,7 +197,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/traversata_Sennes-Braies_photo_Carlo_Cosi.jpg",
-        "height": "large",
+        "height": "adapt",
         "color_scheme": "accent-2",
         "layout": "image_first"
       }

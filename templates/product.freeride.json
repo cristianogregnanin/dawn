@@ -178,7 +178,7 @@
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Scarpe da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti<\/p><p><\/p><p><strong>Durata<\/strong><br\/>4\/6 ore<\/p>"
+            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p>Saper scendere in sicurezza una pista nera (No spazzaneve)<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Abbigliamento da sci<\/p><p>Zaino<\/p><p>Giacca impermeabile<\/p><p>Guanti<\/p><p>Maschera da sci <\/p><p>Occhiali da sole<\/p>"
           }
         },
         "1637185718e8ab5b66-2": {
@@ -214,7 +214,7 @@
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Dislivello:<\/strong> {{ product.metafields.my_fields.dislivello.value }} metri<\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>"
+            "text": "<p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>"
           }
         },
         "1637185952f4e2f539-2": {
@@ -283,7 +283,7 @@
         "728727e4-5760-419e-863a-0d7c2fac5523": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Posso usare la mia attrezzatura da scialpinismo oppure me ne serve una specifica'",
+            "faq-title": "Posso usare la mia attrezzatura da scialpinismo oppure me ne serve una specifica?",
             "faq-content": "Puoi usare la tua attrezzatura da sci alpinismo."
           }
         },
@@ -307,6 +307,13 @@
             "faq-title": "Come ci si comporta in caso di mal tempo?",
             "faq-content": "Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data."
           }
+        },
+        "839b14ec-be2e-4313-916c-5d9563756669": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Il costo dello skipass è compreso nel prezzo?",
+            "faq-content": "No, il costo dello skipass non è compreso nel costo."
+          }
         }
       },
       "block_order": [
@@ -315,7 +322,8 @@
         "728727e4-5760-419e-863a-0d7c2fac5523",
         "f79c3f40-87c4-411e-b773-eda16f1916e9",
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
-        "08539a61-e038-457c-bf19-04c0d33af1c8"
+        "08539a61-e038-457c-bf19-04c0d33af1c8",
+        "839b14ec-be2e-4313-916c-5d9563756669"
       ],
       "settings": {
         "title": "Domande?",

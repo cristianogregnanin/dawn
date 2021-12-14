@@ -236,6 +236,13 @@
             "faq-content": "Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza. Nelle giornate di prova si arriva ad un'altezza massima di 30 metri e in caso di timore si può scendere immediatamente."
           }
         },
+        "157198b7-cbc1-4155-bd07-dfe6e172c1eb": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Posso arrampicare anche da primo?",
+            "faq-content": "Certo, se lo vorrai e se la Guida Alpina ti riterrà in grado potrai provare ad arrampicare da primo di cordata usufruendo della sicura della Guida Alpina"
+          }
+        },
         "a0b3b960-0d1c-494e-8701-804231f0c869": {
           "type": "faq-content",
           "settings": {
@@ -254,6 +261,7 @@
       "block_order": [
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
+        "157198b7-cbc1-4155-bd07-dfe6e172c1eb",
         "a0b3b960-0d1c-494e-8701-804231f0c869",
         "08539a61-e038-457c-bf19-04c0d33af1c8"
       ],

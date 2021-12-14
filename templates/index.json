@@ -78,6 +78,22 @@
         "show_rating": false
       }
     },
+    "16389893349c91de9a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Piccole Dolomti",
+        "collection": "piccole-dolomiti",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "163898936291fc2f6c": {
       "type": "featured-collection",
       "settings": {
@@ -115,22 +131,6 @@
       "settings": {
         "title": "Lago di Garda",
         "collection": "lago-di-garda",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": false,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "16389893349c91de9a": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Piccole Dolomti",
-        "collection": "piccole-dolomiti",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -363,10 +363,10 @@
     "image_banner",
     "16389878767b5a99aa",
     "163898915634f6b1b0",
+    "16389893349c91de9a",
     "163898936291fc2f6c",
     "163898922773da41e0",
     "16389892775c54b18e",
-    "16389893349c91de9a",
     "featured_products",
     "collage",
     "16389872838e8f493c",

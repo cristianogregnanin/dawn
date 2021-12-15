@@ -2335,3 +2335,8 @@ details-disclosure > details {
 .card-information .price {
    display: none;
 }
+
+/*ingrandisco il font del titolo dei prodotti*/
+.full-unstyled-link {
+  font-size: 18px;
+}

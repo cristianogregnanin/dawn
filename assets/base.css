@@ -2330,3 +2330,8 @@ details-disclosure > details {
   }
 }
 
+
+/* https://community.shopify.com/c/shopify-design/removing-price-from-a-collection-dawn-theme/m-p/1373068/highlight/true#M360764 */
+.card-information .price {
+   display: none;
+}

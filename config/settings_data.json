@@ -81,17 +81,17 @@
       "announcement-bar-contacts": {
         "type": "announcement-bar-contacts",
         "blocks": {
-          "announcement-bar-contacts-0": {
+          "4a4083f8-573d-4322-8bdd-49eadc387571": {
             "type": "announcement",
             "settings": {
               "text": "",
-              "color_scheme": "inverse",
+              "color_scheme": "background-2",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-contacts-0"
+          "4a4083f8-573d-4322-8bdd-49eadc387571"
         ],
         "settings": {
         }

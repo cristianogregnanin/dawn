@@ -123,7 +123,7 @@
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>Abitudine al freddo, anche intenso<\/p><p>Buona forma fisica<\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>Scarponi da trekking resistenti all’acqua (NO moon boot)<\/p><p>Zaino<\/p><p>Abbigliamento invernale<\/p><p>Giacca impermeabile<\/p><p>Guanti<\/p><p>Berretto <\/p><p>Acqua o thermos di the caldo<\/p>"
+            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>Abitudine al freddo, anche intenso<\/p><p>Buona forma fisica<\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>S﻿carponi da montagna caldi e impermeabili<\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p>"
           }
         },
         "1637185718e8ab5b66-2": {
@@ -253,6 +253,63 @@
         "product_faq": true
       }
     },
+    "16401241135a91472c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1640124113604a9bf7-0": {
+          "type": "column",
+          "settings": {
+            "title": "Facile",
+            "text": "<p>L’itinerario si svolge su strade forestali, sterrate o facili mulattiere sempre bene indicate. I dislivelli sono contenuti entro i 300-400 metri e la lunghezza dell’itinerario è compresa nelle tre ore. Si tratta di passeggiate un po’ lunghe che richiedono comunque abitudine a camminare in montagna.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1640124113604a9bf7-1": {
+          "type": "column",
+          "settings": {
+            "title": "Facile\/media",
+            "text": "<p>L’itinerario si svolge su strade forestali, sterrate o facili mulattiere sempre bene indicate. I dislivelli sono contenuti entro i 400-600 metri e la lunghezza dell’itinerario è compresa nelle 3 – 5 ore.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1640124113604a9bf7-2": {
+          "type": "column",
+          "settings": {
+            "title": "Media",
+            "text": "<p>L’itinerario supera decisamente le tre ore, è più complesso, si svolge su sentiero con qualche salita o discesa impegnativa ma superabile senza il supporto di attrezzatura alpinistica. Il terreno può essere sconnesso. I dislivello massimo rimane comunque entro i 600 metri<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6349cf9e-f92a-484a-8274-b01f3fc5f8b3": {
+          "type": "column",
+          "settings": {
+            "title": "Media\/difficile",
+            "text": "<p>L’itinerario supera decisamente le cinque ore, è complesso per il dislivello che può superare anche i 700\/800 metri di dislivello o per la lunghezza di cammino.<br\/>Si svolge su sentiero con qualche salita o discesa ripida ma superabile senza il supporto di attrezzatura alpinistica. Il terreno può essere sconnesso o mancare di segnali.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1640124113604a9bf7-0",
+        "1640124113604a9bf7-1",
+        "1640124113604a9bf7-2",
+        "6349cf9e-f92a-484a-8274-b01f3fc5f8b3"
+      ],
+      "settings": {
+        "title": "Guida alla scala di difficoltà",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
     "163718534225228dba": {
       "type": "contact-form",
       "settings": {
@@ -363,6 +420,7 @@
     "163718595294971582",
     "163760600479781804",
     "1637602446d311a7e4",
+    "16401241135a91472c",
     "163718534225228dba",
     "product-recommendations",
     "1637185277595a85ab",

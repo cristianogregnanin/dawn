@@ -14,6 +14,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "4c454980-0ff6-46b9-8c98-8c98d6fe6ef8": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "inverse",
+              "link": "shopify:\/\/collections"
+            }
+          }
+        },
+        "block_order": [
+          "4c454980-0ff6-46b9-8c98-8c98d6fe6ef8"
+        ],
         "settings": {
         }
       },

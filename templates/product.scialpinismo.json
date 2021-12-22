@@ -178,7 +178,7 @@
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Scarpe da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti<\/p>"
+            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>Saper scendere in sicurezza una pista nera (No spazzaneve)<\/p><p>A﻿bitudine a camminare diverse ore in salita<\/p><p>Abitudine al freddo, anche intenso<\/p><p><\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>A﻿ttrezzatura completa da sci alpinismo, comprensiva di arva pala e sonda. <strong>Tutta l'attrezzatura è noleggiabile previa prenotazione<\/strong><\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p><p><\/p><p><\/p>"
           }
         },
         "1637185718e8ab5b66-2": {
@@ -316,6 +316,53 @@
         "product_faq": false
       }
     },
+    "16401249236ccfbf9e": {
+      "type": "multicolumn",
+      "blocks": {
+        "16401249235f110699-0": {
+          "type": "column",
+          "settings": {
+            "title": "MS - Medio Sciatore",
+            "text": "<p>Pendii facili, fino a 30 gradi.<\/p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.<\/p><p>L'eventuale aggiunta di una A MSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16401249235f110699-1": {
+          "type": "column",
+          "settings": {
+            "title": "BS - Buono Sciatore",
+            "text": "<p>Pendii fino a 40 gradi, per tratti brevi e poco esposti<\/p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.<\/p><p>L'eventuale aggiunta di una A BSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16401249235f110699-2": {
+          "type": "column",
+          "settings": {
+            "title": "OS - Ottimo Sciatore",
+            "text": "<p>Pendii anche oltre 40 gradi, passaggi obbligati ed esposti.<\/p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.<\/p><p>L'eventuale aggiunta di una A OSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16401249235f110699-0",
+        "16401249235f110699-1",
+        "16401249235f110699-2"
+      ],
+      "settings": {
+        "title": "Guida alla scala di difficoltà",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
     "163718534225228dba": {
       "type": "contact-form",
       "settings": {
@@ -425,6 +472,7 @@
     "163718595294971582",
     "163760600479781804",
     "1637602446d311a7e4",
+    "16401249236ccfbf9e",
     "163718534225228dba",
     "product-recommendations",
     "1637185277595a85ab",

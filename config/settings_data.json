@@ -11,22 +11,10 @@
     "type_body_font": "assistant_n4",
     "social_facebook_link": "https:\/\/www.facebook.com\/laguidalpina\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/la_guidalpina\/",
+    "predictive_search_show_price": false,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "4c454980-0ff6-46b9-8c98-8c98d6fe6ef8": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "inverse",
-              "link": "shopify:\/\/collections"
-            }
-          }
-        },
-        "block_order": [
-          "4c454980-0ff6-46b9-8c98-8c98d6fe6ef8"
-        ],
         "settings": {
         }
       },
@@ -88,6 +76,24 @@
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": false
+        }
+      },
+      "announcement-bar-contacts": {
+        "type": "announcement-bar-contacts",
+        "blocks": {
+          "announcement-bar-contacts-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "",
+              "color_scheme": "inverse",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-contacts-0"
+        ],
+        "settings": {
         }
       }
     },

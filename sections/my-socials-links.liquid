@@ -1,0 +1,188 @@
+{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
+
+
+<div class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
+  <div class="newsletter__wrapper color-{{ section.settings.color_scheme }}" style="padding-right: 0px;padding-left: 0px">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'heading' -%}
+          <h2 class="h1" {{ block.shopify_attributes }}>{{ block.settings.heading | escape }}</h2>
+        {%- when 'paragraph' -%}
+          <div class="newsletter__subheading rte my-padding" {{ block.shopify_attributes }}>{{ block.settings.paragraph }}</div>
+      {%- endcase -%}
+    {%- endfor -%}
+
+        <ul class="footer__list-social list-unstyled list-social" role="list">
+          <li class="list-social__item">
+            <a href="https://wa.me/393406256592" target="_blank" class="link list-social__link" >
+              {%- render 'icon-whatsapp' -%}
+              <span class="visually-hidden">Whatsapp</span>
+            </a>
+          </li>
+        {%- if settings.social_twitter_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_twitter_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-twitter' -%}
+              <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_facebook_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_facebook_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-facebook' -%}
+              <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_pinterest_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_pinterest_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-pinterest' -%}
+              <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_instagram_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_instagram_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-instagram' -%}
+              <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_tiktok_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_tiktok_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-tiktok' -%}
+              <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_tumblr_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_tumblr_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-tumblr' -%}
+              <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_snapchat_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_snapchat_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-snapchat' -%}
+              <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_youtube_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_youtube_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-youtube' -%}
+              <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_vimeo_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_vimeo_link }}" target="_blank" class="link list-social__link" >
+              {%- render 'icon-vimeo' -%}
+              <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+      </ul>
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Logistica",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.newsletter.settings.color_scheme.options__1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.newsletter.settings.color_scheme.options__2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.newsletter.settings.color_scheme.options__3.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.newsletter.settings.color_scheme.options__4.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.newsletter.settings.color_scheme.options__5.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.newsletter.settings.color_scheme.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.newsletter.settings.full_width.label"
+    },
+    {
+      "type": "paragraph",
+      "content": "t:sections.newsletter.settings.paragraph.content"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.newsletter.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Subscribe to our emails",
+          "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "name": "t:sections.newsletter.blocks.paragraph.name",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "paragraph",
+          "default": "<p>Be the first to know about new collections and exclusive offers.</p>",
+          "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "google maps",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "paragraph"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+

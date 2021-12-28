@@ -270,14 +270,14 @@
           "type": "faq-content",
           "settings": {
             "faq-title": "Devo saper sciare per fare scialpinismo?",
-            "faq-content": "Si, è indispensabile saper scendere le piste nere in pista con buona tecnica (no spazzaneve)"
+            "faq-content": "Si, è indispensabile saper scendere le piste nere con buona tecnica (no spazzaneve)"
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
           "type": "faq-content",
           "settings": {
             "faq-title": "Devo essere molto allenato?",
-            "faq-content": "Lo scialpinismo è un'attività generalmente abbastanza faticosa, anche per le salite più elementari è necessario avere una buona forma fisica ed essere abituati a fare diverse ore in salita."
+            "faq-content": "Lo scialpinismo è un'attività generalmente abbastanza faticosa, anche per le salite più elementari è necessario avere una buona forma fisica ed essere abituati a camminare per diverse ore in salita."
           }
         },
         "04acd686-24ab-48df-a322-6d8a7583b11c": {
@@ -372,7 +372,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
@@ -387,7 +387,7 @@
         "1637185277ecf15f32-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ferrate"
+            "collection": "freeride"
           }
         },
         "1637185277ecf15f32-1": {
@@ -399,7 +399,7 @@
         "1637185277ecf15f32-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sci-alpinismo"
+            "collection": "cascate-di-ghiaccio"
           }
         }
       },
@@ -420,8 +420,8 @@
     "1637185175e3c684fb": {
       "type": "featured-collection",
       "settings": {
-        "title": "Altre attività estive",
-        "collection": "arrampicata-classica-in-montagna",
+        "title": "Altre attività invernali",
+        "collection": "ciaspolate",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,

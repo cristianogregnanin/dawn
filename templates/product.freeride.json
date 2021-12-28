@@ -277,7 +277,7 @@
           "type": "faq-content",
           "settings": {
             "faq-title": "Devo saper fare scialpinismo?",
-            "faq-content": "Non è necessario saper fare scialpinismo, anche se è consigliato."
+            "faq-content": "Non è necessario saper fare scialpinismo, anche se è fortemente consigliato."
           }
         },
         "728727e4-5760-419e-863a-0d7c2fac5523": {
@@ -341,9 +341,9 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
@@ -356,7 +356,7 @@
         "1637185277ecf15f32-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ferrate"
+            "collection": "cascate-di-ghiaccio"
           }
         },
         "1637185277ecf15f32-1": {

@@ -225,8 +225,8 @@
         "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
           "type": "faq-content",
           "settings": {
-            "faq-title": "Non ho mai fatto vie di arrampicata, posso salire una via nelle Dolomiti come prima esperienza?",
-            "faq-content": "Si, ci sono vie facili anche sulle Dolomiti."
+            "faq-title": "Non ho mai fatto vie di arrampicata, posso salire una via più tiri come prima esperienza?",
+            "faq-content": "Si, ci sono molte vie facili dove approcciarsi. Solitamente è comunque richiesto di aver già salito qualche ferrata o di aver già arrampicato in falesia"
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
@@ -281,9 +281,9 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
@@ -302,7 +302,7 @@
         "1637185277ecf15f32-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ciaspolate"
+            "collection": "arrampicata-sportiva"
           }
         },
         "1637185277ecf15f32-2": {

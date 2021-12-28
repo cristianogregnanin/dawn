@@ -226,7 +226,7 @@
           "type": "faq-content",
           "settings": {
             "faq-title": "Devo saper già arrampicare per fare una giornata di arrampicata?",
-            "faq-content": "No, non serve saper arrampicare. \nQueste giornate sono dedicate a chi non ha mai scalato e vuole provare oppure a chi ha già scalato ma che preferisce essere seguito per affinare meglio la tecnica e le manovre di corda."
+            "faq-content": "No, non serve saper arrampicare. \nQueste giornate sono dedicate a chi non ha mai scalato e vuole provare oppure a chi ha già scalato ma preferisce essere seguito per affinare meglio la tecnica e le manovre di corda."
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
@@ -281,9 +281,9 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
@@ -293,29 +293,29 @@
     "1637185277595a85ab": {
       "type": "collection-list",
       "blocks": {
-        "1637185277ecf15f32-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ferrate"
-          }
-        },
         "1637185277ecf15f32-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ciaspolate"
+            "collection": "arrampicata-classica-in-montagna"
           }
         },
         "1637185277ecf15f32-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sci-alpinismo"
+            "collection": "vie-normali"
+          }
+        },
+        "1637185277ecf15f32-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ferrate"
           }
         }
       },
       "block_order": [
-        "1637185277ecf15f32-0",
         "1637185277ecf15f32-1",
-        "1637185277ecf15f32-2"
+        "1637185277ecf15f32-2",
+        "1637185277ecf15f32-0"
       ],
       "settings": {
         "title": "",

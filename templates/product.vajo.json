@@ -237,14 +237,14 @@
           "type": "faq-content",
           "settings": {
             "faq-title": "Devo saper essere molto allenato per salire un vajo?",
-            "faq-content": "Si devi essere abbastanza allenato, salire un vajo è un attività piuttosto faticosa. Risalire il vajo con i ramponi ai piedi e quindi scendere fino all'auto impegna diverse ore, se sei un buon camminatore che non teme i lunghi trekking non dovresti avere problemi."
+            "faq-content": "Si devi essere molto allenato, salire un vajo è un attività piuttosto faticosa. Risalire il vajo con i ramponi ai piedi e quindi ridiscendere impegna diverse ore, se sei un buon camminatore che non teme i lunghi trekking non dovresti avere problemi."
           }
         },
         "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
           "type": "faq-content",
           "settings": {
             "faq-title": "Non ho mai usato piccozza e ramponi, posso salire un vajo?",
-            "faq-content": "Si, basta che fra i vaji proposti tu scelga uno facile o medio. Se hai dubbi riguardo la tua preparazione contattami e parlane con me, saprò indicarti la strada migliore per arrivare al tuo obiettivo."
+            "faq-content": "Si, basta che fra i vaji proposti tu scelga uno facile o medio."
           }
         },
         "8825c225-2f67-4b6e-aac2-fb3c07c0f042": {
@@ -284,9 +284,9 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
@@ -296,29 +296,29 @@
     "1637185277595a85ab": {
       "type": "collection-list",
       "blocks": {
-        "1637185277ecf15f32-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ferrate"
-          }
-        },
         "1637185277ecf15f32-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ciaspolate"
+            "collection": "vie-normali"
           }
         },
         "1637185277ecf15f32-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sci-alpinismo"
+            "collection": "cascate-di-ghiaccio"
+          }
+        },
+        "1637185277ecf15f32-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ferrate"
           }
         }
       },
       "block_order": [
-        "1637185277ecf15f32-0",
         "1637185277ecf15f32-1",
-        "1637185277ecf15f32-2"
+        "1637185277ecf15f32-2",
+        "1637185277ecf15f32-0"
       ],
       "settings": {
         "title": "",
@@ -332,8 +332,8 @@
     "1637185175e3c684fb": {
       "type": "featured-collection",
       "settings": {
-        "title": "Altre attività estive",
-        "collection": "arrampicata-classica-in-montagna",
+        "title": "Altre attività invernali",
+        "collection": "sci-alpinismo",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": true,

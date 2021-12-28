@@ -318,9 +318,8 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
-        "heading": "You may also like",
+        "heading": "",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
@@ -335,7 +334,7 @@
         "1637185277ecf15f32-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ciaspolate"
+            "collection": "cascate-di-ghiaccio"
           }
         },
         "1637185277ecf15f32-0": {

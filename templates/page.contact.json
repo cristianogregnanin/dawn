@@ -20,6 +20,13 @@
         "show_text_below": true
       }
     },
+    "16406933290eb90ed2": {
+      "type": "my-socials-links",
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -118,6 +125,7 @@
   "order": [
     "main",
     "16378694532ffa68ba",
+    "16406933290eb90ed2",
     "form",
     "1637870962452094be",
     "16378720032a54ceea"

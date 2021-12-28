@@ -122,6 +122,16 @@
       {%- endif -%}
 
       <div class="card__badge">
+        {% assign next_dates = product_card_product.metafields.my_fields.events.value %}
+        {%- if next_dates -%}
+          {% assign today_date = 'now' | date: '%s' %}
+          {%- for date in next_dates -%}
+            {% assign event_date = date.start_time.normal | date: '%s' %}
+            {%- if event_date > today_date -%}
+              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ date.start_time.normal | time_tag: format: 'date' }}</span>
+            {%- endif -%}
+          {% endfor %}
+        {%- endif -%}
         {%- if product_card_product.available == false -%}
           <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
         {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}

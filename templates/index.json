@@ -48,6 +48,7 @@
     },
     "16389878767b5a99aa": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Prossime uscite",
         "collection": "prossime-uscite",
@@ -235,7 +236,7 @@
         "ee3fd5b5-f61f-41d2-b333-99954a2e5fee"
       ],
       "settings": {
-        "title": "",
+        "title": "Attività invernali",
         "image_ratio": "square",
         "color_scheme": "accent-2",
         "swipe_on_mobile": true,

@@ -56,7 +56,7 @@
     {% assign next_dates = product.metafields.my_fields.events.value %}
     {%- if next_dates -%}
       <div class="field" >
-        <select name="my-next_dates" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
+        <select name="contact[data-evento]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
           <option value="" disabled selected hidden>Scegli una data</option>
           {%- for date in next_dates -%}
             <option value="{{ date.start_time.normal }}">{{ date.start_time.normal | time_tag: format: 'date' }}</option>

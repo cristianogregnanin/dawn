@@ -62,6 +62,76 @@
         "show_rating": false
       }
     },
+    "16475088591420f14e": {
+      "type": "featured-product",
+      "blocks": {
+        "16475088595a207a72-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16475088595a207a72-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16475088595a207a72-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16475088595a207a72-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16475088595a207a72-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16475088595a207a72-5": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "16475088595a207a72-6": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16475088595a207a72-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16475088595a207a72-0",
+        "16475088595a207a72-1",
+        "16475088595a207a72-2",
+        "16475088595a207a72-3",
+        "16475088595a207a72-4",
+        "16475088595a207a72-5",
+        "16475088595a207a72-6",
+        "16475088595a207a72-7"
+      ],
+      "settings": {
+        "product": "arrampicata-cima-grande-di-lavaredo",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
     "163898915634f6b1b0": {
       "type": "featured-collection",
       "settings": {
@@ -362,6 +432,7 @@
   "order": [
     "image_banner",
     "16389878767b5a99aa",
+    "16475088591420f14e",
     "163898915634f6b1b0",
     "16389893349c91de9a",
     "163898936291fc2f6c",

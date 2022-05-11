@@ -197,7 +197,7 @@
         "email": "Indirizzo email",
         "phone": "Numero di telefono",
         "comment": "Inserisci il tuo messaggio, ricorda di essere il più preciso possibile nella tua richiesta",
-        "comment_for_product": "Prima di richiedere informazioni riguardo il costo, il noleggio dell'attrezzatura, l'orario e il luogo di ritrovo accertati di aver letto e compreso tutti i dettagli presenti nella pagina. Se iscrizioni o domande scrivi un messaggio il più dettagliato possibile, risponderemo quanto prima.",
+        "comment_for_product": "Prima di richiedere informazioni riguardo il costo, il noleggio dell'attrezzatura, l'orario e il luogo di ritrovo accertati di aver letto e compreso tutti i dettagli presenti nella pagina. Per iscrizioni o informazioni di carattere generale scrivi un messaggio il più dettagliato possibile, risponderemo quanto prima.",
         "send": "Invia",
         "post_success": "Grazie per averci contattato. Risponderemo il prima possibile.",
         "error_heading": "Si prega di regolare il seguente:"

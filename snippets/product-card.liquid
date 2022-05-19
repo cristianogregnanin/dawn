@@ -122,6 +122,19 @@
       {%- endif -%}
 
       <div class="card__badge">
+        {% assign next_dates = product_card_product.metafields.my_fields.events.value %}
+        {%- if next_dates -%}
+          {% assign today_date = 'now' | date: '%s' %}
+          {%- for date in next_dates limit: 2 -%}
+            {% assign event_date = date.start_time.normal | date: '%s' %}
+            {%- if event_date > today_date -%}
+              <span style="border-radius: 0px !important; opacity: 0.88;" class="badge badge--top-left color-accent-1">{{ date.start_time.normal | time_tag: '%d/%m/%Y' }}</span>
+            {%- endif -%}
+          {% endfor %}
+          {%- if next_dates.size > 2 -%}
+            <span style="border-radius: 0px !important;" class="badge badge--top-left color-accent-1"><b>Altre date >></b></span>
+          {%- endif -%}
+        {%- endif -%}
         {%- if product_card_product.available == false -%}
           <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
         {%- elsif product_card_product.compare_at_price > product_card_product.price and product_card_product.available -%}

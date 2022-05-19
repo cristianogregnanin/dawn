@@ -30,6 +30,24 @@
           "settings": {
           }
         },
+        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cosa si intende per escursione individuale ed escursione di gruppo?",
+            "content": "<p><strong>Le escursioni individuali<\/strong><\/p><p>Prevedono una guida alpina dedicata. Sono esperienze esclusive, che puoi effettuare da solo, con la famiglia o gli amici. Si intende individuale perché è prenotabile in un unico processo\/momento per un numero di partecipanti che non superi il numero massimo previsto. Il prezzo indicato si intende per escursione, a prescindere dal numero dei partecipanti.<\/p><p><strong>Le escursioni di gruppo<\/strong><\/p><p>Prevedono una guida alpina condivisa. Sono esperienze, vissute assieme ad altri appassionati della montagna che si prenotano per la stessa escursione (in più processi e momenti), che puoi effettuare da solo, con la famiglia o gli amici. La prenotazione può essere fatta per un numero di partecipanti che non supera il numero dei posti rimasti disponibili nella data scelta, all’atto della tua prenotazione. Il prezzo indicato nella scheda dell’escursione si intende per persona.<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "7b676540-72a1-4760-9362-479e3f6157c6": {
+          "type": "collapsible_tab_events",
+          "settings": {
+            "heading": "Prossime date",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
         "c41acd56-30b6-4267-9d54-f75726d511d7": {
           "type": "my-button",
           "settings": {
@@ -53,6 +71,8 @@
         "description",
         "variant_picker",
         "price",
+        "73593a7b-acdd-46e4-9a9d-74db8fc2b7fa",
+        "7b676540-72a1-4760-9362-479e3f6157c6",
         "c41acd56-30b6-4267-9d54-f75726d511d7",
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72"
       ],
@@ -78,19 +98,9 @@
         "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1637185714f72c4a7b-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
+            "title": "Imbrago",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -98,8 +108,7 @@
       },
       "block_order": [
         "1637185714f72c4a7b-0",
-        "1637185714f72c4a7b-1",
-        "1637185714f72c4a7b-2"
+        "1637185714f72c4a7b-1"
       ],
       "settings": {
         "title": "Materiale necessario",
@@ -118,17 +127,18 @@
         "1637185718e8ab5b66-0": {
           "type": "heading",
           "settings": {
-            "heading": "Dettagli"
+            "heading": "Requisiti & Materiale"
           }
         },
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<br\/><\/strong>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><br\/>Scarpe da trekking <br\/>Abbigliamento sportivo<br\/>Zaino con acqua e snack<br\/>Giacca impermeabile<br\/>Guanti<\/p><p><\/p><p><strong>Durata<\/strong><br\/>4\/6 ore<\/p>"
+            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>B﻿uona forma fisica, abitudine a muoversi su terreni scoscesi e impervi<\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>Scarpe da trekking o scarponi da montagna<\/p><p>Abbigliamento sportivo<\/p><p>Zaino con acqua e snack<\/p><p>Giacca impermeabile<\/p><p>Guscio in goretex<\/p>"
           }
         },
         "1637185718e8ab5b66-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Richiedi informazioni",
             "button_link": "shopify:\/\/pages\/contacts"
@@ -153,17 +163,18 @@
         "1637185952f4e2f539-0": {
           "type": "heading",
           "settings": {
-            "heading": "Difficolta"
+            "heading": "Dettagli tecnici"
           }
         },
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dislivello 1230 MT<\/p><p>molto difficile<\/p><p>tempo medio di percorrenza 5 ore<\/p>"
+            "text": "<p><strong>Dislivello:<\/strong> {{ product.metafields.my_fields.dislivello.value }} metri<\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>"
           }
         },
         "1637185952f4e2f539-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Approfondisci",
             "button_link": ""
@@ -178,8 +189,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
         "height": "adapt",
-        "color_scheme": "background-2",
-        "layout": "image_first"
+        "color_scheme": "accent-1",
+        "layout": "text_first"
       }
     },
     "163760600479781804": {
@@ -210,33 +221,52 @@
     "1637602446d311a7e4": {
       "type": "my-product-faq",
       "blocks": {
-        "163760244687d6bda1-0": {
-          "type": "heading",
+        "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
+          "type": "faq-content",
           "settings": {
-            "heading": "Domande?"
+            "faq-title": "Devo saper arrampicare per salire una via normale?",
+            "faq-content": "No, non serve saper arrampicare. \nGeneralmente i passaggi di arrampicata sono elementari, è invece obbligatoria una buona forma fisica e abitudine a muoversi in montagna su terreni esposti e scoscesi."
+          }
+        },
+        "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Devo saper fare la corda doppia e altre manovre di corda?",
+            "faq-content": "No, non ti è richiesta nessuna competenza, la Guida Alpina si occuperà di tutto."
+          }
+        },
+        "08539a61-e038-457c-bf19-04c0d33af1c8": {
+          "type": "faq-content",
+          "settings": {
+            "faq-title": "Come ci si comporta in caso di mal tempo?",
+            "faq-content": "Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data."
           }
         }
       },
       "block_order": [
-        "163760244687d6bda1-0"
+        "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
+        "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
+        "08539a61-e038-457c-bf19-04c0d33af1c8"
       ],
       "settings": {
+        "title": "Domande?",
         "color_scheme": "background-1",
-        "full_width": false
+        "full_width": false,
+        "product_faq": true
       }
     },
     "163718534225228dba": {
       "type": "contact-form",
       "settings": {
-        "heading": "Richiedi informazioni"
+        "heading": "Informazioni e Iscrizione"
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
@@ -255,13 +285,13 @@
         "1637185277ecf15f32-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ciaspolate"
+            "collection": "arrampicata-classica-in-montagna"
           }
         },
         "1637185277ecf15f32-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sci-alpinismo"
+            "collection": "arrampicata-sportiva"
           }
         }
       },

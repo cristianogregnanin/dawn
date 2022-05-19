@@ -1,10 +1,141 @@
 {
   "sections": {
     "main": {
-      "type": "main-search"
+      "type": "main-search",
+      "settings": {
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false,
+        "article_show_date": false,
+        "article_show_author": false
+      }
+    },
+    "16388960526ff91f0a": {
+      "type": "collection-list",
+      "blocks": {
+        "163889605237e6eb3f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "arrampicata-classica-in-montagna"
+          }
+        },
+        "163889605237e6eb3f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ferrate"
+          }
+        },
+        "163889605237e6eb3f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sci-alpinismo"
+          }
+        }
+      },
+      "block_order": [
+        "163889605237e6eb3f-2",
+        "163889605237e6eb3f-0",
+        "163889605237e6eb3f-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": true
+      }
+    },
+    "1638896023eb335cc5": {
+      "type": "image-banner",
+      "blocks": {
+        "16388960232c4406fe-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "16388960232c4406fe-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "16388960232c4406fe-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16388960232c4406fe-0",
+        "16388960232c4406fe-1",
+        "16388960232c4406fe-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sisilla_5.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1638896028155d453c": {
+      "type": "newsletter",
+      "blocks": {
+        "16388960282f302fec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter"
+          }
+        },
+        "16388960282f302fec-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Iscriviti alla newsletter per ricevere aggiornamenti sulle prossime attività<\/p>"
+          }
+        },
+        "16388960282f302fec-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16388960282f302fec-0",
+        "16388960282f302fec-1",
+        "16388960282f302fec-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16388960526ff91f0a",
+    "1638896023eb335cc5",
+    "1638896028155d453c"
   ]
 }

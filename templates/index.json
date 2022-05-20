@@ -10,6 +10,9 @@
             "heading_size": "medium"
           }
         },
+        "text": {
+          "type": "text"
+        },
         "button": {
           "type": "buttons",
           "disabled": true,
@@ -212,7 +215,7 @@
         "show_rating": false
       }
     },
-    "featured_products": {
+    "featured_collection": {
       "type": "featured-collection",
       "settings": {
         "title": "Scialpinismo",
@@ -260,7 +263,7 @@
         }
       },
       "block_order": [
-        "video",
+        "collection-0",
         "product",
         "collection"
       ],

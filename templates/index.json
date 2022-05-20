@@ -39,8 +39,8 @@
         "image": "shopify:\/\/shop_images\/Marmolada_pian_dei_Fiacconi_rider_Sara_Mastel_photo_Carlo_Cosi.jpg",
         "image_overlay_opacity": 10,
         "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-2",
@@ -177,33 +177,6 @@
         "padding_bottom": 36
       }
     },
-    "16389893349c91de9a": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Piccole Dolomiti",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "piccole-dolomiti",
-        "products_to_show": 4,
-        "columns_desktop": 3,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "163898936291fc2f6c": {
       "type": "featured-collection",
       "settings": {
@@ -312,6 +285,33 @@
         "padding_bottom": 36
       }
     },
+    "16389893349c91de9a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Piccole Dolomiti",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "piccole-dolomiti",
+        "products_to_show": 4,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16389872838e8f493c": {
       "type": "collection-list",
       "blocks": {
@@ -356,7 +356,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 76
       }
     },
     "1637184043c5d56bf1": {
@@ -488,11 +488,11 @@
     "16389878767b5a99aa",
     "16475088591420f14e",
     "163898915634f6b1b0",
-    "16389893349c91de9a",
     "163898936291fc2f6c",
     "163898922773da41e0",
     "16389892775c54b18e",
     "featured_products",
+    "16389893349c91de9a",
     "16389872838e8f493c",
     "1637184043c5d56bf1",
     "1637868191e6ce6287",

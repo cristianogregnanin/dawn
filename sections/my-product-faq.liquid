@@ -2,7 +2,7 @@
 {{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
 {{ 'my-product-faq.css' | asset_url | stylesheet_tag }}
 
-<div class="newsletter {% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
+<div style="padding-top: 80px" class="newsletter {% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
 	<div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient">
 		<h2 class="h1 center">{{ section.settings.title | escape }}</h2>
 

@@ -5,8 +5,6 @@
       "settings": {
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_filtering": true,
@@ -48,7 +46,6 @@
         "image_ratio": "square",
         "color_scheme": "background-1",
         "swipe_on_mobile": true,
-        "image_padding": false,
         "show_view_all": true
       }
     },
@@ -90,11 +87,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Sisilla_5.jpg",
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
         "show_text_box": true,
-        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true

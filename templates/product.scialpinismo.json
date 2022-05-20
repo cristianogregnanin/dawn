@@ -34,9 +34,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Cosa si intende per escursione individuale ed escursione di gruppo?",
+            "icon": "check_mark",
             "content": "<p><strong>Le escursioni individuali<\/strong><\/p><p>Prevedono una guida alpina dedicata. Sono esperienze esclusive, che puoi effettuare da solo, con la famiglia o gli amici. Si intende individuale perché è prenotabile in un unico processo\/momento per un numero di partecipanti che non superi il numero massimo previsto. Il prezzo indicato si intende per escursione, a prescindere dal numero dei partecipanti.<\/p><p><strong>Le escursioni di gruppo<\/strong><\/p><p> Prevedono una guida alpina condivisa. Sono esperienze, vissute assieme ad altri appassionati della montagna che si prenotano per la stessa escursione (in più processi e momenti), che puoi effettuare da solo, con la famiglia o gli amici. La prenotazione può essere fatta per un numero di partecipanti che non supera il numero dei posti rimasti disponibili nella data scelta, all’atto della tua prenotazione. Il prezzo indicato nella scheda dell’escursione si intende per persona.<\/p>",
-            "page": "",
-            "icon": "check_mark"
+            "page": ""
           }
         },
         "7b676540-72a1-4760-9362-479e3f6157c6": {
@@ -208,8 +208,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/traversata_Sennes-Braies_photo_Carlo_Cosi.jpg",
         "height": "adapt",
-        "color_scheme": "accent-2",
-        "layout": "image_first"
+        "layout": "image_first",
+        "color_scheme": "accent-2"
       }
     },
     "163718595294971582": {
@@ -244,8 +244,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Sennes_photo_Carlo_Cosi.jpg",
         "height": "large",
-        "color_scheme": "accent-1",
-        "layout": "text_first"
+        "layout": "text_first",
+        "color_scheme": "accent-1"
       }
     },
     "163760600479781804": {
@@ -385,8 +385,6 @@
         "heading": "",
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
       }
@@ -423,7 +421,6 @@
         "image_ratio": "square",
         "color_scheme": "background-1",
         "swipe_on_mobile": true,
-        "image_padding": false,
         "show_view_all": true
       }
     },
@@ -437,8 +434,6 @@
         "swipe_on_mobile": true,
         "image_ratio": "portrait",
         "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
       }

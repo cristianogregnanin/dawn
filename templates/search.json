@@ -10,7 +10,6 @@
         "show_rating": false,
         "enable_filtering": true,
         "enable_sorting": true,
-        "collapse_on_larger_devices": false,
         "article_show_date": false,
         "article_show_author": false
       }
@@ -46,8 +45,8 @@
         "title": "",
         "image_ratio": "square",
         "color_scheme": "background-1",
-        "swipe_on_mobile": true,
-        "show_view_all": true
+        "show_view_all": true,
+        "swipe_on_mobile": true
       }
     },
     "1638896023eb335cc5": {

@@ -6,13 +6,12 @@
         "title": {
           "type": "title",
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
           }
         },
         "share": {
           "type": "share",
           "settings": {
+            "share_label": "Share"
           }
         },
         "description": {
@@ -75,17 +74,10 @@
             "content": "",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
         "title",
-        "caption",
         "price",
         "variant_picker",
         "description",
@@ -177,9 +169,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }

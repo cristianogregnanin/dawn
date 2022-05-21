@@ -72,8 +72,8 @@
         "title": "",
         "image_ratio": "square",
         "color_scheme": "accent-1",
-        "swipe_on_mobile": true,
-        "show_view_all": false
+        "show_view_all": false,
+        "swipe_on_mobile": true
       }
     }
   },

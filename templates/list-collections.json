@@ -5,9 +5,7 @@
       "settings": {
         "title": "Attività",
         "sort": "products_high",
-        "image_ratio": "square",
-        "color_scheme": "accent-1",
-        "image_padding": false
+        "image_ratio": "square"
       }
     },
     "16388966462b1f9c6b": {

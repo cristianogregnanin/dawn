@@ -68,8 +68,13 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
         "hide_variants": false,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637185714df29ebbf": {
@@ -113,13 +118,19 @@
       ],
       "settings": {
         "title": "Materiale necessario",
+        "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "portrait",
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": true
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "163718571838645ff8": {
@@ -128,13 +139,15 @@
         "1637185718e8ab5b66-0": {
           "type": "heading",
           "settings": {
-            "heading": "Requisiti & Materiale"
+            "heading": "Requisiti & Materiale",
+            "heading_size": "h1"
           }
         },
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari: <\/strong><\/p><p>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>Scarpe da trekking <\/p><p>Abbigliamento sportivo<\/p><p>Zaino con acqua e snack<\/p><p>Giacca impermeabile<\/p><p>G﻿uscio in goretex<\/p><p><\/p>"
+            "text": "<p><strong>Requisiti necessari: <\/strong><\/p><p>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>Scarpe da trekking <\/p><p>Abbigliamento sportivo<\/p><p>Zaino con acqua e snack<\/p><p>Giacca impermeabile<\/p><p>G﻿uscio in goretex<\/p><p><\/p>",
+            "text_style": "body"
           }
         },
         "1637185718e8ab5b66-2": {
@@ -154,8 +167,15 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/pink-snow-covered-mountain-tops.jpg",
         "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "image_first",
-        "color_scheme": "accent-2"
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "163718595294971582": {
@@ -164,13 +184,15 @@
         "1637185952f4e2f539-0": {
           "type": "heading",
           "settings": {
-            "heading": "Dettagli tecnici"
+            "heading": "Dettagli tecnici",
+            "heading_size": "h1"
           }
         },
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Dislivello:<\/strong> {{ product.metafields.my_fields.dislivello.value }} metri<\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>"
+            "text": "<p><strong>Dislivello:<\/strong> {{ product.metafields.my_fields.dislivello.value }} metri<\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>",
+            "text_style": "body"
           }
         },
         "1637185952f4e2f539-2": {
@@ -190,8 +212,15 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
         "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "text_first",
-        "color_scheme": "accent-1"
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "163760600479781804": {
@@ -219,81 +248,46 @@
         "full_width": false
       }
     },
-    "1637602446d311a7e4": {
-      "type": "my-product-faq",
-      "blocks": {
-        "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Non ho mai fatto vie di arrampicata, posso salire una via più tiri come prima esperienza?",
-            "faq-content": "Si, ci sono molte vie facili dove approcciarsi. Solitamente è comunque richiesto di aver già salito qualche ferrata o di aver già arrampicato in falesia"
-          }
-        },
-        "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Vorrei che mi accompagnassi su una via lunga. Qual è il grado minimo richiesto?",
-            "faq-content": "Ci sono delle vie facili, non troppo verticali che sono adatte come prima esperienza sulle vie lunghe. Il grado minimo richiesto è il 4C-5A."
-          }
-        },
-        "f2f064e8-203e-4793-88af-277a30691c6c": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Scalo già in falesia da un po' di tempo posso provare ad affrontare una via a più tiri?",
-            "faq-content": "Certamente, se già scali in falesia sfrutterai meglio la giornata per imparare bene le manovre di sicurezza"
-          }
-        },
-        "c51b7e68-d661-4512-8c8e-58bb6d59ab9c": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Quante persone possono partecipare?",
-            "faq-content": "Per scalare una via più tiri il numero massimo di clienti è pari a due. Se siete in più di due ci si può organizzare con più Guide Alpine"
-          }
-        },
-        "08539a61-e038-457c-bf19-04c0d33af1c8": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Come ci si comporta in caso di mal tempo?",
-            "faq-content": "Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data."
-          }
-        }
-      },
-      "block_order": [
-        "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
-        "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
-        "f2f064e8-203e-4793-88af-277a30691c6c",
-        "c51b7e68-d661-4512-8c8e-58bb6d59ab9c",
-        "08539a61-e038-457c-bf19-04c0d33af1c8"
-      ],
-      "settings": {
-        "title": "Domande?",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "product_faq": true
-      }
-    },
     "16533204749d721a0c": {
       "type": "collapsible-content",
       "blocks": {
         "1653320474c5668272-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Devo saper arrampicare per salire una via ferrata?",
+            "heading": "Non ho mai fatto vie di arrampicata, posso salire una via più tiri come prima esperienza?",
             "icon": "question_mark",
-            "row_content": "<p>No, non serve saper arrampicare. <br\/>Una via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso.<\/p>",
+            "row_content": "<p>Si, ci sono molte vie facili dove approcciarsi. Solitamente è comunque richiesto di aver già salito qualche ferrata o di aver già arrampicato in falesia<\/p>",
             "page": ""
           }
         },
         "1653320474c5668272-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
+            "heading": "Vorrei che mi accompagnassi su una via lunga. Qual è il grado minimo richiesto?",
             "icon": "question_mark",
-            "row_content": "<p>Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili.<\/p>",
+            "row_content": "<p>Ci sono delle vie facili, non troppo verticali che sono adatte come prima esperienza sulle vie lunghe. Il grado minimo richiesto è il 4C-5A.<\/p>",
             "page": ""
           }
         },
         "1653320474c5668272-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Scalo già in falesia da un po' di tempo posso provare ad affrontare una via a più tiri?",
+            "icon": "question_mark",
+            "row_content": "<p>Certamente, se già scali in falesia sfrutterai meglio la giornata per imparare bene le manovre di sicurezza<\/p>",
+            "page": ""
+          }
+        },
+        "864c43d2-8bca-42a3-bdd0-4a1954480a4c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quante persone possono partecipare?",
+            "icon": "question_mark",
+            "row_content": "<p>Per scalare una via più tiri il numero massimo di clienti è pari a due. Se siete in più di due ci si può organizzare con più Guide Alpine<\/p>",
+            "page": ""
+          }
+        },
+        "e467b9a0-98a1-4855-8673-c9c79b254841": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Come ci si comporta in caso di mal tempo?",
@@ -306,7 +300,9 @@
       "block_order": [
         "1653320474c5668272-0",
         "1653320474c5668272-1",
-        "1653320474c5668272-2"
+        "1653320474c5668272-2",
+        "864c43d2-8bca-42a3-bdd0-4a1954480a4c",
+        "e467b9a0-98a1-4855-8673-c9c79b254841"
       ],
       "settings": {
         "caption": "",
@@ -326,17 +322,28 @@
     "163718534225228dba": {
       "type": "contact-form",
       "settings": {
-        "heading": "Informazioni e Iscrizione"
+        "heading": "Informazioni e Iscrizione",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637185277595a85ab": {
@@ -368,24 +375,42 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": true,
-        "swipe_on_mobile": true
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637185175e3c684fb": {
       "type": "featured-collection",
       "settings": {
         "title": "Altre attività estive",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "arrampicata-classica-in-montagna",
         "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "swipe_on_mobile": true
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637185148035fd747": {
@@ -394,7 +419,8 @@
         "1637185148dd57c2c6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Newsletter"
+            "heading": "Newsletter",
+            "heading_size": "h1"
           }
         },
         "1637185148dd57c2c6-1": {
@@ -416,7 +442,9 @@
       ],
       "settings": {
         "color_scheme": "accent-1",
-        "full_width": true
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -426,7 +454,6 @@
     "163718571838645ff8",
     "163718595294971582",
     "163760600479781804",
-    "1637602446d311a7e4",
     "16533204749d721a0c",
     "163718534225228dba",
     "product-recommendations",

@@ -68,8 +68,13 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
         "hide_variants": false,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637185714df29ebbf": {
@@ -157,13 +162,19 @@
       ],
       "settings": {
         "title": "Materiale necessario",
+        "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "portrait",
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": true
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1652953034cc4e9681": {
@@ -172,13 +183,15 @@
         "1652953034821a5a47-0": {
           "type": "heading",
           "settings": {
-            "heading": "Programma generale"
+            "heading": "Programma generale",
+            "heading_size": "h1"
           }
         },
         "1652953034821a5a47-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Quattro uscite in ambiente<\/strong><\/p><p><strong>1<\/strong> – Giornata dedicata al fuoripista con gli impianti per comprendere le tecniche di discesa in neve fresca<\/p><p><strong>2<\/strong> – Facile escursione scialpinistica (700 mt di dislivello) dedicata alla conoscenza materiali, tecnica di salita, tecnica di discesa e ad una prova pratica dell’autosoccorso in valanga<\/p><p><strong>3<\/strong> – Escursione scialpinistica di media difficoltà. Argomenti principali trattati: tecnica di salita, tecnica di discesa e ad una prova pratica dell’autosoccorso in valanga<\/p><p><strong>4<\/strong> – Escursione scialpinistica di media difficoltà. Argomenti principali trattati: studio della relazione e della cartografia di un itinerario. Orientamento e organizzazione della gita.<\/p><p><\/p><p>Prima di aderire si invita a consultare le <a href=\"\/pages\/condizioni-contrattuali\" target=\"_blank\" title=\"Condizioni contrattuali\"><strong>condizioni contrattuali<\/strong><\/a>. In particolar modo si ricorda che l’eventuale <strong>assenza all’uscita programmata non da diritto<\/strong> ad un recupero e nemmeno può essere rimborsata.<\/p>"
+            "text": "<p><strong>Quattro uscite in ambiente<\/strong><\/p><p><strong>1<\/strong> – Giornata dedicata al fuoripista con gli impianti per comprendere le tecniche di discesa in neve fresca<\/p><p><strong>2<\/strong> – Facile escursione scialpinistica (700 mt di dislivello) dedicata alla conoscenza materiali, tecnica di salita, tecnica di discesa e ad una prova pratica dell’autosoccorso in valanga<\/p><p><strong>3<\/strong> – Escursione scialpinistica di media difficoltà. Argomenti principali trattati: tecnica di salita, tecnica di discesa e ad una prova pratica dell’autosoccorso in valanga<\/p><p><strong>4<\/strong> – Escursione scialpinistica di media difficoltà. Argomenti principali trattati: studio della relazione e della cartografia di un itinerario. Orientamento e organizzazione della gita.<\/p><p><\/p><p>Prima di aderire si invita a consultare le <a href=\"\/pages\/condizioni-contrattuali\" target=\"_blank\" title=\"Condizioni contrattuali\"><strong>condizioni contrattuali<\/strong><\/a>. In particolar modo si ricorda che l’eventuale <strong>assenza all’uscita programmata non da diritto<\/strong> ad un recupero e nemmeno può essere rimborsata.<\/p>",
+            "text_style": "body"
           }
         },
         "1652953034821a5a47-2": {
@@ -198,8 +211,15 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Cortina_sci18_rider_Silvia_Moser_photo_Carlo_Cosi_8ed52175-08bc-4e7f-aad6-db9e1bf54956.jpg",
         "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "text_first",
-        "color_scheme": "accent-1"
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "163718571838645ff8": {
@@ -208,13 +228,15 @@
         "1637185718e8ab5b66-0": {
           "type": "heading",
           "settings": {
-            "heading": "Requisiti & Materiale"
+            "heading": "Requisiti & Materiale",
+            "heading_size": "h1"
           }
         },
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>A﻿bitudine a camminare diverse ore in salita<\/p><p>Abitudine al freddo, anche intenso<\/p><p>Saper scendere una pista nera in sicurezza (no spazzaneve), saper percorrere almeno 400 metri di dislivello in 1 ora. <\/p><p>Il ritmo di salita non sarà mai inferiore ai 300 mt\/ora<\/p><p><\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>A﻿ttrezzatura completa da sci alpinismo, comprensiva di arva pala e sonda. <strong>Tutta l'attrezzatura è noleggiabile previa prenotazione<\/strong><\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p><p><\/p><p><\/p>"
+            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>A﻿bitudine a camminare diverse ore in salita<\/p><p>Abitudine al freddo, anche intenso<\/p><p>Saper scendere una pista nera in sicurezza (no spazzaneve), saper percorrere almeno 400 metri di dislivello in 1 ora. <\/p><p>Il ritmo di salita non sarà mai inferiore ai 300 mt\/ora<\/p><p><\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>A﻿ttrezzatura completa da sci alpinismo, comprensiva di arva pala e sonda. <strong>Tutta l'attrezzatura è noleggiabile previa prenotazione<\/strong><\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p><p><\/p><p><\/p>",
+            "text_style": "body"
           }
         },
         "1637185718e8ab5b66-2": {
@@ -234,8 +256,15 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/traversata_Sennes-Braies_photo_Carlo_Cosi.jpg",
         "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "image_first",
-        "color_scheme": "accent-2"
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "163718595294971582": {
@@ -244,13 +273,15 @@
         "1637185952f4e2f539-0": {
           "type": "heading",
           "settings": {
-            "heading": "Dettagli tecnici"
+            "heading": "Dettagli tecnici",
+            "heading_size": "h1"
           }
         },
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p><p><strong>Dislivelli: <\/strong>dai 700 ai 1200 metri in funzione dell'escursione<\/p>"
+            "text": "<p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p><p><strong>Dislivelli: <\/strong>dai 700 ai 1200 metri in funzione dell'escursione<\/p>",
+            "text_style": "body"
           }
         },
         "1637185952f4e2f539-2": {
@@ -270,8 +301,15 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Sennes_photo_Carlo_Cosi.jpg",
         "height": "large",
+        "desktop_image_width": "medium",
         "layout": "text_first",
-        "color_scheme": "accent-1"
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "163760600479781804": {
@@ -297,60 +335,6 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": false
-      }
-    },
-    "1637602446d311a7e4": {
-      "type": "my-product-faq",
-      "blocks": {
-        "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Devo saper sciare per fare scialpinismo?",
-            "faq-content": "Si, è indispensabile saper scendere le piste nere con buona tecnica (no spazzaneve)"
-          }
-        },
-        "a1dde044-b6b6-4655-a2d1-51c6e62178b1": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Devo essere molto allenato?",
-            "faq-content": "Lo scialpinismo è un'attività generalmente abbastanza faticosa, anche per le salite più elementari è necessario avere una buona forma fisica ed essere abituati a camminare per diverse ore in salita."
-          }
-        },
-        "04acd686-24ab-48df-a322-6d8a7583b11c": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Sono senza attrezzatura, è possibile noleggiarla?",
-            "faq-content": "Si è possibile noleggiarla, basta prenotarla con almeno due settimane di anticipo."
-          }
-        },
-        "08539a61-e038-457c-bf19-04c0d33af1c8": {
-          "type": "faq-content",
-          "disabled": true,
-          "settings": {
-            "faq-title": "Come ci si comporta in caso di mal tempo?",
-            "faq-content": "Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data."
-          }
-        },
-        "8c894d0c-c4a8-4092-8442-7f0a3e988376": {
-          "type": "faq-content",
-          "settings": {
-            "faq-title": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?",
-            "faq-content": "Generalmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate."
-          }
-        }
-      },
-      "block_order": [
-        "ac2b7a85-1cc4-4922-a2b1-f72b7c747e2d",
-        "a1dde044-b6b6-4655-a2d1-51c6e62178b1",
-        "04acd686-24ab-48df-a322-6d8a7583b11c",
-        "08539a61-e038-457c-bf19-04c0d33af1c8",
-        "8c894d0c-c4a8-4092-8442-7f0a3e988376"
-      ],
-      "settings": {
-        "title": "Domande?",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "product_faq": false
       }
     },
     "16401249236ccfbf9e": {
@@ -391,13 +375,19 @@
       ],
       "settings": {
         "title": "Guida alla scala di difficoltà",
+        "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "secondary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": true
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16533204749d721a0c": {
@@ -406,22 +396,31 @@
         "1653320474c5668272-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Devo saper arrampicare per salire una via ferrata?",
+            "heading": "Devo saper sciare per fare scialpinismo?",
             "icon": "question_mark",
-            "row_content": "<p>No, non serve saper arrampicare. <br\/>Una via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso.<\/p>",
+            "row_content": "<p>Si, è indispensabile saper scendere le piste nere con buona tecnica (no spazzaneve)<\/p>",
             "page": ""
           }
         },
         "1653320474c5668272-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
+            "heading": "Devo essere molto allenato?",
             "icon": "question_mark",
-            "row_content": "<p>Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili.<\/p>",
+            "row_content": "<p>Lo scialpinismo è un'attività generalmente abbastanza faticosa, anche per le salite più elementari è necessario avere una buona forma fisica ed essere abituati a camminare per diverse ore in salita.<\/p>",
             "page": ""
           }
         },
         "1653320474c5668272-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sono senza attrezzatura, è possibile noleggiarla?",
+            "icon": "question_mark",
+            "row_content": "<p>Si è possibile noleggiarla, basta prenotarla con almeno due settimane di anticipo.<\/p>",
+            "page": ""
+          }
+        },
+        "b4b99de8-ed99-41b5-ac14-ea38c8954933": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Come ci si comporta in caso di mal tempo?",
@@ -429,12 +428,23 @@
             "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.<\/p>",
             "page": ""
           }
+        },
+        "c4dd93a0-8f75-4450-a0ea-0a5848618d9f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?",
+            "icon": "question_mark",
+            "row_content": "<p>Generalmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "1653320474c5668272-0",
         "1653320474c5668272-1",
-        "1653320474c5668272-2"
+        "1653320474c5668272-2",
+        "b4b99de8-ed99-41b5-ac14-ea38c8954933",
+        "c4dd93a0-8f75-4450-a0ea-0a5848618d9f"
       ],
       "settings": {
         "caption": "",
@@ -454,17 +464,28 @@
     "163718534225228dba": {
       "type": "contact-form",
       "settings": {
-        "heading": "Informazioni e Iscrizione"
+        "heading": "Informazioni e Iscrizione",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
-        "show_rating": false
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637185277595a85ab": {
@@ -496,24 +517,42 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": true,
-        "swipe_on_mobile": true
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637185175e3c684fb": {
       "type": "featured-collection",
       "settings": {
         "title": "Altre attività invernali",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "ciaspolate",
         "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "swipe_on_mobile": true
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637185148035fd747": {
@@ -522,7 +561,8 @@
         "1637185148dd57c2c6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Newsletter"
+            "heading": "Newsletter",
+            "heading_size": "h1"
           }
         },
         "1637185148dd57c2c6-1": {
@@ -544,7 +584,9 @@
       ],
       "settings": {
         "color_scheme": "accent-1",
-        "full_width": true
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -555,7 +597,6 @@
     "163718571838645ff8",
     "163718595294971582",
     "163760600479781804",
-    "1637602446d311a7e4",
     "16401249236ccfbf9e",
     "16533204749d721a0c",
     "163718534225228dba",

@@ -72,10 +72,30 @@
                 </details>
               </div>
             {%- endfor -%}
+
+            {% assign product_faqs = product.metafields.my_fields.faq_for_product.value %}
+            {%- if product_faqs -%}
+              {%- for question_answer in product_faqs -%}
+    
+                <div class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}" {{ block.shopify_attributes }}>
+                  <details id="Details-{{ block.id }}-{{ section.id }}-my-custom-faq-{{ forloop.index }}" >
+                    <summary id="Summary-{{ block.id }}-{{ section.id }}-my-custom-faq-{{ forloop.index }}">
+                      {% render 'icon-accordion', icon: "question_mark" %}
+                      <h3 class="accordion__title h4">
+                        {{ question_answer.question }}
+                      </h3>
+                      {% render 'icon-caret' %}
+                    </summary>
+                    <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}-my-custom-faq{{ forloop.index }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}-my-custom-faq-{{ forloop.index }}">
+                      {{ question_answer.answer }}
+                    </div>
+                  </details>
+                </div>
+                {% endfor %}
+            {%- endif -%}
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 

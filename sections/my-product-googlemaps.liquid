@@ -3,7 +3,7 @@
 {{ 'my-product-logistic.css' | asset_url | stylesheet_tag }}
 
 
-<div style="padding-top: 80px" class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
+<div style="padding-top: 80px;padding-bottom: 36px " class="newsletter center{% if section.settings.full_width == false %} newsletter--narrow page-width{% endif%}">
   <div class="newsletter__wrapper color-{{ section.settings.color_scheme }}" style="padding-right: 0px;padding-left: 0px">
     {%- for block in section.blocks -%}
       {%- case block.type -%}

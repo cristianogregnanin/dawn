@@ -276,6 +276,9 @@
                         {%- if event_date > today_date -%}
                           {% assign event_date = date.start_time.normal | date: '%s' %}
                           <li>{{ date.start_time.normal | time_tag: format: 'date' }}</li>
+                          {%- if forloop.index == date.duration -%}
+                            <br>
+                          {%- endif -%}  
                         {%- endif -%}
                       {% endfor %}
                     </ul>

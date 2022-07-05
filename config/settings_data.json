@@ -31,7 +31,9 @@
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,
-          "margin_bottom": 0
+          "margin_bottom": 0,
+          "padding_top": 20,
+          "padding_bottom": 20
         }
       },
       "footer": {
@@ -55,7 +57,7 @@
             "type": "text",
             "settings": {
               "heading": "Laguidalpina.it",
-              "subtext": "<p>Cristiano Gregnanin<\/p><p>+393406256592<\/p><p>cristiano.gregnanin@gmail.com<\/p>"
+              "subtext": "<p>Cristiano Gregnanin<\/p><p>+393406256592<\/p><p>cristiano.gregnanin@gmail.com<\/p><p><\/p><p>P.IVA 01622360293<\/p>"
             }
           },
           "0def0fa2-941e-4413-b415-550dc235c39f": {

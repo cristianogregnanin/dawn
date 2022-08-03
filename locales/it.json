@@ -214,7 +214,7 @@
         "name": "Nome",
         "email": "Indirizzo email",
         "phone": "Numero di telefono",
-        "comment": "Inserisci il tuo messaggio, ricorda di essere il più preciso possibile nella tua richiesta",
+        "comment": "Inserisci il messaggio, ricorda di essere il più preciso possibile nella tua richiesta",
         "comment_for_product": "Prima di richiedere informazioni riguardo il costo, il noleggio dell'attrezzatura, l'orario e il luogo di ritrovo accertati di aver letto e compreso tutti i dettagli presenti nella pagina. Per iscrizioni o informazioni di carattere generale scrivi un messaggio il più dettagliato possibile, risponderemo quanto prima.",
         "send": "Invia",
         "post_success": "Grazie per averci contattato. Risponderemo il prima possibile.",

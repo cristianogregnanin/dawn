@@ -141,9 +141,10 @@
         "16475088595a207a72-7"
       ],
       "settings": {
-        "product": "arrampicata-cima-grande-di-lavaredo",
+        "product": "corso-base-di-scialpinismo",
         "color_scheme": "background-2",
         "secondary_background": false,
+        "media_position": "left",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 60,

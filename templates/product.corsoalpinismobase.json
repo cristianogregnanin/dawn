@@ -5,7 +5,8 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "share": {
           "type": "share",
@@ -15,7 +16,8 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -25,7 +27,8 @@
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "7b676540-72a1-4760-9362-479e3f6157c6": {
           "type": "collapsible_tab_events",
@@ -65,6 +68,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "large",
         "mobile_thumbnails": "hide",
@@ -77,22 +81,22 @@
     "1637185714df29ebbf": {
       "type": "multicolumn",
       "blocks": {
-        "1637185714f72c4a7b-1": {
+        "1637185714f72c4a7b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_skis_456553-removebg-preview.png",
-            "title": "Sci da freeride\/scialpinismo",
-            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
+            "title": "Casco",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "4e5562ad-546a-4a99-9b6b-2d9a4e2d090a": {
+        "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PelleFoca1.png",
-            "title": "Pelli di foca",
-            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
+            "title": "Imbrago",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -100,62 +104,40 @@
         "1637185714f72c4a7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Ski_Pole_707634-removebg-preview.png",
-            "title": "Bastoncini da sci",
-            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_Via_ferrata_886685-removebg-preview.png",
+            "title": "Kit da ferrata",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "1637185714f72c4a7b-0": {
+        "1637185714f72c4a7b-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_ski_boot_707643-removebg-preview.png",
-            "title": "Scarponi da freeride\/scialpinismo",
-            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_crampon_456546-removebg-preview.png",
+            "title": "Ramponi",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "a9f808dc-d9aa-4df8-a4ad-ead349edb1e3": {
+        "3ed90333-c9bd-4118-9230-53f0052a2904": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Walkie_Talkie_1193522-removebg-preview.png",
-            "title": "Artva",
-            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "675cd973-801a-4c9a-ad62-85db2a06fe1d": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Shovel_456550-removebg-preview.png",
-            "title": "Pala",
-            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "2d5be8d4-b714-433c-9472-0f3bf2c65d1e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/noun_probes_456547-removebg-preview.png",
-            "title": "Sonda",
-            "text": "<p>Noleggio solo previa prenotazione con largo anticipo<\/p>",
+            "image": "shopify:\/\/shop_images\/noun_ice_axe_456552-removebg-preview.png",
+            "title": "Piccozza",
+            "text": "<p>Noleggio gratis<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "1637185714f72c4a7b-1",
-        "4e5562ad-546a-4a99-9b6b-2d9a4e2d090a",
-        "1637185714f72c4a7b-2",
         "1637185714f72c4a7b-0",
-        "a9f808dc-d9aa-4df8-a4ad-ead349edb1e3",
-        "675cd973-801a-4c9a-ad62-85db2a06fe1d",
-        "2d5be8d4-b714-433c-9472-0f3bf2c65d1e"
+        "1637185714f72c4a7b-1",
+        "1637185714f72c4a7b-2",
+        "1637185714f72c4a7b-3",
+        "3ed90333-c9bd-4118-9230-53f0052a2904"
       ],
       "settings": {
         "title": "Attrezzatura tecnica",
@@ -187,7 +169,7 @@
         "1652953034821a5a47-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Quattro uscite in ambiente<\/strong><\/p><p><strong>1<\/strong> – Giornata dedicata al fuoripista con gli impianti per comprendere le tecniche di discesa in neve fresca<\/p><p><strong>2<\/strong> – Facile escursione scialpinistica (700 mt di dislivello) dedicata alla conoscenza materiali, tecnica di salita, tecnica di discesa e ad una prova pratica dell’autosoccorso in valanga<\/p><p><strong>3<\/strong> – Escursione scialpinistica di media difficoltà. Argomenti principali trattati: tecnica di salita, tecnica di discesa e ad una prova pratica dell’autosoccorso in valanga<\/p><p><strong>4<\/strong> – Escursione scialpinistica di media difficoltà. Argomenti principali trattati: studio della relazione e della cartografia di un itinerario. Orientamento e organizzazione della gita.<\/p><p><\/p><p>Prima di aderire si invita a consultare le <a href=\"\/pages\/condizioni-contrattuali\" target=\"_blank\" title=\"Condizioni contrattuali\"><strong>condizioni contrattuali<\/strong><\/a>. In particolar modo si ricorda che l’eventuale <strong>assenza all’uscita programmata non da diritto<\/strong> ad un recupero e nemmeno può essere rimborsata.<\/p>",
+            "text": "<p><strong>Cinque uscite in ambiente<\/strong><\/p><p><strong>1<\/strong> – Giornata dedicata all'apprendimento delle tecniche di arrampicata, ai nodi e alle manovre di sicurezza di base. In particolare si studieranno: corda doppia, soste, nodi. La giornata si svolgerà in falesia a Rocca Pendice o falesia limitrofa<\/p><p><strong>2<\/strong> – Facile ferrata, ripasso della lezione precedente in particolare i nodi. Spiegazione della legatura in cordata per l'attraversamento di ghiacciai<\/p><p><strong>3<\/strong> – Applicazione delle tecniche di sicurezza su roccia affrontando una breve salita. L'obiettivo della giornata è applicare quanto imparato nelle giornate precedenti.<\/p><p><strong>4<\/strong> – Marmolada: salita al rifugio. Spiegazione e applicazione manovre e tecniche di sicurezza su ghiaccio. Ripasso legatura in cordata, prove di trattenuta. Pernotto in rifugio.<\/p><p><strong>4<\/strong> – Marmolada: salita a Punta Penia o Rocca in funzione delle condizioni. Legatura in cordata e corretto utilizzo di ramponi e piccozza.<\/p><p>Prima di aderire si invita a consultare le <strong>condizioni contrattuali<\/strong>. In particolar modo si ricorda che l’eventuale <strong>assenza all’uscita programmata non dà diritto<\/strong> ad un recupero e nemmeno può essere rimborsata.<\/p><p><br\/><\/p>",
             "text_style": "body"
           }
         },
@@ -232,7 +214,7 @@
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>A﻿bitudine a camminare diverse ore in salita<\/p><p>Abitudine al freddo, anche intenso<\/p><p>Saper scendere una pista nera in sicurezza (no spazzaneve), saper percorrere almeno 400 metri di dislivello in 1 ora. <\/p><p>Il ritmo di salita non sarà mai inferiore ai 300 mt\/ora<\/p><p><\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>A﻿ttrezzatura completa da sci alpinismo, comprensiva di arva pala e sonda. <strong>Tutta l'attrezzatura è noleggiabile previa prenotazione<\/strong><\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p><p><\/p><p><\/p>",
+            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>A﻿bitudine a camminare diverse ore in salita<\/p><p>Abitudine al freddo, anche intenso<\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>A﻿ttrezzatura completa da alpinismo. <strong>Tutta l'attrezzatura è noleggiabile previa prenotazione<\/strong><\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p><p><\/p><p><\/p>",
             "text_style": "body"
           }
         },
@@ -266,6 +248,7 @@
     },
     "163718595294971582": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1637185952f4e2f539-0": {
           "type": "heading",
@@ -321,7 +304,7 @@
         "1637606004d36262b0-1": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "<p>Dolomiti: Agordo, Zoldo, San Martino di Castrozza, Cortina d’Ampezzo.<\/p><p>Le destinazioni potranno variare in funzione delle condizioni nivo-meteorologiche, saranno decise qualche giorno prima e tempestivamente comunicate.<\/p>"
+            "paragraph": "<p>Le destinazioni potranno varieranno di volta in funzione del meteo, anche se generalmente il primo giorno si svolge a Rocca Pendice (PD), il secondo e il terzo ad Arco (TN), il quarto e quinto in Marmolada o altro ghiacciaio un funzione delle temperature e delle condizioni nivo-meteteologiche<\/p>"
           }
         }
       },
@@ -336,6 +319,7 @@
     },
     "16401249236ccfbf9e": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16401249235f110699-0": {
           "type": "column",
@@ -390,21 +374,12 @@
     "16533204749d721a0c": {
       "type": "collapsible-content",
       "blocks": {
-        "1653320474c5668272-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Devo saper sciare per fare scialpinismo?",
-            "icon": "question_mark",
-            "row_content": "<p>Si, è indispensabile saper scendere le piste nere con buona tecnica (no spazzaneve)<\/p>",
-            "page": ""
-          }
-        },
         "1653320474c5668272-1": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Devo essere molto allenato?",
             "icon": "question_mark",
-            "row_content": "<p>Lo scialpinismo è un'attività generalmente abbastanza faticosa, anche per le salite più elementari è necessario avere una buona forma fisica ed essere abituati a camminare per diverse ore in salita.<\/p>",
+            "row_content": "<p>L'alpinismo è un'attività generalmente abbastanza faticosa, anche per le salite più elementari è necessario avere una buona forma fisica ed essere abituati a camminare per diverse ore in salita.<\/p>",
             "page": ""
           }
         },
@@ -426,22 +401,21 @@
             "page": ""
           }
         },
-        "c4dd93a0-8f75-4450-a0ea-0a5848618d9f": {
+        "f7df25a0-c743-4889-ba3d-bbd3f14fb425": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?",
+            "heading": "Posso partecipare alle singole uscite?",
             "icon": "question_mark",
-            "row_content": "<p>Generalmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate.<\/p>",
+            "row_content": "<p>No, il corso è costituito da 5 giornate. Se sei già esperto di qualche ambito userai la giornata per studiare tecniche e progressioni avanzate<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
-        "1653320474c5668272-0",
         "1653320474c5668272-1",
         "1653320474c5668272-2",
         "b4b99de8-ed99-41b5-ac14-ea38c8954933",
-        "c4dd93a0-8f75-4450-a0ea-0a5848618d9f"
+        "f7df25a0-c743-4889-ba3d-bbd3f14fb425"
       ],
       "settings": {
         "caption": "",
@@ -488,29 +462,29 @@
     "1637185277595a85ab": {
       "type": "collection-list",
       "blocks": {
-        "1637185277ecf15f32-0": {
+        "8141c8a1-4df6-4c3c-88b5-d2489bf88d07": {
           "type": "featured_collection",
           "settings": {
-            "collection": "freeride"
+            "collection": "arrampicata-classica-in-montagna"
           }
         },
-        "1637185277ecf15f32-1": {
+        "67221ed9-c9de-4420-bff5-f2b029a97f35": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ciaspolate"
+            "collection": "ferrate"
           }
         },
-        "1637185277ecf15f32-2": {
+        "9ff51cd9-da9e-43c3-9b26-8c6dddc567c8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cascate-di-ghiaccio"
+            "collection": "vie-normali"
           }
         }
       },
       "block_order": [
-        "1637185277ecf15f32-0",
-        "1637185277ecf15f32-1",
-        "1637185277ecf15f32-2"
+        "8141c8a1-4df6-4c3c-88b5-d2489bf88d07",
+        "67221ed9-c9de-4420-bff5-f2b029a97f35",
+        "9ff51cd9-da9e-43c3-9b26-8c6dddc567c8"
       ],
       "settings": {
         "title": "",
@@ -528,12 +502,12 @@
     "1637185175e3c684fb": {
       "type": "featured-collection",
       "settings": {
-        "title": "Altre attività invernali",
+        "title": "Altre attività estive",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ciaspolate",
+        "collection": "arrampicata-classica-in-montagna",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -570,7 +544,8 @@
         },
         "1637185148dd57c2c6-2": {
           "type": "email_form",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [

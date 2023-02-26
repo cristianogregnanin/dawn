@@ -5,13 +5,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
         "footer-1": {
           "type": "link_list",
           "settings": {
@@ -19,27 +12,44 @@
             "menu": "footer"
           }
         },
-        "footer-2": {
+        "f44d4c76-0604-4025-b95c-f6543d17fa20": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Attiività",
+            "menu": "footer-products"
+          }
+        },
+        "2dd712c1-9717-4486-970c-0a8acd9c460a": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Laguidalpina.it",
+            "subtext": "<p>Cristiano Gregnanin<\/p><p>+393406256592<\/p><p>cristiano.gregnanin@gmail.com<\/p><p><\/p><p>P.IVA 01622360293<\/p>"
+          }
+        },
+        "4d5fb901-15fe-40df-b912-5ba2561e33ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo_bergfuhrer_c9592c45-0b0d-4bac-a8c2-98d277a70156.png",
+            "image_width": 200,
+            "alignment": "right"
           }
         }
       },
       "block_order": [
-        "footer-0",
         "footer-1",
-        "footer-2"
+        "f44d4c76-0604-4025-b95c-f6543d17fa20",
+        "2dd712c1-9717-4486-970c-0a8acd9c460a",
+        "4d5fb901-15fe-40df-b912-5ba2561e33ca"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Newsletter",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
         "margin_top": 48,
         "padding_top": 36,

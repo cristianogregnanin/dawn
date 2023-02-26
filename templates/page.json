@@ -6,7 +6,6 @@
         "image": "shopify:\/\/shop_images\/217950656_2926765497584694_9034443262752520872_n.jpg",
         "image_overlay_opacity": 10,
         "image_height": "small",
-        "adapt_height_first_image": false,
         "show_text_box": true,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,

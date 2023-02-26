@@ -14,7 +14,6 @@
         "image_2": "shopify:\/\/shop_images\/217950656_2926765497584694_9034443262752520872_n.jpg",
         "image_overlay_opacity": 10,
         "image_height": "small",
-        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

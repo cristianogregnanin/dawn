@@ -6,7 +6,6 @@
         "image": "shopify:\/\/shop_images\/DJI_0833.jpg",
         "image_overlay_opacity": 10,
         "image_height": "small",
-        "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

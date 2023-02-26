@@ -89,7 +89,6 @@
         "image": "shopify:\/\/shop_images\/Sisilla_5.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": false,
         "show_text_box": true,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,

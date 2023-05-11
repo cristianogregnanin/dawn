@@ -1,0 +1,5 @@
+<a  href="{{ block.settings.my_button_link }}" 
+id="my-button-{{ block.id }}-{{ section.id }}"
+class="button button--primary {% if block.settings.my_button_class_full_width %} button--full-width {% endif %}"
+{% if block.settings.my_button_target %} target="_blank" {% endif %}
+>{{ block.settings.my_button_text }}</a>  

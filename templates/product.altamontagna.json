@@ -69,7 +69,11 @@
       "settings": {
         "enable_sticky_info": true,
         "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
         "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
@@ -184,6 +188,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "accent-2",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -221,7 +226,7 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
+        "image": "shopify:\/\/shop_images\/235518700_416725416426392_7893555961675329237_n.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -229,6 +234,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "accent-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -262,24 +268,6 @@
     "16533204749d721a0c": {
       "type": "collapsible-content",
       "blocks": {
-        "1653320474c5668272-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Devo saper arrampicare per salire una via ferrata?",
-            "icon": "question_mark",
-            "row_content": "<p>No, non serve saper arrampicare. <br\/>Una via ferrata facilita l’accesso alla vetta anche senza doti arrampicatorie o alpinistiche. Per le vie ferrate più impegnative è comunque richiesta una minima capacità arrampicatoria, mentre per le più facili non ci sono prerequisiti in tal senso.<\/p>",
-            "page": ""
-          }
-        },
-        "1653320474c5668272-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Posso salire una ferrata anche se soffro di vertigini e ho paura dell’altezza?",
-            "icon": "question_mark",
-            "row_content": "<p>Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza, tuttavia in caso di vertigini conclamate forse è meglio orientarsi su attività più facili.<\/p>",
-            "page": ""
-          }
-        },
         "1653320474c5668272-2": {
           "type": "collapsible_row",
           "settings": {
@@ -291,8 +279,6 @@
         }
       },
       "block_order": [
-        "1653320474c5668272-0",
-        "1653320474c5668272-1",
         "1653320474c5668272-2"
       ],
       "settings": {

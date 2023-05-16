@@ -170,12 +170,12 @@
 
             <!-- start collapsible_tab_events lista date -->
             {%- when 'collapsible_tab_events' -%}
-              {% render 'collapsible-tab-events-lista-eventi' %}
+              {% render 'collapsible-tab-events-lista-eventi', product: product, block: block, section: section %}
             <!-- finish collapsible_tab_events lista date -->
             
             <!-- start my-button richiedi informazioni session -->
             {%- when 'my-button' -%}
-              {% render 'my-button-request-info' %}
+              {% render 'my-button-request-info', block: block, section: section %}
             <!-- finish my-button richiedi informazioni session -->
             
             {%- when 'sku' -%}

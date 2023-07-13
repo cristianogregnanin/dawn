@@ -45,7 +45,8 @@
             "my_button_text": "Richiedi informazioni",
             "my_button_link": "#MyContactForm",
             "my_button_target_blank": false,
-            "my_button_class_full_width": true
+            "my_button_class_full_width": true,
+            "my_button_color_scheme": "scheme_6"
           }
         },
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72": {

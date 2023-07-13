@@ -380,7 +380,7 @@
       "settings": {
         "heading": "Informazioni e Iscrizione",
         "heading_size": "h1",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-50e5f1f8-a3b3-4891-b01a-a09b5a1c0007",
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -440,8 +440,9 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-50e5f1f8-a3b3-4891-b01a-a09b5a1c0007",
         "image_ratio": "portrait",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,

@@ -1,129 +1,65 @@
 {
-  "current": {
-    "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#e57708",
-    "colors_accent_2": "#334fb4",
-    "colors_text": "#1a1b18",
-    "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#f5f5f5",
-    "colors_background_2": "#dcdcdc",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
-    "card_style": "card",
-    "card_color_scheme": "background-2",
-    "card_corner_radius": 6,
-    "social_facebook_link": "https:\/\/www.facebook.com\/laguidalpina\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/la_guidalpina\/",
-    "predictive_search_show_price": false,
-    "sections": {
-      "announcement-bar": {
-        "type": "announcement-bar",
-        "settings": {
-        }
-      },
-      "header": {
-        "type": "header",
-        "settings": {
-          "logo_position": "top-center",
-          "menu": "main-menu",
-          "menu_type_desktop": "dropdown",
-          "show_line_separator": false,
-          "color_scheme": "accent-1",
-          "mobile_logo_position": "center",
-          "margin_bottom": 0,
-          "padding_top": 20,
-          "padding_bottom": 20
-        }
-      },
-      "footer": {
-        "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "6c90fb18-1b1c-4c7c-9157-db79d4bd78f3": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Attività",
-              "menu": "footer-products"
-            }
-          },
-          "16611b61-9340-4ce5-bed4-3397aeb7cf9c": {
-            "type": "text",
-            "settings": {
-              "heading": "Laguidalpina.it",
-              "subtext": "<p>Cristiano Gregnanin<\/p><p>+393406256592<\/p><p>cristiano.gregnanin@gmail.com<\/p><p><\/p><p>P.IVA 01622360293<\/p>"
-            }
-          },
-          "0def0fa2-941e-4413-b415-550dc235c39f": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/logo_bergfuhrer.png",
-              "image_width": 200,
-              "alignment": "right"
-            }
-          }
-        },
-        "block_order": [
-          "footer-0",
-          "6c90fb18-1b1c-4c7c-9157-db79d4bd78f3",
-          "16611b61-9340-4ce5-bed4-3397aeb7cf9c",
-          "0def0fa2-941e-4413-b415-550dc235c39f"
-        ],
-        "settings": {
-          "color_scheme": "background-2",
-          "newsletter_enable": true,
-          "newsletter_heading": "Newsletter",
-          "show_social": true,
-          "enable_country_selector": false,
-          "enable_language_selector": false,
-          "payment_enable": false,
-          "margin_top": 0,
-          "padding_top": 60,
-          "padding_bottom": 60
-        }
-      },
-      "announcement-bar-contacts": {
-        "type": "announcement-bar-contacts",
-        "blocks": {
-          "4a4083f8-573d-4322-8bdd-49eadc387571": {
-            "type": "announcement",
-            "settings": {
-              "text": "",
-              "color_scheme": "background-2",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "4a4083f8-573d-4322-8bdd-49eadc387571"
-        ],
-        "settings": {
-        }
-      }
-    },
-    "content_for_index": [
-
-    ]
-  },
+  "current": "Default",
   "presets": {
     "Default": {
       "logo_width": 90,
-      "colors_solid_button_labels": "#ffffff",
-      "colors_accent_1": "#121212",
-      "gradient_accent_1": "",
-      "colors_accent_2": "#334fb4",
-      "gradient_accent_2": "",
-      "colors_text": "#121212",
-      "colors_outline_button_labels": "#121212",
-      "colors_background_1": "#ffffff",
-      "gradient_background_1": "",
-      "colors_background_2": "#f3f3f3",
-      "gradient_background_2": "",
+      "color_schemes": {
+        "background-1": {
+          "settings": {
+            "background": "#FFFFFF",
+            "background_gradient": "",
+            "text": "#121212",
+            "button": "#121212",
+            "button_label": "#FFFFFF",
+            "secondary_button_label": "#121212",
+            "shadow": "#121212"
+          }
+        },
+        "background-2": {
+          "settings": {
+            "background": "#F3F3F3",
+            "background_gradient": "",
+            "text": "#121212",
+            "button": "#121212",
+            "button_label": "#F3F3F3",
+            "secondary_button_label": "#121212",
+            "shadow": "#121212"
+          }
+        },
+        "inverse": {
+          "settings": {
+            "background": "#242833",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#FFFFFF",
+            "button_label": "#000000",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#121212"
+          }
+        },
+        "accent-1": {
+          "settings": {
+            "background": "#121212",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#FFFFFF",
+            "button_label": "#121212",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#121212"
+          }
+        },
+        "accent-2": {
+          "settings": {
+            "background": "#334FB4",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#FFFFFF",
+            "button_label": "#334FB4",
+            "secondary_button_label": "#FFFFFF",
+            "shadow": "#121212"
+          }
+        }
+      },
       "type_header_font": "assistant_n4",
       "heading_scale": 100,
       "type_body_font": "assistant_n4",
@@ -217,7 +153,6 @@
       "badge_corner_radius": 40,
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
-      "accent_icons": "text",
       "social_twitter_link": "",
       "social_facebook_link": "",
       "social_pinterest_link": "",
@@ -236,77 +171,6 @@
       "show_cart_note": false,
       "cart_drawer_collection": "",
       "sections": {
-        "announcement-bar": {
-          "type": "announcement-bar",
-          "blocks": {
-            "announcement-bar-0": {
-              "type": "announcement",
-              "settings": {
-                "text": "Welcome to our store",
-                "color_scheme": "background-1",
-                "link": ""
-              }
-            }
-          },
-          "block_order": [
-            "announcement-bar-0"
-          ],
-          "settings": {
-          }
-        },
-        "header": {
-          "type": "header",
-          "settings": {
-            "color_scheme": "background-1",
-            "logo_position": "middle-left",
-            "menu": "main-menu",
-            "show_line_separator": true,
-            "margin_bottom": 0
-          }
-        },
-        "footer": {
-          "type": "footer",
-          "blocks": {
-            "footer-0": {
-              "type": "link_list",
-              "settings": {
-                "heading": "Quick links",
-                "menu": "footer"
-              }
-            },
-            "footer-1": {
-              "type": "link_list",
-              "settings": {
-                "heading": "Info",
-                "menu": "footer"
-              }
-            },
-            "footer-2": {
-              "type": "text",
-              "settings": {
-                "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-              }
-            }
-          },
-          "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
-          ],
-          "settings": {
-            "color_scheme": "background-1",
-            "newsletter_enable": true,
-            "newsletter_heading": "Subscribe to our emails",
-            "show_social": true,
-            "enable_country_selector": false,
-            "enable_language_selector": false,
-            "payment_enable": true,
-            "margin_top": 48,
-            "padding_top": 36,
-            "padding_bottom": 36
-          }
-        },
         "main-password-header": {
           "type": "main-password-header",
           "settings": {

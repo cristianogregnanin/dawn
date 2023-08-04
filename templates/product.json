@@ -28,8 +28,6 @@
         "price": {
           "type": "price",
           "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
           }
         },
         "c41acd56-30b6-4267-9d54-f75726d511d7": {

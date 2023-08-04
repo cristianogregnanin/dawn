@@ -42,7 +42,8 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -120,7 +121,8 @@
           "type": "buy_buttons",
           "disabled": true,
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
           }
         },
         "16475088595a207a72-7": {
@@ -141,14 +143,14 @@
         "16475088595a207a72-7"
       ],
       "settings": {
-        "product": "marmolada-punta-penia-pernotto-in-cima",
-        "color_scheme": "background-2",
+        "product": "corso-base-di-arrampicata-sportiva",
+        "color_scheme": "inverse",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 60,
@@ -385,7 +387,8 @@
           "type": "button",
           "settings": {
             "button_label": "Chi sono",
-            "button_link": "shopify:\/\/pages\/chi-sono"
+            "button_link": "shopify:\/\/pages\/chi-sono",
+            "button_style_secondary": false
           }
         }
       },

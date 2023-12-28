@@ -1,3 +1,10 @@
+<style>
+/* mi serve perché quando cliccano sul pulsante richiedi informazioni scrolla lentamente cosi leggono tutto*/
+html{
+        scroll-behavior: smooth;
+    }
+</style>
+
 <a  href="{{ block.settings.my_button_link }}" 
 id="my-button-{{ block.id }}-{{ section.id }}"
 class="color-{{ block.settings.my_button_color_scheme }} button {% if block.settings.my_button_class_full_width %} button--full-width {% endif %}"

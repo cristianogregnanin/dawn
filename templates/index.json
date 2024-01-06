@@ -43,7 +43,7 @@
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-2",
-        "image_behavior": "fixed",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
@@ -454,6 +454,69 @@
         "padding_bottom": 36
       }
     },
+    "d1a870ca-28fd-4e08-a27f-ad378d145849": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14172299395205__d1a870ca-28fd-4e08-a27f-ad378d145849-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Vincenzo<\/strong>",
+            "text": "<p>Ieri ho dipinto un sogno, l'ascesa alla cima grande di Lavaredo.Una giornata indimenticabile, resa tale dalla professionalità, dalla gentilezza, e dalla sicurezza che infonde Cristiano. Grazie ancora! consiglio a tutti la guida alpina<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14172299395205__d1a870ca-28fd-4e08-a27f-ad378d145849-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Marco<\/strong>",
+            "text": "<p>Svolto corso di scialpinismo con Cristiano, è stato molto utile, è riuscito a colmare tutti i dubbi che avevo, in più è molto disponibile e simpatico oltre che professionale; lo consiglio vivamente.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14172299395205__d1a870ca-28fd-4e08-a27f-ad378d145849-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Anna<\/strong>",
+            "text": "<p>Ho partecipato a un corso di scialpinismo base. Cristiano ci ha guidati con estrema professionalità, pazienza e umanità. Lo ringrazio per quest’esperienza fantastica e per aver realizzato il sogno che avevo di avvicinarmi allo scialpinismo.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "991fcb3e-3a3b-4a43-a74f-aedc2896f6bc": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Luca<\/strong>",
+            "text": "<p>Cristiano è preparato e molto disponibile sia prima che durante ma anche dopo le escursioni, quando a priori non sarebbe tenuto. Dà preziosi consigli su come affrontare in sicurezza le varie attività di cui si occupa. Stra consigliato.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14172299395205__d1a870ca-28fd-4e08-a27f-ad378d145849-column-1",
+        "template--14172299395205__d1a870ca-28fd-4e08-a27f-ad378d145849-column-2",
+        "template--14172299395205__d1a870ca-28fd-4e08-a27f-ad378d145849-column-3",
+        "991fcb3e-3a3b-4a43-a74f-aedc2896f6bc"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Leggi tutte le recensioni su Facebook",
+        "button_link": "https:\/\/www.facebook.com\/laguidalpina\/reviews",
+        "color_scheme": "scheme-50e5f1f8-a3b3-4891-b01a-a09b5a1c0007",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1637868191e6ce6287": {
       "type": "featured-blog",
       "settings": {
@@ -469,6 +532,62 @@
         "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 100
+      }
+    },
+    "e7319d71-c7dc-4bc7-9738-ca6825bddc8a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/28235369_1384000895037239_1284807743030233496_o.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-1",
+        "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-3",
+        "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-f5929083-6158-448b-acda-84633299b007",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1637183323473b969d": {
@@ -549,7 +668,9 @@
     "16389872838e8f493c",
     "0bb04ba8-567b-4973-8927-5dd8d9d6f148",
     "1637184043c5d56bf1",
+    "d1a870ca-28fd-4e08-a27f-ad378d145849",
     "1637868191e6ce6287",
+    "e7319d71-c7dc-4bc7-9738-ca6825bddc8a",
     "1637183323473b969d",
     "rich_text"
   ]

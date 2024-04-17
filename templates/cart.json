@@ -34,6 +34,7 @@
         "collection": "all",
         "products_to_show": 4,
         "columns_desktop": 4,
+        "color_scheme": "scheme-1",
         "show_view_all": true,
         "color_scheme": "background-1",
         "image_ratio": "square",

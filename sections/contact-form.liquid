@@ -115,21 +115,40 @@
 
   
       {% assign next_dates = product.metafields.my_fields.events.value %}
-      {%- if next_dates -%}
-      {% assign today_date = 'now' | date: '%s' %}
 
+      {%- if next_dates -%}
+        {% assign is_course = product.metafields.my_fields.is_course.value %}
+        {% assign course_duration = product.metafields.my_fields.duration.value %}
+        {% assign today_date = 'now' | date: '%s' %}
+        
+        {%- if is_course == false -%}
+          <div class="field" >
+            <select name="contact[data-evento]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
+              <option value="" disabled selected hidden>Scegli una data</option>
+              {%- for date in next_dates -%}
+                {% assign event_date = date.start_time.normal | date: '%s' %}
+                {%- if event_date > today_date -%}
+                  <option value="{{ date.start_time.normal }}">{{ date.start_time.normal | time_tag: format: 'date' }}</option>
+                {%- endif -%}
+              {% endfor %}
+            </select>  
+          </div>
+        {%- else -%}
+        {% assign course_counter = 1 %}
         <div class="field" >
           <select name="contact[data-evento]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
-            <option value="" disabled selected hidden>Scegli una data</option>
+            <option value="" disabled selected hidden>Scegli un corso</option>
             {%- for date in next_dates -%}
-              {% assign event_date = date.start_time.normal | date: '%s' %}
-              {%- if event_date > today_date -%}
-                <option value="{{ date.start_time.normal }}">{{ date.start_time.normal | time_tag: format: 'date' }}</option>
+              {% assign resto = forloop.index0 | modulo: course_duration %}              
+              {% if forloop.index0 == 0 or resto == 0 %}
+                <option value="Corso {{ course_counter }}">Corso {{ course_counter }} </option>
+                {% assign course_counter = course_counter | plus: 1 %}
               {%- endif -%}
             {% endfor %}
           </select>  
         </div>
-      {%- endif -%}
+        {%- endif -%}
+    {%- endif -%}
       
       {%- if product.title -%}
         <div class="field">

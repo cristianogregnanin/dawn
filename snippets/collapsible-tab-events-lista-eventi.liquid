@@ -23,10 +23,11 @@
               <strong>Corso {{ corso_counter }}</strong>
               {% assign corso_counter = corso_counter | plus: 1 %}
             {% endif %}
+
             {% assign event_date = date.start_time.normal | date: '%s' %}
-            {% if  event_date > today_date%}
+            {%- if event_date > today_date -%}
               <li>{{ date.start_time.normal | time_tag: format: 'date' }}</li>
-            {% endif %}
+            {%- endif -%}
           {% endfor %}
         </ul>
       </div>

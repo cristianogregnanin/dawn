@@ -102,8 +102,7 @@
         },
         "16475088595a207a72-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "16475088595a207a72-4": {
           "type": "variant_picker",
@@ -115,8 +114,7 @@
         "16475088595a207a72-5": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "16475088595a207a72-6": {
           "type": "buy_buttons",
@@ -144,7 +142,7 @@
         "16475088595a207a72-7"
       ],
       "settings": {
-        "product": "arrampicata-cima-grande-di-lavaredo",
+        "product": "corso-base-di-scialpinismo",
         "color_scheme": "inverse",
         "secondary_background": false,
         "media_size": "medium",
@@ -609,8 +607,7 @@
         },
         "16371833236b3531dc-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

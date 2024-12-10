@@ -20,7 +20,7 @@
             {% assign modulo_result = forloop.index0 | modulo: course_duration %} 
             {% if modulo_result == 0 and course_duration > 1%}
               <br>
-              <strong>Corso {{ corso_counter }}</strong>
+              <strong>{{ 'my.corso.one' | t: count: corso_counter }}</strong>
               {% assign corso_counter = corso_counter | plus: 1 %}
             {% endif %}
 

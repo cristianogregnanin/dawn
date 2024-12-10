@@ -165,11 +165,11 @@
               {%- for date in next_dates limit: 2 -%}
                 {% assign event_date = date.start_time.normal | date: '%s' %}
                 {%- if event_date > today_date -%}
-                  <span style="margin-top: 20px; opacity: 0.88;" class="badge color-accent-1">{{ date.start_time.normal | time_tag: '%d/%m/%Y' }}</span>
+                  <span style="margin-top: 20px; opacity: 0.88;" class="badge color-accent-1">{{ date.start_time.normal | time_tag: format: 'date' }}</span>
                 {%- endif -%}
               {% endfor %}
               {%- if next_dates.size > 2 -%}
-                <span style="margin-top: 20px;" class="badge color-accent-1"><b>Altre date >></b></span>
+                <span style="margin-top: 20px;" class="badge color-accent-1"><b>{{ 'my.other_dates' | t }} </b></span>
               {%- endif -%}
             {%- endif -%}
   

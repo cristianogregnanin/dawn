@@ -935,5 +935,12 @@
         }
       }
     }
+  },
+  "my": {
+    "other_dates": "Other dates",
+    "corso": {
+      "one": "Course {{ count }}",
+      "choose": "Choose a course"
+    }
   }
 }

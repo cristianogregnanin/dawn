@@ -134,14 +134,16 @@
             </select>  
           </div>
         {%- else -%}
-        {% assign course_counter = 1 %}
         <div class="field" >
           <select name="contact[data-evento]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
-            <option value="" disabled selected hidden>Scegli un corso</option>
+            <option value="" disabled selected hidden>{{ 'my.corso.choose' | t }}</option>
+            {% assign course_counter = 1 %}
             {%- for date in next_dates -%}
               {% assign resto = forloop.index0 | modulo: course_duration %}              
               {% if forloop.index0 == 0 or resto == 0 %}
-                <option value="Corso {{ course_counter }}">Corso {{ course_counter }} </option>
+                <option value="{{ 'my.corso.one' | t: count: course_counter }}">
+                  {{ 'my.corso.one' | t: count: course_counter }}
+                </option>
                 {% assign course_counter = course_counter | plus: 1 %}
               {%- endif -%}
             {% endfor %}

@@ -541,6 +541,7 @@
   },
   "my": {
     "other_dates": "Altre date",
+    "choose_date": "Scegli una data",
     "corso": {
       "one": "Corso {{ count }}",
       "choose": "Scegli un corso"

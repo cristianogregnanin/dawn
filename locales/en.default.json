@@ -938,6 +938,7 @@
   },
   "my": {
     "other_dates": "Other dates",
+    "choose_date": "Choose a date",
     "corso": {
       "one": "Course {{ count }}",
       "choose": "Choose a course"

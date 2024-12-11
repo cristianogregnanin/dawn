@@ -100,7 +100,7 @@
               </div>
             {%- endfor -%}
 
-            {% assign product_faqs = product.metafields.my_fields.faq_for_product.value %}
+            {% assign product_faqs = product.metafields.my_fields.faq_for_product.value[request.locale.iso_code] %}
             {%- if product_faqs -%}
               {%- for question_answer in product_faqs -%}
     

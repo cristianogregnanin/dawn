@@ -124,7 +124,7 @@
         {%- if is_course == false -%}
           <div class="field" >
             <select name="contact[data-evento]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
-              <option value="" disabled selected hidden>Scegli una data</option>
+              <option value="" disabled selected hidden>{{ 'my.choose_date' | t }}</option>
               {%- for date in next_dates -%}
                 {% assign event_date = date.start_time.normal | date: '%s' %}
                 {%- if event_date > today_date -%}

@@ -24,6 +24,13 @@
             "swatch_shape": "circle"
           }
         },
+        "popup_e4hKdV": {
+          "type": "popup",
+          "settings": {
+            "text": "Da Solo o in Gruppo? Scopri Quale Avventura Fa per Te!",
+            "page": "esperienze-outdoor-individuali-vs-di-gruppo"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -60,6 +67,7 @@
         "share",
         "description",
         "variant_picker",
+        "popup_e4hKdV",
         "price",
         "7b676540-72a1-4760-9362-479e3f6157c6",
         "c41acd56-30b6-4267-9d54-f75726d511d7",
@@ -81,143 +89,23 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_AAptqr": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_qxy3bn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Programma generale",
-            "heading_size": "h0"
-          }
-        },
-        "text_4gWCCz": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Condividi informazioni sul tuo brand con i clienti. Descrivi un prodotto, condividi gli annunci o dai il benvenuto ai clienti nel tuo negozio.<\/p>"
-          }
-        },
-        "button_Az6Lda": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Etichetta pulsante",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_qxy3bn",
-        "text_4gWCCz",
-        "button_Az6Lda"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multirow_LcCpJr": {
-      "type": "multirow",
-      "blocks": {
-        "row_DzXFKC": {
-          "type": "row",
-          "settings": {
-            "caption": "Didascalia",
-            "heading": "Riga",
-            "text": "<p>Associa un testo a un'immagine per dare importanza al prodotto, alla collezione o all'articolo del blog di tua scelta. Aggiungi dettagli sulla disponibilità, sullo stile o fornisci una recensione.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_9t3G86": {
-          "type": "row",
-          "settings": {
-            "caption": "Didascalia",
-            "heading": "Riga",
-            "text": "<p>Associa un testo a un'immagine per dare importanza al prodotto, alla collezione o all'articolo del blog di tua scelta. Aggiungi dettagli sulla disponibilità, sullo stile o fornisci una recensione.<\/p>",
-            "button_label": "Etichetta pulsante",
-            "button_link": ""
-          }
-        },
-        "row_pfhdGm": {
-          "type": "row",
-          "settings": {
-            "caption": "Didascalia",
-            "heading": "Riga",
-            "text": "<p>Associa un testo a un'immagine per dare importanza al prodotto, alla collezione o all'articolo del blog di tua scelta. Aggiungi dettagli sulla disponibilità, sullo stile o fornisci una recensione.<\/p>",
-            "button_label": "Etichetta pulsante",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_DzXFKC",
-        "row_9t3G86",
-        "row_pfhdGm"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1637185714df29ebbf": {
+    "multicolumn_TXqzir": {
       "type": "multicolumn",
       "blocks": {
-        "1637185714f72c4a7b-0": {
+        "column_P6DpB7": {
           "type": "column",
+          "repeater": "{{ product.metafields.my_fields.attrezzatura_tecnica.value }}",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
-            "title": "Casco",
-            "text": "<p>Noleggio gratis<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1637185714f72c4a7b-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
-            "title": "Imbrago",
-            "text": "<p>Noleggio gratis<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1637185714f72c4a7b-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Via_ferrata_886685-removebg-preview.png",
-            "title": "Kit da ferrata",
-            "text": "<p>Noleggio gratis<\/p>",
+            "image": "{{ block.repeater.immagine.value }}",
+            "title": "{{ block.repeater.heading.value }}",
+            "text": "<p>{{ block.repeater.description | metafield_tag }}<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "1637185714f72c4a7b-0",
-        "1637185714f72c4a7b-1",
-        "1637185714f72c4a7b-2"
+        "column_P6DpB7"
       ],
       "settings": {
         "title": "Attrezzatura tecnica",
@@ -291,13 +179,13 @@
         "1637606004d36262b0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Destinazioni"
+            "heading": "Logistica"
           }
         },
         "1637606004d36262b0-1": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "<p>Lago di Garda: Arco, Riva del Garda, Biacesa di Ledro, Pregasina.<\/p><p><\/p><p>Le destinazioni potranno variare in funzione delle condizioni meteorologiche, saranno decise qualche giorno prima e tempestivamente comunicate.<\/p>"
+            "paragraph": "<p>Al momento della prenotazione per comodità logistica è possibile organizzare punti di ritrovo alternativi al fine di condividere il viaggio. L'orario di ritrovo sarà deciso qualche giorno prima in base al meteo.<\/p>"
           }
         }
       },
@@ -441,9 +329,7 @@
   },
   "order": [
     "main",
-    "rich_text_AAptqr",
-    "multirow_LcCpJr",
-    "1637185714df29ebbf",
+    "multicolumn_TXqzir",
     "163718595294971582",
     "163760600479781804",
     "16533204749d721a0c",

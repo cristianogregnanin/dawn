@@ -57,7 +57,7 @@
         "50a4b7f7-29f2-400a-8406-973fb0dcbb72": {
           "type": "popup",
           "settings": {
-            "text": "Condizioni contrattuali",
+            "text": "Termini e Condizioni",
             "page": "condizioni-contrattuali"
           }
         }
@@ -85,6 +85,41 @@
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_J8TeGa": {
+      "type": "multirow",
+      "blocks": {
+        "row_3faReB": {
+          "type": "row",
+          "repeater": "{{ product.metafields.my_fields.programma_generale.value }}",
+          "settings": {
+            "image": "{{ block.repeater.immagine.value }}",
+            "caption": "{{ block.repeater.caption.value }}",
+            "heading": "{{ block.repeater.heading.value }}",
+            "text": "{{ block.repeater.text | metafield_tag }}",
+            "button_label": "Etichetta pulsante",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_3faReB"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -129,19 +164,59 @@
       "blocks": {
         "1637185952f4e2f539-0": {
           "type": "heading",
+          "source": "{{ product.metafields.my_fields.requisiti_e_materiale.value }}",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.requisiti_e_materiale.value.titolo.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "1637185952f4e2f539-1": {
+          "type": "text",
+          "source": "{{ product.metafields.my_fields.requisiti_e_materiale.value }}",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.requisiti_e_materiale.value.testo | metafield_tag }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1637185952f4e2f539-0",
+        "1637185952f4e2f539-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.requisiti_e_materiale.value.immagine.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "accent-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_LQ66rc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hLMdyH": {
+          "type": "heading",
           "settings": {
             "heading": "Dettagli tecnici",
             "heading_size": "h1"
           }
         },
-        "1637185952f4e2f539-1": {
+        "text_JNfEaK": {
           "type": "text",
           "settings": {
             "text": "<p><\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><\/p>",
             "text_style": "body"
           }
         },
-        "1637185952f4e2f539-2": {
+        "button_EDkKB7": {
           "type": "button",
           "disabled": true,
           "settings": {
@@ -152,11 +227,10 @@
         }
       },
       "block_order": [
-        "1637185952f4e2f539-0",
-        "1637185952f4e2f539-1",
-        "1637185952f4e2f539-2"
+        "heading_hLMdyH",
+        "text_JNfEaK",
+        "button_EDkKB7"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
         "height": "adapt",
@@ -329,8 +403,10 @@
   },
   "order": [
     "main",
+    "multirow_J8TeGa",
     "multicolumn_TXqzir",
     "163718595294971582",
+    "image_with_text_LQ66rc",
     "163760600479781804",
     "16533204749d721a0c",
     "163718534225228dba",

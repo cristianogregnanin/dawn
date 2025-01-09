@@ -247,29 +247,53 @@
         "padding_bottom": 36
       }
     },
-    "163760600479781804": {
-      "type": "my-product-googlemaps",
+    "my_logistica_nejePV": {
+      "type": "my-logistica",
       "blocks": {
-        "1637606004d36262b0-0": {
+        "heading_6RfDVj": {
           "type": "heading",
           "settings": {
-            "heading": "Logistica"
+            "heading": "Luoghi e Dettagli Logistici",
+            "heading_size": "h1"
           }
         },
-        "1637606004d36262b0-1": {
-          "type": "paragraph",
+        "introduzione_fUGQ8W": {
+          "type": "introduzione",
           "settings": {
-            "paragraph": "<p>Al momento della prenotazione per comodità logistica è possibile organizzare punti di ritrovo alternativi al fine di condividere il viaggio. L'orario di ritrovo sarà deciso qualche giorno prima in base al meteo.<\/p>"
+            "introduzione": "{{ product.metafields.my_fields.logistica.value.richtext | metafield_tag }}"
+          }
+        },
+        "google_maps_link_dFGwy8": {
+          "type": "google_maps_link",
+          "settings": {
+            "google_maps_link": "{{ product.metafields.my_fields.google_maps_link.value }}"
+          }
+        },
+        "google_maps_meeting_point_68iDKB": {
+          "type": "google_maps_meeting_point",
+          "settings": {
+            "google_maps_meeting_point": "{{ product.metafields.my_fields.google_maps_meeting_point_name.value }}"
+          }
+        },
+        "meeting_time_nhxmTV": {
+          "type": "meeting_time",
+          "settings": {
+            "meeting_time": "{{ product.metafields.my_fields.meeting_time.value }}"
           }
         }
       },
       "block_order": [
-        "1637606004d36262b0-0",
-        "1637606004d36262b0-1"
+        "heading_6RfDVj",
+        "introduzione_fUGQ8W",
+        "google_maps_link_dFGwy8",
+        "google_maps_meeting_point_68iDKB",
+        "meeting_time_nhxmTV"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": false
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "16533204749d721a0c": {
@@ -407,7 +431,7 @@
     "multicolumn_TXqzir",
     "163718595294971582",
     "image_with_text_LQ66rc",
-    "163760600479781804",
+    "my_logistica_nejePV",
     "16533204749d721a0c",
     "163718534225228dba",
     "1637185277595a85ab",

@@ -298,6 +298,21 @@
     },
     "16533204749d721a0c": {
       "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Fnkpmh": {
+          "type": "collapsible_row",
+          "repeater": "{{ product.metafields.my_fields.faq_per_i_prodotti.value }}",
+          "settings": {
+            "heading": "{{ block.repeater.heading.value }}",
+            "icon": "question_mark",
+            "row_content": "{{ block.repeater.testo | metafield_tag }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Fnkpmh"
+      ],
       "settings": {
         "caption": "",
         "heading": "Domande?",

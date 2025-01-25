@@ -296,6 +296,40 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_C3MftM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kefP4z": {
+          "type": "column",
+          "repeater": "{{ product.metafields.my_fields.guida_alla_scala_di_difficolta.value }}",
+          "settings": {
+            "title": "<strong>{{ block.repeater.heading.value }}<\/strong>",
+            "text": "<p>{{ block.repeater.description | metafield_tag }}<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kefP4z"
+      ],
+      "settings": {
+        "title": "{{ product.metafields.my_fields.guida_alla_scala_di_difficolta_titolo.value }}",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16533204749d721a0c": {
       "type": "collapsible-content",
       "blocks": {
@@ -447,6 +481,7 @@
     "163718595294971582",
     "image_with_text_LQ66rc",
     "my_logistica_nejePV",
+    "multicolumn_C3MftM",
     "16533204749d721a0c",
     "163718534225228dba",
     "1637185277595a85ab",

@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "La Guida Alpina.it",
-            "heading_size": "medium"
+            "heading_size": "h1"
           }
         },
         "button": {
@@ -26,7 +26,7 @@
           "type": "text",
           "settings": {
             "text": "Quando la passione diventa talmente grande che si trasforma in amore, allora è giunto il momento che diventi professione.",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         }
       },
@@ -36,17 +36,17 @@
         "a5994ec2-fdc8-418d-ac55-3145c3dbc165"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Marmolada_pian_dei_Fiacconi_rider_Sara_Mastel_photo_Carlo_Cosi.jpg",
-        "image_overlay_opacity": 10,
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2025-01-24_at_10.17.00.jpg",
+        "image_overlay_opacity": 20,
         "image_height": "medium",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
+        "color_scheme": "scheme-47acce6e-6f07-4ea5-87be-5ad6774df2b3",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "16389878767b5a99aa": {
@@ -437,6 +437,10 @@
         "16371840437e75c9a3-1",
         "16371840437e75c9a3-2"
       ],
+      "custom_css": [
+        ".image-with-text {position: relative; background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0363\/7965\/6325\/files\/WhatsApp_Image_2025-01-24_at_10.26.51.jpg?v=1737712631\") no-repeat center\/cover; color: #fff;}",
+        ".image-with-text .image-with-text__wrapper {position: relative; z-index: 1; color: #fff;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/IMG_20180911_144242.jpg",
         "height": "small",
@@ -445,9 +449,9 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "section_color_scheme": "",
+        "section_color_scheme": "background-1",
         "color_scheme": "accent-1",
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 36
@@ -499,17 +503,22 @@
         "template--14172299395205__d1a870ca-28fd-4e08-a27f-ad378d145849-column-3",
         "991fcb3e-3a3b-4a43-a74f-aedc2896f6bc"
       ],
+      "custom_css": [
+        ".multicolumn {position: relative; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0363\/7965\/6325\/files\/WhatsApp_Image_2025-01-24_at_10.29.49.jpg?v=1737712631\") no-repeat center; background-size: cover; color: #fff;}",
+        ".multicolumn .multicolumn__wrapper {position: relative; z-index: 1; color: #fff;}",
+        ".multicolumn__heading,.multicolumn__text,.multicolumn h1,.multicolumn h2,.multicolumn h3,.multicolumn h4,.multicolumn h5,.multicolumn h6 {color: #fff !important;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
+        "column_alignment": "center",
+        "background_style": "none",
         "button_label": "Leggi tutte le recensioni su Facebook",
         "button_link": "https:\/\/www.facebook.com\/laguidalpina\/reviews",
-        "color_scheme": "scheme-50e5f1f8-a3b3-4891-b01a-a09b5a1c0007",
+        "color_scheme": "scheme-47acce6e-6f07-4ea5-87be-5ad6774df2b3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -571,6 +580,11 @@
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-1",
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-3",
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-2"
+      ],
+      "custom_css": [
+        ".multicolumn {position: relative; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0363\/7965\/6325\/files\/WhatsApp_Image_2025-01-24_at_10.29.49.jpg?v=1737712631\") no-repeat center; background-size: cover; color: #fff;}",
+        ".multicolumn .multicolumn__wrapper {position: relative; z-index: 1; color: #fff;}",
+        ".multicolumn__heading,.multicolumn__text,.multicolumn h1,.multicolumn h2,.multicolumn h3,.multicolumn h4,.multicolumn h5,.multicolumn h6 {color: #fff !important;}"
       ],
       "settings": {
         "title": "",
@@ -635,13 +649,19 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>La guida alpina è l’unica figura professionale riconosciuta a livello internazionale abilitata all’insegnamento e all’accompagnamento in montagna. Per acquisire il brevetto di guida alpina si deve superare una serie di esami teorici e pratici della durata di cinque anni, che garantisce, con la sua completezza e severità, un elevato livello di preparazione tecnica professionale.<\/p>"
+            "text": "<h2>La guida alpina è l’unica figura professionale riconosciuta a livello internazionale abilitata all’insegnamento e all’accompagnamento in montagna. <\/h2><h2>Per acquisire il brevetto di guida alpina si deve superare una serie di esami teorici e pratici della durata di cinque anni, che garantisce, con la sua completezza e severità, un elevato livello di preparazione tecnica professionale.<\/h2>"
           }
         }
       },
       "block_order": [
         "heading",
         "text"
+      ],
+      "custom_css": [
+        ".rich-text {position: relative; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0363\/7965\/6325\/files\/WhatsApp_Image_2025-01-24_at_10.26.53.jpg?v=1737712631\") no-repeat center; background-size: cover; color: #fff;}",
+        ".rich-text .rich-text__wrapper {position: relative; z-index: 1; color: #fff;}",
+        ".rich-text__heading,.rich-text__text {color: inherit;}",
+        ".rich-text h1,.rich-text h2,.rich-text h3,.rich-text h4,.rich-text h5,.rich-text h6 {color: #fff !important;}"
       ],
       "settings": {
         "desktop_content_position": "center",

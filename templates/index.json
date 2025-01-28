@@ -545,6 +545,15 @@
     "e7319d71-c7dc-4bc7-9738-ca6825bddc8a": {
       "type": "multicolumn",
       "blocks": {
+        "column_eJENrh": {
+          "type": "column",
+          "settings": {
+            "title": "Colonna",
+            "text": "<p>Associa un testo a un'immagine per dare importanza al prodotto, alla collezione o all'articolo del blog di tua scelta. Aggiungi dettagli sulla disponibilità, sullo stile o fornisci una recensione.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-1": {
           "type": "column",
           "settings": {
@@ -577,6 +586,7 @@
         }
       },
       "block_order": [
+        "column_eJENrh",
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-1",
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-3",
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-2"
@@ -649,7 +659,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<h2>La guida alpina è l’unica figura professionale riconosciuta a livello internazionale abilitata all’insegnamento e all’accompagnamento in montagna. <\/h2><h2>Per acquisire il brevetto di guida alpina si deve superare una serie di esami teorici e pratici della durata di cinque anni, che garantisce, con la sua completezza e severità, un elevato livello di preparazione tecnica professionale.<\/h2>"
+            "text": "<h2>La <strong>guida alpina<\/strong> è l’unica figura professionale riconosciuta a livello internazionale per l’insegnamento e l’accompagnamento in montagna.<\/h2><h2>Per ottenere il brevetto, è necessario superare un percorso di formazione impegnativo, che dura cinque anni e include esami teorici e pratici. Questo iter rigoroso garantisce un alto livello di preparazione tecnica e professionale, offrendo sicurezza e competenza in ogni attività di montagna.<\/h2>"
           }
         }
       },

@@ -77,11 +77,127 @@
         "padding_bottom": 36
       }
     },
+    "slideshow_zLjtci": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tjUqMQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-08-05_at_17.18.19.jpg",
+            "heading": "Dolomiti Verticali: 5 Giorni di Arrampicata Intensa",
+            "heading_size": "h0",
+            "subheading": "<strong>Cinque giorni per esplorare le pareti più iconiche delle Dolomiti, immersi nella roccia, nella tecnica e nella bellezza di un ambiente unico.<\/strong>",
+            "button_label": "Scopri di più",
+            "link": "shopify:\/\/products\/arrampicata-becco-di-mezzodi-cortina",
+            "button_style_secondary": false,
+            "box_align": "top-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pTxEVz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2025-01-24_at_10.12.11.jpg",
+            "heading": "4 Giorni Oltre le Nuvole: Traversata Delle Pale di San Martino",
+            "heading_size": "h0",
+            "subheading": "<strong>Un percorso avvincente tra guglie e creste spettacolari, dalle pareti imponenti della Bolver-Lugli ai sentieri panoramici della Fradusta, fino alle storiche ferrate del Porton e del Velo. Un'immersione totale nel cuore selvaggio delle Dolomiti.<\/strong>",
+            "button_label": "Etichetta pulsante",
+            "link": "shopify:\/\/products\/arrampicata-tofana-primo-spigolo",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_7eJ6P4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ferrata-delle-trincee-al-padon-laguidalpina-guida-alpina-cristiano-gregnanin-932453.jpg",
+            "heading": "4 Giorni di Ferrate e Avventura sulla Marmolada",
+            "heading_size": "h0",
+            "subheading": "<strong>Un percorso unico tra le cime più spettacolari: dalle trincee della Grande Guerra alla vetta della Marmolada, con un'esperienza notturna indimenticabile in quota.<\/strong>",
+            "button_label": "Scopri di più",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_LdPXMk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Schermata_del_2025-01-29_17-56-15.png",
+            "heading": "La Grande Traversata del Civetta: Tre Ferrate per Conquistare la Parete delle Pareti",
+            "heading_size": "h0",
+            "subheading": "<strong>Un viaggio verticale attraverso le leggendarie vie ferrate del Civetta: dalla tecnica della Costantini, all’impegno della Tissi, fino alla spettacolare Alleghesi. Un'esperienza alpinistica indimenticabile nel cuore delle Dolomiti.<\/strong>",
+            "button_label": "Scopri di più",
+            "link": "shopify:\/\/products\/arrampicata-becco-di-mezzodi-cortina",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_rUGWgr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_20210706_055907.jpg",
+            "heading": "Capanna Margherita e Oltre: 3 Giorni tra i Giganti del Monte Rosa",
+            "heading_size": "h0",
+            "subheading": "<strong>Un’avventura in alta quota alla scoperta della Capanna Margherita, il rifugio più alto d’Europa, e l’emozione di scalare un altro 4000 del massiccio del Monte Rosa.<\/strong>",
+            "button_label": "Scopri di più",
+            "link": "shopify:\/\/products\/agner-ferrata-stella-alpina",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 40,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tjUqMQ",
+        "slide_pTxEVz",
+        "slide_7eJ6P4",
+        "slide_LdPXMk",
+        "slide_rUGWgr"
+      ],
+      "custom_css": [
+        ".banner__text {font-size: 1.5em;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 9,
+        "image_behavior": "ambient",
+        "show_text_below": false,
+        "accessibility_info": "Presentazione sul nostro brand"
+      }
+    },
     "16475088591420f14e": {
       "type": "featured-product",
       "blocks": {
         "16475088595a207a72-0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -686,6 +802,7 @@
   "order": [
     "image_banner",
     "16389878767b5a99aa",
+    "slideshow_zLjtci",
     "16475088591420f14e",
     "163898936291fc2f6c",
     "163898915634f6b1b0",

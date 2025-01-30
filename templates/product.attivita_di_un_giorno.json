@@ -291,41 +291,6 @@
         "padding_bottom": 36
       }
     },
-    "16533204749d721a0c": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_Fnkpmh": {
-          "type": "collapsible_row",
-          "repeater": "{{ product.metafields.my_fields.faq_per_i_prodotti.value }}",
-          "settings": {
-            "heading": "{{ block.repeater.heading.value }}",
-            "icon": "question_mark",
-            "row_content": "{{ block.repeater.testo | metafield_tag }}",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_Fnkpmh"
-      ],
-      "custom_css": [
-        ".gradient {background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0363\/7965\/6325\/files\/WhatsApp_Image_2025-01-24_at_10.01.00.jpg?v=1737712631\") no-repeat center; background-size: cover; color: #fff;}"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Domande?",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "section",
-        "color_scheme": "scheme-47acce6e-6f07-4ea5-87be-5ad6774df2b3",
-        "container_color_scheme": "scheme-47acce6e-6f07-4ea5-87be-5ad6774df2b3",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collapsible_content_fmdA47": {
       "type": "collapsible-content",
       "blocks": {
@@ -348,7 +313,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Domande? TENERE QUESTO RIMUOVERE L'ALTRO",
+        "heading": "Domande?",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "section",
@@ -482,7 +447,6 @@
     "image_with_text_LQ66rc",
     "my_logistica_nejePV",
     "multicolumn_HAtrkq",
-    "16533204749d721a0c",
     "collapsible_content_fmdA47",
     "163718534225228dba",
     "1637185277595a85ab",

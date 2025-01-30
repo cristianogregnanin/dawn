@@ -160,6 +160,46 @@
         "padding_bottom": 36
       }
     },
+    "163718595294971582": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637185952f4e2f539-0": {
+          "type": "heading",
+          "source": "{{ product.metafields.my_fields.requisiti_e_materiale.value }}",
+          "settings": {
+            "heading": "{{ product.metafields.my_fields.requisiti_e_materiale.value.titolo.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "1637185952f4e2f539-1": {
+          "type": "text",
+          "source": "{{ product.metafields.my_fields.requisiti_e_materiale.value }}",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.requisiti_e_materiale.value.testo | metafield_tag }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1637185952f4e2f539-0",
+        "1637185952f4e2f539-1"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.my_fields.requisiti_e_materiale.value.immagine.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "accent-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_LQ66rc": {
       "type": "image-with-text",
       "blocks": {
@@ -444,6 +484,7 @@
     "main",
     "multirow_J8TeGa",
     "multicolumn_TXqzir",
+    "163718595294971582",
     "image_with_text_LQ66rc",
     "my_logistica_nejePV",
     "multicolumn_HAtrkq",

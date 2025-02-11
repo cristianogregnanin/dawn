@@ -1,0 +1,275 @@
+{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
+  <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when '@app' -%}
+          {% render block %}
+        {%- when 'heading' -%}
+          <h2
+            class="inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {{ block.settings.heading }}
+          </h2>
+
+        {%- when 'introduzione' -%}
+          <div
+            class="newsletter__subheading rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            {{ block.settings.introduzione }}
+          </div>
+
+        {%- when 'google_maps_link' -%}
+          {% if product.metafields.my_fields.google_maps_link %}
+            <div
+              class="newsletter__subheading rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {{ block.shopify_attributes }}
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+                style="--animation-order: {{ forloop.index }};"
+              {% endif %}
+            >
+              <iframe
+                src="{{ block.settings.google_maps_link }}"
+                width="100%"
+                height="350"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen=""
+              ></iframe>
+            </div>
+          {% endif %}
+
+        {%- when 'google_maps_meeting_point' -%}
+          {% if product.metafields.my_fields.google_maps_share_link %}
+            <div
+              class="newsletter__subheading rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {{ block.shopify_attributes }}
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+                style="--animation-order: {{ forloop.index }};"
+              {% endif %}
+            >
+              <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>
+                {% render 'icon-accordion', icon: 'map_pin' %}
+                <a href="{{product.metafields.my_fields.google_maps_share_link}}" target="_blank">
+                  {{- block.settings.google_maps_meeting_point -}}
+                </a>
+              </div>
+            </div>
+          {% endif %}
+
+        {%- when 'meeting_time' -%}
+          {% if product.metafields.my_fields.meeting_time %}
+            <div
+              class="newsletter__subheading rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {{ block.shopify_attributes }}
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+                style="--animation-order: {{ forloop.index }};"
+              {% endif %}
+            >
+              <div class="newsletter__subheading rte" {{ block.shopify_attributes }}>
+                {% render 'icon-accordion', icon: 'plane' %}
+                {{ block.settings.meeting_time }}
+              </div>
+            </div>
+          {% endif %}
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Logistica",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.newsletter.settings.full_width.label"
+    },
+    {
+      "type": "paragraph",
+      "content": "t:sections.newsletter.settings.paragraph.content"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.newsletter.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "t:sections.newsletter.blocks.heading.settings.heading.default",
+          "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hxl",
+              "label": "t:sections.all.heading_size.options__4.label"
+            },
+            {
+              "value": "hxxl",
+              "label": "t:sections.all.heading_size.options__5.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "meeting_time",
+      "name": "Meeting time",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "meeting_time",
+          "label": "Caricalo da metafield"
+        }
+      ]
+    },
+    {
+      "type": "introduzione",
+      "name": "introduzione",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "introduzione",
+          "label": "Caricalo da metafield"
+        }
+      ]
+    },
+    {
+      "type": "google_maps_meeting_point",
+      "name": "google_maps_meeting_point",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "google_maps_meeting_point",
+          "label": "Il nome del punto di incontro",
+          "info": "Caricalo da metafield"
+        }
+      ]
+    },
+    {
+      "type": "google_maps_link",
+      "name": "google_maps_link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "url",
+          "id": "google_maps_link",
+          "label": "Il link per l'iframe",
+          "info": "Caricalo da metafield"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "My-Logistica",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "google_maps_link"
+        },
+        {
+          "type": "google_maps_meeting_point"
+        },
+        {
+          "type": "meeting_time"
+        },
+        {
+          "type": "introduzione"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

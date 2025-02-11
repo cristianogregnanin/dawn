@@ -153,7 +153,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -168,7 +168,7 @@
           "source": "{{ product.metafields.my_fields.requisiti_e_materiale.value }}",
           "settings": {
             "heading": "{{ product.metafields.my_fields.requisiti_e_materiale.value.titolo.value }}",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "1637185952f4e2f539-1": {
@@ -176,7 +176,7 @@
           "source": "{{ product.metafields.my_fields.requisiti_e_materiale.value }}",
           "settings": {
             "text": "{{ product.metafields.my_fields.requisiti_e_materiale.value.testo | metafield_tag }}",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         }
       },
@@ -193,7 +193,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "section_color_scheme": "",
-        "color_scheme": "accent-2",
+        "color_scheme": "inverse",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -205,90 +205,88 @@
       "blocks": {
         "heading_hLMdyH": {
           "type": "heading",
+          "source": "{{ product.metafields.my_fields.dettagli_tecnici_prodotto.value }}",
           "settings": {
-            "heading": "Dettagli tecnici",
-            "heading_size": "h1"
+            "heading": "{{ product.metafields.my_fields.dettagli_tecnici_prodotto.value.titolo_sezione.value }}",
+            "heading_size": "h0"
           }
         },
         "text_JNfEaK": {
           "type": "text",
+          "source": "{{ product.metafields.my_fields.dettagli_tecnici_prodotto.value }}",
           "settings": {
-            "text": "<p><\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_EDkKB7": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Approfondisci",
-            "button_link": "",
-            "button_style_secondary": false
+            "text": "{{ product.metafields.my_fields.dettagli_tecnici_prodotto.value.testo | metafield_tag }}",
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
         "heading_hLMdyH",
-        "text_JNfEaK",
-        "button_EDkKB7"
+        "text_JNfEaK"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.product_type_informations.value.immagine_singola.value }}",
+        "image": "{{ product.metafields.my_fields.dettagli_tecnici_prodotto.value.immagine.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "section_color_scheme": "background-1",
-        "color_scheme": "accent-1",
+        "section_color_scheme": "background-2",
+        "color_scheme": "inverse",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "my_logistica_nejePV": {
+    "my_logistica_WaCkBP": {
       "type": "my-logistica",
       "blocks": {
-        "heading_6RfDVj": {
+        "heading_rAWATG": {
           "type": "heading",
           "settings": {
             "heading": "Luoghi e Dettagli Logistici",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
-        "introduzione_fUGQ8W": {
+        "introduzione_9JyQG9": {
           "type": "introduzione",
+          "source": "{{ product.metafields.my_fields.logistica.value }}",
           "settings": {
             "introduzione": "{{ product.metafields.my_fields.logistica.value.richtext | metafield_tag }}"
           }
         },
-        "google_maps_link_dFGwy8": {
+        "google_maps_link_X6pQ3A": {
           "type": "google_maps_link",
+          "source": "{{ product.metafields.my_fields.logistica.value }}",
           "settings": {
-            "google_maps_link": "{{ product.metafields.my_fields.google_maps_link.value }}"
+            "google_maps_link": "{{ product.metafields.my_fields.logistica.value.google_maps_link.value }}"
           }
         },
-        "google_maps_meeting_point_68iDKB": {
+        "google_maps_meeting_point_ntJTzE": {
           "type": "google_maps_meeting_point",
+          "source": "{{ product.metafields.my_fields.logistica.value }}",
           "settings": {
-            "google_maps_meeting_point": "{{ product.metafields.my_fields.google_maps_meeting_point_name.value }}"
+            "google_maps_meeting_point": "{{ product.metafields.my_fields.logistica.value.google_maps_meeting_point_name.value }}"
           }
         },
-        "meeting_time_nhxmTV": {
+        "meeting_time_CwPktm": {
           "type": "meeting_time",
           "settings": {
-            "meeting_time": "{{ product.metafields.my_fields.meeting_time.value }}"
+            "meeting_time": "{{ product.metafields.my_fields.logistica.value.meeting_time.value }}"
           }
         }
       },
       "block_order": [
-        "heading_6RfDVj",
-        "introduzione_fUGQ8W",
-        "google_maps_link_dFGwy8",
-        "google_maps_meeting_point_68iDKB",
-        "meeting_time_nhxmTV"
+        "heading_rAWATG",
+        "introduzione_9JyQG9",
+        "google_maps_link_X6pQ3A",
+        "google_maps_meeting_point_ntJTzE",
+        "meeting_time_CwPktm"
+      ],
+      "custom_css": [
+        ".content-container {text-align: left;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -305,7 +303,7 @@
           "repeater": "{{ product.metafields.custom.product_type_informations.value.guida_alla_scala_difficolta.value }}",
           "settings": {
             "title": "<strong>{{ block.repeater.heading.value }}<\/strong>",
-            "text": "<p>{{ block.repeater.description | metafield_tag }}<\/p>",
+            "text": "<h3>{{ block.repeater.description | metafield_tag }}<\/h3>",
             "link_label": "",
             "link": ""
           }
@@ -315,7 +313,7 @@
         "column_FeRRPG"
       ],
       "settings": {
-        "title": "{{ product.metafields.my_fields.guida_alla_scala_di_difficolta_titolo.value }}",
+        "title": "{{ product.metafields.custom.product_type_informations.value.titolo_per_guida_alla_scala_di_difficolta.value }}",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
@@ -340,7 +338,7 @@
           "settings": {
             "heading": "{{ block.repeater.heading.value }}",
             "icon": "question_mark",
-            "row_content": "{{ block.repeater.testo | metafield_tag }}",
+            "row_content": "<p>{{ block.repeater.testo | metafield_tag }}<\/p>",
             "page": ""
           }
         }
@@ -486,7 +484,7 @@
     "multicolumn_TXqzir",
     "163718595294971582",
     "image_with_text_LQ66rc",
-    "my_logistica_nejePV",
+    "my_logistica_WaCkBP",
     "multicolumn_HAtrkq",
     "collapsible_content_fmdA47",
     "163718534225228dba",

@@ -88,7 +88,7 @@
             "heading_size": "h0",
             "subheading": "<strong>Cinque giorni per esplorare le pareti più iconiche delle Dolomiti, immersi nella roccia, nella tecnica e nella bellezza di un ambiente unico.<\/strong>",
             "button_label": "Scopri di più",
-            "link": "shopify:\/\/products\/arrampicata-becco-di-mezzodi-cortina",
+            "link": "shopify:\/\/products\/arrampicata-dolomiti-multipitch-5-giorni-su-vie-classiche",
             "button_style_secondary": false,
             "box_align": "top-center",
             "show_text_box": false,
@@ -178,6 +178,7 @@
         "slide_LdPXMk",
         "slide_rUGWgr"
       ],
+      "disabled": true,
       "custom_css": [
         ".banner__text {font-size: 1.5em;}"
       ],

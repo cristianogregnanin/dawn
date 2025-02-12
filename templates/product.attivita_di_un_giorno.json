@@ -168,7 +168,7 @@
           "source": "{{ product.metafields.my_fields.requisiti_e_materiale.value }}",
           "settings": {
             "heading": "{{ product.metafields.my_fields.requisiti_e_materiale.value.titolo.value }}",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "1637185952f4e2f539-1": {
@@ -208,7 +208,7 @@
           "source": "{{ product.metafields.my_fields.dettagli_tecnici_prodotto.value }}",
           "settings": {
             "heading": "{{ product.metafields.my_fields.dettagli_tecnici_prodotto.value.titolo_sezione.value }}",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_JNfEaK": {
@@ -247,48 +247,17 @@
           "type": "heading",
           "settings": {
             "heading": "Luoghi e Dettagli Logistici",
-            "heading_size": "h0"
-          }
-        },
-        "introduzione_9JyQG9": {
-          "type": "introduzione",
-          "source": "{{ product.metafields.my_fields.logistica.value }}",
-          "settings": {
-            "introduzione": "{{ product.metafields.my_fields.logistica.value.richtext | metafield_tag }}"
-          }
-        },
-        "google_maps_link_X6pQ3A": {
-          "type": "google_maps_link",
-          "source": "{{ product.metafields.my_fields.logistica.value }}",
-          "settings": {
-            "google_maps_link": "{{ product.metafields.my_fields.logistica.value.google_maps_link.value }}"
-          }
-        },
-        "google_maps_meeting_point_ntJTzE": {
-          "type": "google_maps_meeting_point",
-          "source": "{{ product.metafields.my_fields.logistica.value }}",
-          "settings": {
-            "google_maps_meeting_point": "{{ product.metafields.my_fields.logistica.value.google_maps_meeting_point_name.value }}"
-          }
-        },
-        "meeting_time_CwPktm": {
-          "type": "meeting_time",
-          "settings": {
-            "meeting_time": "{{ product.metafields.my_fields.logistica.value.meeting_time.value }}"
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "heading_rAWATG",
-        "introduzione_9JyQG9",
-        "google_maps_link_X6pQ3A",
-        "google_maps_meeting_point_ntJTzE",
-        "meeting_time_CwPktm"
+        "heading_rAWATG"
       ],
-      "custom_css": [
-        ".content-container {text-align: left;}"
-      ],
+      "custom_css": [],
       "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -322,7 +291,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,

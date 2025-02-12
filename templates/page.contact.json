@@ -11,7 +11,7 @@
     "16378694532ffa68ba": {
       "type": "image-banner",
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/217950656_2926765497584694_9034443262752520872_n.jpg",
+        "image": "shopify:\/\/shop_images\/Arrampicata_lumignano_araba_fenice_Cristiano_Gregnanin_Guida_Alpina_Certificata_Dolomiti_1.jpg",
         "image_overlay_opacity": 10,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -43,7 +43,6 @@
     },
     "1637870962452094be": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "1637870962c7f3cf93-0": {
           "type": "featured_collection",
@@ -90,6 +89,7 @@
         "4627a3ce-fde0-41c3-84e3-4fe06481a8a3",
         "61fb9204-5333-4cda-bb81-eed96d9ee7d7"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -121,8 +121,7 @@
         },
         "16378720036b010de7-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

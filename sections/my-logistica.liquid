@@ -90,17 +90,18 @@
               {{ logistica.google_maps_meeting_point_name }}
             </a>
           </div>
-
-          <div
-            class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-            {% if settings.animations_reveal_on_scroll %}
-              data-cascade
-              style="--animation-order: 30;"
-            {% endif %}
-          >
-            {% render 'icon-accordion', icon: 'plane' %}
-            {{ logistica.meeting_time }}
-          </div>
+          {% if logistica.meeting_time %}
+            <div
+              class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+                style="--animation-order: 30;"
+              {% endif %}
+            >
+              {% render 'icon-accordion', icon: 'plane' %}
+              {{ logistica.meeting_time }}
+            </div>
+          {% endif %}
         {% endif %}
       </div>
     </div>

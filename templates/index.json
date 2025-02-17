@@ -119,7 +119,6 @@
         "slide_7eJ6P4": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ferrata-delle-trincee-al-padon-laguidalpina-guida-alpina-cristiano-gregnanin-932453.jpg",
             "heading": "4 Giorni di Ferrate e Avventura sulla Marmolada",
             "heading_size": "h0",
             "subheading": "<strong>Un percorso unico tra le cime più spettacolari: dalle trincee della Grande Guerra alla vetta della Marmolada, con un'esperienza notturna indimenticabile in quota.<\/strong>",
@@ -259,7 +258,7 @@
         "16475088595a207a72-7"
       ],
       "settings": {
-        "product": "corso-base-di-scialpinismo",
+        "product": "corso-ferrate-lago-di-garda",
         "color_scheme": "inverse",
         "secondary_background": false,
         "media_size": "medium",
@@ -684,7 +683,6 @@
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/28235369_1384000895037239_1284807743030233496_o.jpg",
             "title": "",
             "text": "",
             "link_label": "",

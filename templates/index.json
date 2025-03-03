@@ -100,12 +100,13 @@
         },
         "slide_pTxEVz": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsApp_Image_2025-01-24_at_10.12.11.jpg",
             "heading": "4 Giorni Oltre le Nuvole: Traversata Delle Pale di San Martino",
             "heading_size": "h0",
             "subheading": "<strong>Un percorso avvincente tra guglie e creste spettacolari, dalle pareti imponenti della Bolver-Lugli ai sentieri panoramici della Fradusta, fino alle storiche ferrate del Porton e del Velo. Un'immersione totale nel cuore selvaggio delle Dolomiti.<\/strong>",
-            "button_label": "Etichetta pulsante",
+            "button_label": "Scopri di più",
             "link": "shopify:\/\/products\/arrampicata-tofana-primo-spigolo",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -118,7 +119,9 @@
         },
         "slide_7eJ6P4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2025-01-24_at_10.26.43.jpg",
             "heading": "4 Giorni di Ferrate e Avventura sulla Marmolada",
             "heading_size": "h0",
             "subheading": "<strong>Un percorso unico tra le cime più spettacolari: dalle trincee della Grande Guerra alla vetta della Marmolada, con un'esperienza notturna indimenticabile in quota.<\/strong>",
@@ -136,23 +139,24 @@
         "slide_LdPXMk": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Schermata_del_2025-01-29_17-56-15.png",
+            "image": "shopify:\/\/shop_images\/civetta3_2bd0ff24-a1ff-48fe-b27c-ca40359e0b43.jpg",
             "heading": "La Grande Traversata del Civetta: Tre Ferrate per Conquistare la Parete delle Pareti",
             "heading_size": "h0",
-            "subheading": "<strong>Un viaggio verticale attraverso le leggendarie vie ferrate del Civetta: dalla tecnica della Costantini, all’impegno della Tissi, fino alla spettacolare Alleghesi. Un'esperienza alpinistica indimenticabile nel cuore delle Dolomiti.<\/strong>",
+            "subheading": "<strong>Un viaggio verticale attraverso le leggendarie vie ferrate del Civetta: dalla tecnica della Costantini, all’impegno della Tissi, fino alla spettacolare Alleghesi. <\/strong>",
             "button_label": "Scopri di più",
-            "link": "shopify:\/\/products\/arrampicata-becco-di-mezzodi-cortina",
+            "link": "shopify:\/\/products\/la-grande-traversata-del-civetta",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 40,
+            "image_overlay_opacity": 0,
             "color_scheme": "accent-1",
             "text_alignment_mobile": "center"
           }
         },
         "slide_rUGWgr": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_20210706_055907.jpg",
             "heading": "Capanna Margherita e Oltre: 3 Giorni tra i Giganti del Monte Rosa",
@@ -177,7 +181,6 @@
         "slide_LdPXMk",
         "slide_rUGWgr"
       ],
-      "disabled": true,
       "custom_css": [
         ".banner__text {font-size: 1.5em;}"
       ],
@@ -189,7 +192,7 @@
         "change_slides_speed": 9,
         "image_behavior": "ambient",
         "show_text_below": false,
-        "accessibility_info": "Presentazione sul nostro brand"
+        "accessibility_info": "Avventure con la A maiuscola!"
       }
     },
     "16475088591420f14e": {
@@ -661,67 +664,65 @@
     "e7319d71-c7dc-4bc7-9738-ca6825bddc8a": {
       "type": "multicolumn",
       "blocks": {
-        "column_eJENrh": {
-          "type": "column",
-          "settings": {
-            "title": "Colonna",
-            "text": "<p>Associa un testo a un'immagine per dare importanza al prodotto, alla collezione o all'articolo del blog di tua scelta. Aggiungi dettagli sulla disponibilità, sullo stile o fornisci una recensione.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/download.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "guidealpineveneto.it",
+            "link": "https:\/\/www.guidealpineveneto.it\/"
+          }
+        },
+        "column_wCcDw9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/passo-duran-bianco.png",
+            "title": "",
+            "text": "",
+            "link_label": "rifugiopassoduran.it",
+            "link": "https:\/\/rifugiopassoduran.it\/"
           }
         },
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_Rifugio_Scarpa_Agner-14.png",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "rifugioscarpa.com",
+            "link": "https:\/\/www.rifugioscarpa.com\/"
           }
         },
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download.png",
+            "image": "shopify:\/\/shop_images\/Ferrate365LogoHomePage.png",
             "title": "",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "ferrate365.it",
+            "link": "https:\/\/www.ferrate365.it\/"
           }
         }
       },
       "block_order": [
-        "column_eJENrh",
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-1",
+        "column_wCcDw9",
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-3",
         "template--14172299395205__e7319d71-c7dc-4bc7-9738-ca6825bddc8a-column-2"
       ],
-      "custom_css": [
-        ".multicolumn {position: relative; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0363\/7965\/6325\/files\/WhatsApp_Image_2025-01-24_at_10.29.49.jpg?v=1737712631\") no-repeat center; background-size: cover; color: #fff;}",
-        ".multicolumn .multicolumn__wrapper {position: relative; z-index: 1; color: #fff;}",
-        ".multicolumn__heading,.multicolumn__text,.multicolumn h1,.multicolumn h2,.multicolumn h3,.multicolumn h4,.multicolumn h5,.multicolumn h6 {color: #fff !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-f5929083-6158-448b-acda-84633299b007",
+        "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,

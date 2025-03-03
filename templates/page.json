@@ -3,11 +3,15 @@
     "163791582072089dd9": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/217950656_2926765497584694_9034443262752520872_n.jpg",
+        "image": "shopify:\/\/shop_images\/Corsi_estivi_e_invernali_con_Cristiano_Gregnanin_Guida_Alpina_Certificata_Dolomiti.jpg",
         "image_overlay_opacity": 10,
         "image_height": "small",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -69,10 +73,15 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
         "image_ratio": "square",
+        "columns_desktop": 3,
         "color_scheme": "accent-1",
         "show_view_all": false,
-        "swipe_on_mobile": true
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },

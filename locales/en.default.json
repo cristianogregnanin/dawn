@@ -600,6 +600,9 @@
         },
         "view_all_items": {
           "many": "View all articles (%{count})"
+        },
+        "pickup_unavailable_banner_title": {
+          "many": "Your items are not available for in-store pickup"
         }
       },
       "shipping": {
@@ -804,6 +807,9 @@
         },
         "number_of_pickup_points_near_location": {
           "many": "%{count} of collection points near you"
+        },
+        "pickup_unavailable_banner_title": {
+          "many": "Your items are not available at collection points"
         }
       },
       "local_pickup": {
@@ -817,6 +823,11 @@
         },
         "reveal_more_label": {
           "many": "Show more %{count} locations"
+        }
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "remove_items_action": {
+          "many": "remove unavailable items"
         }
       }
     },
@@ -876,6 +887,9 @@
         },
         "delivered_description_digital": {
           "many": "These articles have been completed."
+        },
+        "tracking_number": {
+          "many": "Tracking Numbers"
         }
       },
       "if_not_received": {

@@ -174,7 +174,7 @@
         "note": "การกำหนดราคาตามปริมาณพร้อมใช้งาน",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "ราคา {{ price }}/หน่วย"
+        "price_at_each_html": "ราคา {{ price }}\/หน่วย"
       },
       "product_variants": "ตัวเลือกสินค้า",
       "taxes_included": "รวมภาษีแล้ว",

@@ -174,7 +174,7 @@
         "note": "Toplu alım bazlı fiyatlandırma kullanılabilir",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "{{ price }}/adet"
+        "price_at_each_html": "{{ price }}\/adet"
       },
       "product_variants": "Ürün varyasyonları",
       "taxes_included": "Vergiler dahil.",

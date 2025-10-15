@@ -176,7 +176,7 @@
         "note": "La tarification basée sur le volume est disponible",
         "minimum": "{{ quantity }} ou plus",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "à {{ price }}/pièce"
+        "price_at_each_html": "à {{ price }}\/pièce"
       },
       "taxes_included": "Taxes incluses.",
       "duties_included": "Frais de douane inclus.",

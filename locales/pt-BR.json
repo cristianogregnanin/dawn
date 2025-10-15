@@ -175,7 +175,7 @@
         "note": "Os preços por volume estão disponíveis",
         "minimum": "Mais de {{ quantity }}",
         "price_range": "{{ minimum }} – {{ maximum }}",
-        "price_at_each_html": "{{ price }}/cada"
+        "price_at_each_html": "{{ price }}\/cada"
       },
       "product_variants": "Variantes do produto",
       "taxes_included": "Tributos incluídos.",

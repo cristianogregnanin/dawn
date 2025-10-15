@@ -176,7 +176,7 @@
         "note": "Ceny s objemovou slevou k dispozici",
         "minimum": "{{ quantity }} a více",
         "price_range": "{{ minimum }}–{{ maximum }}",
-        "price_at_each_html": "{{ price }} / ks"
+        "price_at_each_html": "{{ price }} \/ ks"
       },
       "product_variants": "Varianty produktu",
       "taxes_included": "Včetně daní.",

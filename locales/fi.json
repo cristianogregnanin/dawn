@@ -174,7 +174,7 @@
         "note": "Volyymihinnoittelu saatavilla",
         "minimum": "Yli {{ quantity }}",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "{{ price }}/kpl"
+        "price_at_each_html": "{{ price }}\/kpl"
       },
       "product_variants": "Tuoteversiot",
       "taxes_included": "Sisältää verot.",

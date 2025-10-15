@@ -175,7 +175,7 @@
         "note": "提供批發價",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "{{ price }}/每項"
+        "price_at_each_html": "{{ price }}\/每項"
       },
       "taxes_included": "已包含稅額。",
       "duties_included": "已包含關稅。",

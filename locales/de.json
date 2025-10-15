@@ -174,7 +174,7 @@
         "note": "Volumenabhängige Preisgestaltung verfügbar",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }}–{{ maximum }}",
-        "price_at_each_html": "bei {{ price }}/Stück"
+        "price_at_each_html": "bei {{ price }}\/Stück"
       },
       "product_variants": "Produktvarianten",
       "taxes_included": "Inkl. Steuern.",

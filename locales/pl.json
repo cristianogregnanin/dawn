@@ -176,7 +176,7 @@
         "note": "Ceny zależne od wolumenu są dostępne",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "{{ price }}/szt."
+        "price_at_each_html": "{{ price }}\/szt."
       },
       "product_variants": "Warianty produktów",
       "taxes_included": "Z wliczonymi podatkami.",

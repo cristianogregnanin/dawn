@@ -174,7 +174,7 @@
         "note": "Има възможност за цени на едро",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }} – {{ maximum }}",
-        "price_at_each_html": "при {{ price }}/бр."
+        "price_at_each_html": "при {{ price }}\/бр."
       },
       "product_variants": "Варианти на продукта",
       "taxes_included": "С включени данъци.",

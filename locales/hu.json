@@ -175,7 +175,7 @@
         "note": "Mennyiségi árszabás rendelkezésre áll",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }} – {{ maximum }}",
-        "price_at_each_html": "{{ price }}/db"
+        "price_at_each_html": "{{ price }}\/db"
       },
       "taxes_included": "Tartalmazza az adókat.",
       "duties_included": "Tartalmazza a vámokat.",

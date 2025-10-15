@@ -175,7 +175,7 @@
         "note": "Διατίθεται τιμολόγηση βάσει ποσότητας",
         "minimum": "{{ quantity }}+",
         "price_range": "{{ minimum }} - {{ maximum }}",
-        "price_at_each_html": "στα {{ price }}/τμχ"
+        "price_at_each_html": "στα {{ price }}\/τμχ"
       },
       "taxes_included": "Οι φόροι συμπεριλαμβάνονται.",
       "duties_included": "Οι δασμοί συμπεριλαμβάνονται.",

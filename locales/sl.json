@@ -177,7 +177,7 @@
         "note": "Na voljo je količinski popust",
         "minimum": "{{ quantity }} in več",
         "price_range": "{{ minimum }}–{{ maximum }}",
-        "price_at_each_html": "po ceni {{ price }}/kos"
+        "price_at_each_html": "po ceni {{ price }}\/kos"
       },
       "taxes_included": "Davki vključeni.",
       "duties_included": "Dajatve vključene.",

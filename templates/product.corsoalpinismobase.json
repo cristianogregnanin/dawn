@@ -5,8 +5,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -16,8 +15,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -27,8 +25,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "7b676540-72a1-4760-9362-479e3f6157c6": {
           "type": "collapsible_tab_events",
@@ -85,9 +82,9 @@
         "1637185714f72c4a7b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
+            "image": "shopify://shop_images/icon-casco__4_-removebg-preview.png",
             "title": "Casco",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -95,9 +92,9 @@
         "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
+            "image": "shopify://shop_images/noun_Climbing_Harness_139886-removebg-preview.png",
             "title": "Imbrago",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -105,9 +102,9 @@
         "1637185714f72c4a7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Via_ferrata_886685-removebg-preview.png",
+            "image": "shopify://shop_images/noun_Via_ferrata_886685-removebg-preview.png",
             "title": "Kit da ferrata",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -115,9 +112,9 @@
         "1637185714f72c4a7b-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_crampon_456546-removebg-preview.png",
+            "image": "shopify://shop_images/noun_crampon_456546-removebg-preview.png",
             "title": "Ramponi",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -125,9 +122,9 @@
         "3ed90333-c9bd-4118-9230-53f0052a2904": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_ice_axe_456552-removebg-preview.png",
+            "image": "shopify://shop_images/noun_ice_axe_456552-removebg-preview.png",
             "title": "Piccozza",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -170,7 +167,7 @@
         "1652953034821a5a47-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Cinque uscite in ambiente<\/strong><\/p><p><strong>1<\/strong> – Giornata dedicata all'apprendimento delle tecniche di arrampicata, ai nodi e alle manovre di sicurezza di base. In particolare si studieranno: corda doppia, soste, nodi. La giornata si svolgerà in falesia a Rocca Pendice o falesia limitrofa<\/p><p><strong>2<\/strong> – Facile ferrata, ripasso della lezione precedente in particolare i nodi. Spiegazione della legatura in cordata per l'attraversamento di ghiacciai<\/p><p><strong>3<\/strong> – Applicazione delle tecniche di sicurezza su roccia affrontando una breve salita. L'obiettivo della giornata è applicare quanto imparato nelle giornate precedenti.<\/p><p><strong>4<\/strong> – Marmolada: salita al rifugio. Spiegazione e applicazione manovre e tecniche di sicurezza su ghiaccio. Ripasso legatura in cordata, prove di trattenuta. Pernotto in rifugio.<\/p><p><strong>5<\/strong> – Marmolada: salita a Punta Penia o Rocca in funzione delle condizioni. Legatura in cordata e corretto utilizzo di ramponi e piccozza.<\/p><p>Prima di aderire si invita a consultare le <strong>condizioni contrattuali<\/strong>. In particolar modo si ricorda che l’eventuale <strong>assenza all’uscita programmata non dà diritto<\/strong> ad un recupero e nemmeno può essere rimborsata.<\/p><p><br\/><\/p>",
+            "text": "<p><strong>Cinque uscite in ambiente</strong></p><p><strong>1</strong> – Giornata dedicata all'apprendimento delle tecniche di arrampicata, ai nodi e alle manovre di sicurezza di base. In particolare si studieranno: corda doppia, soste, nodi. La giornata si svolgerà in falesia a Rocca Pendice o falesia limitrofa</p><p><strong>2</strong> – Facile ferrata, ripasso della lezione precedente in particolare i nodi. Spiegazione della legatura in cordata per l'attraversamento di ghiacciai</p><p><strong>3</strong> – Applicazione delle tecniche di sicurezza su roccia affrontando una breve salita. L'obiettivo della giornata è applicare quanto imparato nelle giornate precedenti.</p><p><strong>4</strong> – Marmolada: salita al rifugio. Spiegazione e applicazione manovre e tecniche di sicurezza su ghiaccio. Ripasso legatura in cordata, prove di trattenuta. Pernotto in rifugio.</p><p><strong>5</strong> – Marmolada: salita a Punta Penia o Rocca in funzione delle condizioni. Legatura in cordata e corretto utilizzo di ramponi e piccozza.</p><p>Prima di aderire si invita a consultare le <strong>condizioni contrattuali</strong>. In particolar modo si ricorda che l’eventuale <strong>assenza all’uscita programmata non dà diritto</strong> ad un recupero e nemmeno può essere rimborsata.</p><p><br/></p>",
             "text_style": "body"
           }
         },
@@ -189,7 +186,7 @@
         "1652953034821a5a47-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cortina_sci18_rider_Silvia_Moser_photo_Carlo_Cosi_8ed52175-08bc-4e7f-aad6-db9e1bf54956.jpg",
+        "image": "shopify://shop_images/Cortina_sci18_rider_Silvia_Moser_photo_Carlo_Cosi_8ed52175-08bc-4e7f-aad6-db9e1bf54956.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -215,7 +212,7 @@
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>A﻿bitudine a camminare diverse ore in salita<\/p><p>Abitudine al freddo, anche intenso<\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>A﻿ttrezzatura completa da alpinismo. <strong>Tutta l'attrezzatura è noleggiabile previa prenotazione<\/strong><\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p><p><\/p><p><\/p>",
+            "text": "<p><strong>Requisiti necessari:</strong></p><p>Non soffrire di vertigini</p><p>A﻿bitudine a camminare diverse ore in salita</p><p>Abitudine al freddo, anche intenso</p><p><br/><strong>Materiale necessario:</strong></p><p>A﻿ttrezzatura completa da alpinismo. <strong>Tutta l'attrezzatura è noleggiabile previa prenotazione</strong></p><p>Zaino capiente (30 litri)</p><p>Piumino</p><p>Pantaloni shoeller o polartec</p><p>Intimo tecnico</p><p>G﻿uscio in Goretex</p><p>Due paia di guanti, uno leggero e uno pesante</p><p>Berretto</p><p>Crema solare, burro cacao</p><p>﻿Occhiali da sole</p><p></p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.</strong></p><p></p><p></p>",
             "text_style": "body"
           }
         },
@@ -224,7 +221,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Richiedi informazioni",
-            "button_link": "shopify:\/\/pages\/contacts"
+            "button_link": "shopify://pages/contacts"
           }
         }
       },
@@ -234,7 +231,7 @@
         "1637185718e8ab5b66-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/traversata_Sennes-Braies_photo_Carlo_Cosi.jpg",
+        "image": "shopify://shop_images/traversata_Sennes-Braies_photo_Carlo_Cosi.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -261,7 +258,7 @@
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p><p><strong>Dislivelli: <\/strong>dai 700 ai 1200 metri in funzione dell'escursione<\/p>",
+            "text": "<p><strong>Difficoltà: </strong>{{ product.metafields.my_fields.difficolta.value }}</p><p><strong>Tempo medio di percorrenza: </strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}</p><p><strong>Dislivelli: </strong>dai 700 ai 1200 metri in funzione dell'escursione</p>",
             "text_style": "body"
           }
         },
@@ -280,7 +277,7 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Sennes_photo_Carlo_Cosi.jpg",
+        "image": "shopify://shop_images/Sennes_photo_Carlo_Cosi.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -293,31 +290,6 @@
         "padding_bottom": 36
       }
     },
-    "163760600479781804": {
-      "type": "my-product-googlemaps",
-      "blocks": {
-        "1637606004d36262b0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Destinazioni"
-          }
-        },
-        "1637606004d36262b0-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>Le destinazioni potranno variare di volta in funzione del meteo, anche se generalmente il primo giorno si svolge a Rocca Pendice (PD), il secondo e il terzo ad Arco (TN), il quarto e quinto in Marmolada o altro ghiacciaio in funzione delle temperature e delle condizioni nivo-meteteologiche<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1637606004d36262b0-0",
-        "1637606004d36262b0-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": false
-      }
-    },
     "16401249236ccfbf9e": {
       "type": "multicolumn",
       "disabled": true,
@@ -326,7 +298,7 @@
           "type": "column",
           "settings": {
             "title": "MS - Medio Sciatore",
-            "text": "<p>Pendii facili, fino a 30 gradi.<\/p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.<\/p><p>L'eventuale aggiunta di una A MSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago.<\/p>",
+            "text": "<p>Pendii facili, fino a 30 gradi.</p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.</p><p>L'eventuale aggiunta di una A MSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago.</p>",
             "link_label": "",
             "link": ""
           }
@@ -335,7 +307,7 @@
           "type": "column",
           "settings": {
             "title": "BS - Buono Sciatore",
-            "text": "<p>Pendii fino a 40 gradi, per tratti brevi e poco esposti<\/p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.<\/p><p>L'eventuale aggiunta di una A BSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago<\/p>",
+            "text": "<p>Pendii fino a 40 gradi, per tratti brevi e poco esposti</p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.</p><p>L'eventuale aggiunta di una A BSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago</p>",
             "link_label": "",
             "link": ""
           }
@@ -344,7 +316,7 @@
           "type": "column",
           "settings": {
             "title": "OS - Ottimo Sciatore",
-            "text": "<p>Pendii anche oltre 40 gradi, passaggi obbligati ed esposti.<\/p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.<\/p><p>L'eventuale aggiunta di una A OSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago<\/p>",
+            "text": "<p>Pendii anche oltre 40 gradi, passaggi obbligati ed esposti.</p><p>Saper scendere in sicurezza una pista nera (No spazzaneve) è condizione necessaria.</p><p>L'eventuale aggiunta di una A OSA, indica la presenza di difficoltà alpinistiche, come tratti rocciosi o ghiacciai che potrebbero richiedere l'uso di ramponi, piccozza, corda, casco e imbrago</p>",
             "link_label": "",
             "link": ""
           }
@@ -380,7 +352,7 @@
           "settings": {
             "heading": "Devo essere molto allenato?",
             "icon": "question_mark",
-            "row_content": "<p>L'alpinismo è un'attività generalmente abbastanza faticosa, anche per le salite più elementari è necessario avere una buona forma fisica ed essere abituati a camminare per diverse ore in salita.<\/p>",
+            "row_content": "<p>L'alpinismo è un'attività generalmente abbastanza faticosa, anche per le salite più elementari è necessario avere una buona forma fisica ed essere abituati a camminare per diverse ore in salita.</p>",
             "page": ""
           }
         },
@@ -389,7 +361,7 @@
           "settings": {
             "heading": "Sono senza attrezzatura, è possibile noleggiarla?",
             "icon": "question_mark",
-            "row_content": "<p>Si è possibile noleggiarla, basta prenotarla con almeno due settimane di anticipo.<\/p>",
+            "row_content": "<p>Si è possibile noleggiarla, basta prenotarla con almeno due settimane di anticipo.</p>",
             "page": ""
           }
         },
@@ -398,7 +370,7 @@
           "settings": {
             "heading": "Come ci si comporta in caso di mal tempo?",
             "icon": "question_mark",
-            "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.<\/p>",
+            "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.</p>",
             "page": ""
           }
         },
@@ -407,7 +379,7 @@
           "settings": {
             "heading": "Posso partecipare alle singole uscite?",
             "icon": "question_mark",
-            "row_content": "<p>No, il corso è costituito da 5 giornate. Se sei già esperto di qualche ambito userai la giornata per studiare tecniche e progressioni avanzate<\/p>",
+            "row_content": "<p>No, il corso è costituito da 5 giornate. Se sei già esperto di qualche ambito userai la giornata per studiare tecniche e progressioni avanzate</p>",
             "page": ""
           }
         }
@@ -524,13 +496,12 @@
         "1637185148dd57c2c6-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività<\/p>"
+            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività</p>"
           }
         },
         "1637185148dd57c2c6-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -552,7 +523,6 @@
     "1652953034cc4e9681",
     "163718571838645ff8",
     "163718595294971582",
-    "163760600479781804",
     "16401249236ccfbf9e",
     "16533204749d721a0c",
     "163718534225228dba",

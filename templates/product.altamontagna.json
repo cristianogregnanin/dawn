@@ -5,8 +5,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -16,8 +15,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -27,8 +25,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "7b676540-72a1-4760-9362-479e3f6157c6": {
           "type": "collapsible_tab_events",
@@ -88,9 +85,9 @@
         "1637185714f72c4a7b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
+            "image": "shopify://shop_images/icon-casco__4_-removebg-preview.png",
             "title": "Casco",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -98,9 +95,9 @@
         "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
+            "image": "shopify://shop_images/noun_Climbing_Harness_139886-removebg-preview.png",
             "title": "Imbrago",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -108,9 +105,9 @@
         "1637185714f72c4a7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_ice_axe_456552-removebg-preview.png",
+            "image": "shopify://shop_images/noun_ice_axe_456552-removebg-preview.png",
             "title": "Piccozza",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -118,9 +115,9 @@
         "93a01aa1-98eb-4bb1-be2f-d78d71bee0af": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_crampon_456546-removebg-preview.png",
+            "image": "shopify://shop_images/noun_crampon_456546-removebg-preview.png",
             "title": "Ramponi",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -162,7 +159,7 @@
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>O﻿ttima forma fisica<\/p><p>A﻿bitudine a camminare molte ore in salita e discesa<\/p><p>Abitudine al freddo, anche intenso<\/p><p><\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>Scarponi da alta montagna impermeabili (NO moonboot), meglio se ramponabili o semi ramponabili<\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Bastoncini da trekking con rotella larga<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p>M﻿ateriale di conforto e ricambio se è prevista una o piu notti in rifugio<\/p><p><\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p><p><\/p><p><\/p><p><\/p>",
+            "text": "<p><strong>Requisiti necessari:</strong></p><p>Non soffrire di vertigini</p><p>O﻿ttima forma fisica</p><p>A﻿bitudine a camminare molte ore in salita e discesa</p><p>Abitudine al freddo, anche intenso</p><p></p><p></p><p><br/><strong>Materiale necessario:</strong></p><p>Scarponi da alta montagna impermeabili (NO moonboot), meglio se ramponabili o semi ramponabili</p><p>Zaino capiente (30 litri)</p><p>Piumino</p><p>Pantaloni shoeller o polartec</p><p>Intimo tecnico</p><p>G﻿uscio in Goretex</p><p>Due paia di guanti, uno leggero e uno pesante</p><p>Berretto</p><p>Bastoncini da trekking con rotella larga</p><p>Crema solare, burro cacao</p><p>﻿Occhiali da sole</p><p>M﻿ateriale di conforto e ricambio se è prevista una o piu notti in rifugio</p><p></p><p></p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.</strong></p><p></p><p></p><p></p>",
             "text_style": "body"
           }
         },
@@ -171,7 +168,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Richiedi informazioni",
-            "button_link": "shopify:\/\/pages\/contacts"
+            "button_link": "shopify://pages/contacts"
           }
         }
       },
@@ -181,7 +178,7 @@
         "1637185718e8ab5b66-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pink-snow-covered-mountain-tops.jpg",
+        "image": "shopify://shop_images/pink-snow-covered-mountain-tops.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -208,7 +205,7 @@
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Dislivello:<\/strong> {{ product.metafields.my_fields.dislivello.value }} metri<\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>",
+            "text": "<p><strong>Dislivello:</strong> {{ product.metafields.my_fields.dislivello.value }} metri</p><p><strong>Difficoltà: </strong>{{ product.metafields.my_fields.difficolta.value }}</p><p><strong>Tempo medio di percorrenza: </strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}</p>",
             "text_style": "body"
           }
         },
@@ -227,7 +224,7 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/235518700_416725416426392_7893555961675329237_n.jpg",
+        "image": "shopify://shop_images/235518700_416725416426392_7893555961675329237_n.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -241,31 +238,6 @@
         "padding_bottom": 36
       }
     },
-    "163760600479781804": {
-      "type": "my-product-googlemaps",
-      "blocks": {
-        "1637606004d36262b0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Logistica"
-          }
-        },
-        "1637606004d36262b0-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>Al momento della prenotazione per comodità logistica è possibile organizzare punti di ritrovo alternativi al fine di condividere il viaggio. L'orario di ritrovo sarà deciso qualche giorno prima in base al meteo.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1637606004d36262b0-0",
-        "1637606004d36262b0-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": false
-      }
-    },
     "16533204749d721a0c": {
       "type": "collapsible-content",
       "blocks": {
@@ -274,7 +246,7 @@
           "settings": {
             "heading": "Come ci si comporta in caso di mal tempo?",
             "icon": "question_mark",
-            "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.<\/p>",
+            "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.</p>",
             "page": ""
           }
         }
@@ -388,13 +360,12 @@
         "1637185148dd57c2c6-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività<\/p>"
+            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività</p>"
           }
         },
         "1637185148dd57c2c6-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -415,7 +386,6 @@
     "1637185714df29ebbf",
     "163718571838645ff8",
     "163718595294971582",
-    "163760600479781804",
     "16533204749d721a0c",
     "163718534225228dba",
     "1637185175e3c684fb",

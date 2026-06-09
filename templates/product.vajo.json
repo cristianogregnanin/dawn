@@ -5,8 +5,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -16,8 +15,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -27,8 +25,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "7b676540-72a1-4760-9362-479e3f6157c6": {
           "type": "collapsible_tab_events",
@@ -84,9 +81,9 @@
         "1637185714f72c4a7b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
+            "image": "shopify://shop_images/icon-casco__4_-removebg-preview.png",
             "title": "Casco",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -94,9 +91,9 @@
         "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
+            "image": "shopify://shop_images/noun_Climbing_Harness_139886-removebg-preview.png",
             "title": "Imbrago",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -104,9 +101,9 @@
         "1637185714f72c4a7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_crampon_456546-removebg-preview.png",
+            "image": "shopify://shop_images/noun_crampon_456546-removebg-preview.png",
             "title": "Ramponi",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -114,9 +111,9 @@
         "3ed90333-c9bd-4118-9230-53f0052a2904": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_ice_axe_456552-removebg-preview.png",
+            "image": "shopify://shop_images/noun_ice_axe_456552-removebg-preview.png",
             "title": "Piccozza",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -158,7 +155,7 @@
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p>O﻿ttima forma fisica, abitudine a camminare su terreni impervi e scoscesi per diverse ore<\/p><p>Abitudine al freddo, anche intenso<\/p><p><\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>S﻿carponi da alta montagna oppure pedule impermeabili (NO moonboot)<\/p><p>Zaino capiente (30 litri)<\/p><p>Piumino<\/p><p>Pantaloni shoeller o polartec<\/p><p>Intimo tecnico<\/p><p>G﻿uscio in Goretex<\/p><p>Due paia di guanti, uno leggero e uno pesante<\/p><p>Berretto<\/p><p>Bastoncini da trekking con rotella larga<\/p><p>Crema solare, burro cacao<\/p><p>﻿Occhiali da sole<\/p><p>﻿Thermos di the caldo<\/p><p><\/p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.<\/strong><\/p>",
+            "text": "<p><strong>Requisiti necessari:</strong></p><p>Non soffrire di vertigini</p><p>O﻿ttima forma fisica, abitudine a camminare su terreni impervi e scoscesi per diverse ore</p><p>Abitudine al freddo, anche intenso</p><p></p><p><br/><strong>Materiale necessario:</strong></p><p>S﻿carponi da alta montagna oppure pedule impermeabili (NO moonboot)</p><p>Zaino capiente (30 litri)</p><p>Piumino</p><p>Pantaloni shoeller o polartec</p><p>Intimo tecnico</p><p>G﻿uscio in Goretex</p><p>Due paia di guanti, uno leggero e uno pesante</p><p>Berretto</p><p>Bastoncini da trekking con rotella larga</p><p>Crema solare, burro cacao</p><p>﻿Occhiali da sole</p><p>﻿Thermos di the caldo</p><p></p><p><strong>In caso siate sprovvisti di materiale chiedetelo con qualche giorno di anticipo e, nel limite delle possibilità, troveremo assieme una soluzione.</strong></p>",
             "text_style": "body"
           }
         },
@@ -167,7 +164,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Richiedi informazioni",
-            "button_link": "shopify:\/\/pages\/contacts"
+            "button_link": "shopify://pages/contacts"
           }
         }
       },
@@ -177,7 +174,7 @@
         "1637185718e8ab5b66-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pink-snow-covered-mountain-tops.jpg",
+        "image": "shopify://shop_images/pink-snow-covered-mountain-tops.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -203,7 +200,7 @@
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Dislivello:<\/strong> {{ product.metafields.my_fields.dislivello.value }} metri<\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><strong>Tempo medio di percorrenza: <\/strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}<\/p>",
+            "text": "<p><strong>Dislivello:</strong> {{ product.metafields.my_fields.dislivello.value }} metri</p><p><strong>Difficoltà: </strong>{{ product.metafields.my_fields.difficolta.value }}</p><p><strong>Tempo medio di percorrenza: </strong>{{ product.metafields.my_fields.tempo_medio_di_percorrenza.value }}</p>",
             "text_style": "body"
           }
         },
@@ -222,7 +219,7 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
+        "image": "shopify://shop_images/50732323_10156880899743398_6465631835979251712_o_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -235,31 +232,6 @@
         "padding_bottom": 36
       }
     },
-    "163760600479781804": {
-      "type": "my-product-googlemaps",
-      "blocks": {
-        "1637606004d36262b0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Logistica"
-          }
-        },
-        "1637606004d36262b0-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>Al momento della prenotazione per comodità logistica è possibile organizzare punti di ritrovo alternativi al fine di condividere il viaggio. L'orario di ritrovo sarà deciso qualche giorno prima in base al meteo.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1637606004d36262b0-0",
-        "1637606004d36262b0-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": false
-      }
-    },
     "16533204749d721a0c": {
       "type": "collapsible-content",
       "blocks": {
@@ -268,7 +240,7 @@
           "settings": {
             "heading": "Devo saper essere molto allenato per salire un vajo?",
             "icon": "question_mark",
-            "row_content": "<p>Si devi essere molto allenato, salire un vajo è un attività piuttosto faticosa. Risalire il vajo con i ramponi ai piedi e quindi ridiscendere impegna diverse ore, se sei un buon camminatore che non teme i lunghi trekking non dovresti avere problemi.<\/p>",
+            "row_content": "<p>Si devi essere molto allenato, salire un vajo è un attività piuttosto faticosa. Risalire il vajo con i ramponi ai piedi e quindi ridiscendere impegna diverse ore, se sei un buon camminatore che non teme i lunghi trekking non dovresti avere problemi.</p>",
             "page": ""
           }
         },
@@ -277,7 +249,7 @@
           "settings": {
             "heading": "Non ho mai usato piccozza e ramponi, posso salire un vajo?",
             "icon": "question_mark",
-            "row_content": "<p>Si, basta che fra i vaji proposti tu scelga uno facile o medio.<\/p>",
+            "row_content": "<p>Si, basta che fra i vaji proposti tu scelga uno facile o medio.</p>",
             "page": ""
           }
         },
@@ -286,7 +258,7 @@
           "settings": {
             "heading": "Serve un'auto 4x4 per raggiungere il luogo di ritrovo?",
             "icon": "question_mark",
-            "row_content": "<p>Generalmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate.<\/p>",
+            "row_content": "<p>Generalmente non è necessario avere un auto a trazione integrale, tuttavia essendo un'attività prettamente invernale si consiglia di avere gomme termiche e catene a bordo dato che potrebbe capitare di dover affrontare salite e discese su strade innevate.</p>",
             "page": ""
           }
         },
@@ -295,7 +267,7 @@
           "settings": {
             "heading": "Come ci si comporta in caso di mal tempo?",
             "icon": "question_mark",
-            "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.<\/p>",
+            "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.</p>",
             "page": ""
           }
         }
@@ -412,13 +384,12 @@
         "1637185148dd57c2c6-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività<\/p>"
+            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività</p>"
           }
         },
         "1637185148dd57c2c6-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -439,7 +410,6 @@
     "1637185714df29ebbf",
     "163718571838645ff8",
     "163718595294971582",
-    "163760600479781804",
     "16533204749d721a0c",
     "163718534225228dba",
     "1637185277595a85ab",

@@ -5,8 +5,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -16,8 +15,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -27,8 +25,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "7b676540-72a1-4760-9362-479e3f6157c6": {
           "type": "collapsible_tab_events",
@@ -88,9 +85,9 @@
         "1637185714f72c4a7b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-casco__4_-removebg-preview.png",
+            "image": "shopify://shop_images/icon-casco__4_-removebg-preview.png",
             "title": "Casco",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -98,9 +95,9 @@
         "1637185714f72c4a7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/noun_Climbing_Harness_139886-removebg-preview.png",
+            "image": "shopify://shop_images/noun_Climbing_Harness_139886-removebg-preview.png",
             "title": "Imbrago",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -108,9 +105,9 @@
         "1637185714f72c4a7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-scarpette-da-arrampicata-2-removebg-preview.png",
+            "image": "shopify://shop_images/icon-scarpette-da-arrampicata-2-removebg-preview.png",
             "title": "Scarpette da arrampicata",
-            "text": "<p>Noleggio gratis<\/p>",
+            "text": "<p>Noleggio gratis</p>",
             "link_label": "",
             "link": ""
           }
@@ -151,7 +148,7 @@
         "1653051261e3f1f762-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Quattro uscite in ambiente, in ogni uscita saranno approfonditi i seguenti aspetti:<\/strong><\/p><p><\/p><p><strong>1 <\/strong>tecniche base,metodi di assicurazione: grigri e reverso - utilizzo delle corde e degli strumenti necessari per la progressione in parete, nodo delle guide con frizione<\/p><p><\/p><p><strong>2 <\/strong>nodo bulino, bulino ripassato<br\/><\/p><p><strong>3<\/strong> arrampicata da primo di cordata, nodo del pollo<br\/><\/p><p><strong>4<\/strong> tecniche evolute,<br\/>storia, teoria del movimento e cenni di metodologie di allenamento<\/p><p><\/p><p>Prima di aderire si invita a consultare le <a href=\"\/pages\/condizioni-contrattuali\" target=\"_blank\" title=\"Condizioni contrattuali\"><strong>condizioni contrattuali<\/strong><\/a>. In particolar modo si ricorda che l’eventuale <strong>assenza all’uscita programmata non dà diritto<\/strong> ad un recupero e nemmeno può essere rimborsata.<\/p>",
+            "text": "<p><strong>Quattro uscite in ambiente, in ogni uscita saranno approfonditi i seguenti aspetti:</strong></p><p></p><p><strong>1 </strong>tecniche base,metodi di assicurazione: grigri e reverso - utilizzo delle corde e degli strumenti necessari per la progressione in parete, nodo delle guide con frizione</p><p></p><p><strong>2 </strong>nodo bulino, bulino ripassato<br/></p><p><strong>3</strong> arrampicata da primo di cordata, nodo del pollo<br/></p><p><strong>4</strong> tecniche evolute,<br/>storia, teoria del movimento e cenni di metodologie di allenamento</p><p></p><p>Prima di aderire si invita a consultare le <a href=\"/pages/condizioni-contrattuali\" target=\"_blank\" title=\"Condizioni contrattuali\"><strong>condizioni contrattuali</strong></a>. In particolar modo si ricorda che l’eventuale <strong>assenza all’uscita programmata non dà diritto</strong> ad un recupero e nemmeno può essere rimborsata.</p>",
             "text_style": "body"
           }
         },
@@ -170,7 +167,7 @@
         "1653051261e3f1f762-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/90663009_10157993823998398_2297207011097444352_o_24d38b83-88f7-4040-b618-a8850a09b950.jpg",
+        "image": "shopify://shop_images/90663009_10157993823998398_2297207011097444352_o_24d38b83-88f7-4040-b618-a8850a09b950.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -197,7 +194,7 @@
         "1637185718e8ab5b66-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Requisiti necessari:<\/strong><\/p><p>Non soffrire di vertigini<\/p><p><br\/><strong>Materiale necessario:<\/strong><\/p><p>Scarpe da trekking o ginnastica<\/p><p>Abbigliamento sportivo<\/p><p>Zaino con acqua e snack<\/p>",
+            "text": "<p><strong>Requisiti necessari:</strong></p><p>Non soffrire di vertigini</p><p><br/><strong>Materiale necessario:</strong></p><p>Scarpe da trekking o ginnastica</p><p>Abbigliamento sportivo</p><p>Zaino con acqua e snack</p>",
             "text_style": "body"
           }
         },
@@ -206,7 +203,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Richiedi informazioni",
-            "button_link": "shopify:\/\/pages\/contacts"
+            "button_link": "shopify://pages/contacts"
           }
         }
       },
@@ -216,7 +213,7 @@
         "1637185718e8ab5b66-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_0469_cec9e11c-ce4b-4483-aac7-a66cb9c21ba2.jpg",
+        "image": "shopify://shop_images/IMG_0469_cec9e11c-ce4b-4483-aac7-a66cb9c21ba2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -244,7 +241,7 @@
         "1637185952f4e2f539-1": {
           "type": "text",
           "settings": {
-            "text": "<p><\/p><p><strong>Difficoltà: <\/strong>{{ product.metafields.my_fields.difficolta.value }}<\/p><p><\/p>",
+            "text": "<p></p><p><strong>Difficoltà: </strong>{{ product.metafields.my_fields.difficolta.value }}</p><p></p>",
             "text_style": "body"
           }
         },
@@ -263,7 +260,7 @@
         "1637185952f4e2f539-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/50732323_10156880899743398_6465631835979251712_o_1.jpg",
+        "image": "shopify://shop_images/50732323_10156880899743398_6465631835979251712_o_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -277,31 +274,6 @@
         "padding_bottom": 36
       }
     },
-    "163760600479781804": {
-      "type": "my-product-googlemaps",
-      "blocks": {
-        "1637606004d36262b0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Destinazioni"
-          }
-        },
-        "1637606004d36262b0-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "<p>Veneto: province di Padova (Teolo), Vicenza (Lumignano), Verona (Stallavena, Marciaga).<\/p><p><\/p><p>Le destinazioni potranno variare in funzione delle condizioni meteorologiche, saranno decise qualche giorno prima e tempestivamente comunicate.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1637606004d36262b0-0",
-        "1637606004d36262b0-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": false
-      }
-    },
     "16533204749d721a0c": {
       "type": "collapsible-content",
       "blocks": {
@@ -310,7 +282,7 @@
           "settings": {
             "heading": "Devo saper già arrampicare per fare il corso di arrampicata?",
             "icon": "question_mark",
-            "row_content": "<p>No, non serve saper arrampicare. <br\/>Queste giornate sono dedicate a chi non ha mai scalato e vuole provare oppure a chi ha già scalato ma preferisce essere seguito per affinare meglio la tecnica e le manovre di corda.<\/p>",
+            "row_content": "<p>No, non serve saper arrampicare. <br/>Queste giornate sono dedicate a chi non ha mai scalato e vuole provare oppure a chi ha già scalato ma preferisce essere seguito per affinare meglio la tecnica e le manovre di corda.</p>",
             "page": ""
           }
         },
@@ -319,7 +291,7 @@
           "settings": {
             "heading": "Posso provare ad arrampicare anche se soffro di vertigini e ho paura dell’altezza?",
             "icon": "question_mark",
-            "row_content": "<p>Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza. Nelle giornate di prova si arriva ad un'altezza massima di 30 metri e in caso di timore si può scendere immediatamente.<\/p>",
+            "row_content": "<p>Generalmente la fiducia nella Guida Alpina e nel materiale tecnico utilizzato mitigano la paura del vuoto e dell'altezza. Nelle giornate di prova si arriva ad un'altezza massima di 30 metri e in caso di timore si può scendere immediatamente.</p>",
             "page": ""
           }
         },
@@ -328,7 +300,7 @@
           "settings": {
             "heading": "Posso arrampicare anche da primo?",
             "icon": "question_mark",
-            "row_content": "<p>Certo, se lo vorrai e se la Guida Alpina ti riterrà in grado potrai provare ad arrampicare da primo di cordata usufruendo della sicura della Guida Alpina<\/p>",
+            "row_content": "<p>Certo, se lo vorrai e se la Guida Alpina ti riterrà in grado potrai provare ad arrampicare da primo di cordata usufruendo della sicura della Guida Alpina</p>",
             "page": ""
           }
         },
@@ -337,7 +309,7 @@
           "settings": {
             "heading": "Devo saper fare la corda doppia e altre manovre di corda?",
             "icon": "question_mark",
-            "row_content": "<p>No, non ti è richiesta nessuna competenza, la Guida Alpina si occuperà di tutto.<\/p>",
+            "row_content": "<p>No, non ti è richiesta nessuna competenza, la Guida Alpina si occuperà di tutto.</p>",
             "page": ""
           }
         },
@@ -346,7 +318,7 @@
           "settings": {
             "heading": "Come ci si comporta in caso di mal tempo?",
             "icon": "question_mark",
-            "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.<\/p>",
+            "row_content": "<p>Se la Guida Alpina ritiene che le condizioni siano avverse può annullare o rinviare l'escursione. In caso di annullamento da parte della Guida Alpina l'eventuale caparra verrà interamente rimborsata o, in accordo con il cliente, trattenuta per un'eventuale altra data.</p>",
             "page": ""
           }
         },
@@ -355,7 +327,7 @@
           "settings": {
             "heading": "Il noleggio dell'imbrago, casco e scarpette è gratis?",
             "icon": "question_mark",
-            "row_content": "<p>Si, il noleggio è gratuito.<\/p>",
+            "row_content": "<p>Si, il noleggio è gratuito.</p>",
             "page": ""
           }
         },
@@ -364,7 +336,7 @@
           "settings": {
             "heading": "Serve forza per arrampicare?",
             "icon": "question_mark",
-            "row_content": "<p>No, per muovere i primi passi sulla roccia non è necessario avere forza nelle braccia. è molto più importante essere agili e leggeri.<\/p>",
+            "row_content": "<p>No, per muovere i primi passi sulla roccia non è necessario avere forza nelle braccia. è molto più importante essere agili e leggeri.</p>",
             "page": ""
           }
         }
@@ -484,13 +456,12 @@
         "1637185148dd57c2c6-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività<\/p>"
+            "text": "<p>Iscriviti alla newsletter per restare sempre in contatto con le prossime attività</p>"
           }
         },
         "1637185148dd57c2c6-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -512,7 +483,6 @@
     "1653051261a87af4dd",
     "163718571838645ff8",
     "163718595294971582",
-    "163760600479781804",
     "16533204749d721a0c",
     "163718534225228dba",
     "1637185277595a85ab",

@@ -186,6 +186,27 @@
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
           </div>
+          <script>
+            (() => {
+              const grid = document.getElementById('product-grid');
+              if (!grid) return;
+
+              const items = Array.from(grid.querySelectorAll(':scope > .grid__item'));
+              if (!items.length) return;
+
+              const sortedItems = items.sort((a, b) => {
+                const aValue = Number(a.querySelector('.product-card-wrapper')?.dataset.nextEventTimestamp ?? Number.MAX_SAFE_INTEGER);
+                const bValue = Number(b.querySelector('.product-card-wrapper')?.dataset.nextEventTimestamp ?? Number.MAX_SAFE_INTEGER);
+
+                if (aValue !== bValue) return aValue - bValue;
+                return items.indexOf(a) - items.indexOf(b);
+              });
+
+              const fragment = document.createDocumentFragment();
+              sortedItems.forEach((item) => fragment.appendChild(item));
+              grid.appendChild(fragment);
+            })();
+          </script>
         {%- endif -%}
       </div>
     </div>

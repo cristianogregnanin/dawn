@@ -80,6 +80,15 @@
       additional_props: input_dataset
     %}
   {%- elsif picker_type == 'button' -%}
+    {%- assign value_downcase = value | downcase -%}
+    {%- assign pill_icon = 'silhouette' -%}
+    {%- assign pill_icon_class = '' -%}
+    {%- if value_downcase contains 'gruppo' -%}
+      {%- assign pill_icon = 'people' -%}
+      {%- assign pill_icon_class = ' product-variant-pill__icon--people' -%}
+    {%- elsif value_downcase contains 'individuale' -%}
+      {%- assign pill_icon = 'silhouette' -%}
+    {%- endif -%}
     <input
       type="radio"
       id="{{ input_id }}"
@@ -95,6 +104,9 @@
       {{ input_dataset }}
     >
     <label for="{{ input_id }}">
+      <span class="product-variant-pill__icon{{ pill_icon_class }}" aria-hidden="true">
+        {% render 'icon-accordion', icon: pill_icon %}
+      </span>
       {{ value -}}
       {{ label_unavailable }}
     </label>

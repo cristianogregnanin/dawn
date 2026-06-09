@@ -316,8 +316,144 @@
   margin-bottom: 0;
 }
 
+.product-card-wrapper .card__information {
+  display: flex;
+  flex-direction: column;
+  min-height: 15rem;
+}
+
+.product-card-wrapper .card__heading {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: calc(2 * 1.35em);
+}
+
+.product-card-wrapper .card-information {
+  margin-top: auto;
+}
+
 .card__heading:last-child {
   margin-bottom: 0;
+}
+
+.card__event-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 2.2rem;
+  bottom: 2.2rem;
+  width: 7.8rem;
+  min-height: 12rem;
+  padding: 1rem 0.9rem;
+  border-radius: 1rem;
+  background: rgba(30, 34, 29, 0.8);
+  border: 1px solid rgba(206, 171, 94, 0.22);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12);
+  color: rgb(249, 242, 230);
+  z-index: 2;
+}
+
+.card__event-icon {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 0.35rem;
+  border: 1px solid rgba(206, 171, 94, 0.9);
+  background:
+    linear-gradient(rgba(206, 171, 94, 0.95), rgba(206, 171, 94, 0.95)) 50% 28% / 1rem 0.11rem no-repeat,
+    linear-gradient(rgba(206, 171, 94, 0.95), rgba(206, 171, 94, 0.95)) 28% 52% / 0.11rem 0.8rem no-repeat,
+    linear-gradient(rgba(206, 171, 94, 0.95), rgba(206, 171, 94, 0.95)) 50% 52% / 1rem 0.11rem no-repeat,
+    linear-gradient(rgba(206, 171, 94, 0.95), rgba(206, 171, 94, 0.95)) 72% 52% / 0.11rem 0.8rem no-repeat;
+}
+
+.card__event-overlay-day {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+.card__event-overlay-month {
+  font-size: 1.1rem;
+  line-height: 1;
+  letter-spacing: 0.14em;
+  color: rgba(249, 242, 230, 0.9);
+}
+
+.card__event-overlay-year {
+  font-size: 0.95rem;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  color: rgba(206, 171, 94, 0.95);
+}
+
+.card__meta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 0.4rem;
+  color: rgba(var(--color-foreground), 0.7);
+}
+
+.card__meta-item {
+  font-size: 1.1rem;
+}
+
+.card__meta-divider {
+  width: 1px;
+  height: 1.4rem;
+  background: rgba(var(--color-foreground), 0.15);
+}
+
+.card__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.4rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(var(--color-foreground), 0.08);
+}
+
+.card__bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.card__bottom-kicker {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(149, 123, 59, 0.92);
+}
+
+.card__bottom-date {
+  font-size: 1.45rem;
+  font-family: var(--font-heading-family);
+  font-weight: 600;
+  color: rgb(33, 38, 33);
+}
+
+.card__bottom-more {
+  font-size: 1rem;
+  color: rgba(73, 79, 70, 0.7);
+}
+
+.card__bottom-cta {
+  margin-left: auto;
+  padding: 0.95rem 1.5rem;
+  border-radius: 0.8rem;
+  background: linear-gradient(180deg, rgb(229, 119, 8), rgb(214, 105, 0));
+  color: rgb(255, 250, 242);
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 0.6rem 1.2rem rgba(229, 119, 8, 0.22);
 }
 
 .card--horizontal .card__heading,

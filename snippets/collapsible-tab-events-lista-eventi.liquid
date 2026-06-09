@@ -7,29 +7,85 @@
         <div class="summary__title">
           {% render 'icon-accordion', icon: block.settings.icon %}
           <h2 class="h4 accordion__title">
-            {{ block.settings.heading | default: block.settings.page.title }}
+            Date disponibili
           </h2>
         </div>        
         {{- 'icon-caret.svg' | inline_asset_content -}}
       </summary>
       <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-        <ul>
+        <p class="product__dates-subtitle">Scegli la data piu adatta a te</p>
+        <div class="product__dates-grid">
           {% assign today_date = 'now' | date: '%s' %}
           {% assign corso_counter = 1 %}
+          {% assign next_event_timestamp = blank %}
+          {% assign future_dates_count = 0 %}
           {%- for date in next_dates -%}
-            {% assign modulo_result = forloop.index0 | modulo: course_duration %} 
-            {% if modulo_result == 0 and course_duration > 1%}
-              <br>
-              <strong>{{ 'my.corso.one' | t: count: corso_counter }}</strong>
-              {% assign corso_counter = corso_counter | plus: 1 %}
-            {% endif %}
-
             {% assign event_date = date.start_time.normal | date: '%s' %}
             {%- if event_date > today_date -%}
-              <li>{{ date.start_time.normal | time_tag: format: 'date' }}</li>
+              {% assign future_dates_count = future_dates_count | plus: 1 %}
             {%- endif -%}
-          {% endfor %}
-        </ul>
+          {%- endfor -%}
+
+          {% assign rendered_dates = 0 %}
+          {% assign rendered_course_counter = 1 %}
+          {% assign previous_timestamp = today_date %}
+          {%- for i in (1..future_dates_count) -%}
+            {% assign selected_date = blank %}
+            {% assign selected_timestamp = blank %}
+            {%- for date in next_dates -%}
+              {% assign event_date = date.start_time.normal | date: '%s' %}
+              {%- if event_date > previous_timestamp -%}
+                {%- if selected_timestamp == blank or event_date < selected_timestamp -%}
+                  {% assign selected_date = date %}
+                  {% assign selected_timestamp = event_date %}
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+            {%- if selected_date != blank -%}
+              {% assign previous_timestamp = selected_timestamp %}
+              {% assign rendered_dates = rendered_dates | plus: 1 %}
+              {% assign modulo_result = rendered_dates | minus: 1 | modulo: course_duration %}
+              {% if modulo_result == 0 and course_duration > 1%}
+                <div class="product__date-course-label">{{ 'my.corso.one' | t: count: rendered_course_counter }}</div>
+                {% assign rendered_course_counter = rendered_course_counter | plus: 1 %}
+              {% endif %}
+
+              {% assign month_number = selected_date.start_time.normal | date: '%-m' %}
+              {%- case month_number -%}
+                {%- when '1' -%}{% assign month_label = 'GENNAIO' %}
+                {%- when '2' -%}{% assign month_label = 'FEBBRAIO' %}
+                {%- when '3' -%}{% assign month_label = 'MARZO' %}
+                {%- when '4' -%}{% assign month_label = 'APRILE' %}
+                {%- when '5' -%}{% assign month_label = 'MAGGIO' %}
+                {%- when '6' -%}{% assign month_label = 'GIUGNO' %}
+                {%- when '7' -%}{% assign month_label = 'LUGLIO' %}
+                {%- when '8' -%}{% assign month_label = 'AGOSTO' %}
+                {%- when '9' -%}{% assign month_label = 'SETTEMBRE' %}
+                {%- when '10' -%}{% assign month_label = 'OTTOBRE' %}
+                {%- when '11' -%}{% assign month_label = 'NOVEMBRE' %}
+                {%- when '12' -%}{% assign month_label = 'DICEMBRE' %}
+              {%- endcase -%}
+              {% assign day_name = selected_date.start_time.normal | date: '%A' %}
+              {%- case day_name -%}
+                {%- when 'Monday' -%}{% assign day_name = 'LUNEDI' %}
+                {%- when 'Tuesday' -%}{% assign day_name = 'MARTEDI' %}
+                {%- when 'Wednesday' -%}{% assign day_name = 'MERCOLEDI' %}
+                {%- when 'Thursday' -%}{% assign day_name = 'GIOVEDI' %}
+                {%- when 'Friday' -%}{% assign day_name = 'VENERDI' %}
+                {%- when 'Saturday' -%}{% assign day_name = 'SABATO' %}
+                {%- when 'Sunday' -%}{% assign day_name = 'DOMENICA' %}
+              {%- endcase -%}
+              <a class="product__date-card" href="#MyContactForm">
+                <span class="product__date-badge">Prossima data</span>
+                <span class="product__date-weekday">{{ day_name }}</span>
+                <span class="product__date-day">{{ selected_date.start_time.normal | date: '%-d' }}</span>
+                <span class="product__date-month">{{ month_label }}</span>
+                <span class="product__date-year">{{ selected_date.start_time.normal | date: '%Y' }}</span>
+              </a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
       </div>
     </details>
   </div>

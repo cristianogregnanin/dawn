@@ -9,4 +9,9 @@ html{
 id="my-button-{{ block.id }}-{{ section.id }}"
 class="color-{{ block.settings.my_button_color_scheme }} button {% if block.settings.my_button_class_full_width %} button--full-width {% endif %}"
 {% if block.settings.my_button_target %} target="_blank" {% endif %}
->{{ block.settings.my_button_text }}</a>  
+>
+  <span class="my-button-request-info__icon" aria-hidden="true">
+    {{- 'icon-chat-bubble.svg' | inline_asset_content -}}
+  </span>
+  <span>{{ block.settings.my_button_text }}</span>
+</a>  

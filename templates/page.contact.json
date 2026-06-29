@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,16 +20,17 @@
     "16378694532ffa68ba": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Arrampicata_lumignano_araba_fenice_Cristiano_Gregnanin_Guida_Alpina_Certificata_Dolomiti_1.jpg",
+        "image": "shopify://shop_images/Arrampicata_lumignano_araba_fenice_Cristiano_Gregnanin_Guida_Alpina_Certificata_Dolomiti_1.jpg",
+        "image_2": "shopify://shop_images/DSC05889.jpg",
         "image_overlay_opacity": 10,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "image_height": "medium",
+        "image_behavior": "ambient",
+        "desktop_content_position": "bottom-left",
         "desktop_content_alignment": "center",
+        "show_text_box": true,
         "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
         "show_text_below": true
       }
     },
@@ -117,7 +127,7 @@
         "16378720036b010de7-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Iscriviti alla newsletter per ricevere aggiornamenti sulle prossime attività<\/p>"
+            "text": "<p>Iscriviti alla newsletter per ricevere aggiornamenti sulle prossime attività</p>"
           }
         },
         "16378720036b010de7-2": {

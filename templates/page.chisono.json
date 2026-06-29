@@ -1,18 +1,28 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "163791582072089dd9": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DJI_0833.jpg",
+        "image": "shopify://shop_images/DJI_0833_2.jpg",
+        "image_2": "shopify://shop_images/WhatsApp_Image_2021-02-05_at_21.36.22_1.jpg",
         "image_overlay_opacity": 10,
-        "image_height": "small",
+        "image_height": "medium",
+        "image_behavior": "ambient",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
         "desktop_content_alignment": "center",
+        "show_text_box": true,
         "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
         "show_text_below": true
       }
     },

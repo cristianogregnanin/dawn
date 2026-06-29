@@ -9,7 +9,7 @@
               <p class="announcement-bar__message h5">
                 {{ block.settings.text | escape }}
                 {%- if block.settings.link != blank -%}
-                  {% render 'icon-arrow' %}
+                  {{- 'icon-arrow.svg' | inline_asset_content -}}
                 {%- endif -%}
               </p>
           {%- if block.settings.link != blank -%}
@@ -27,7 +27,7 @@
             {%- if settings.social_twitter_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_twitter_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-twitter' -%}
+                  {{- 'icon-twitter.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
                 </a>
               </li>
@@ -35,7 +35,7 @@
             {%- if settings.social_facebook_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_facebook_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-facebook' -%}
+                  {{- 'icon-facebook.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
                 </a>
               </li>
@@ -43,7 +43,7 @@
             {%- if settings.social_pinterest_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_pinterest_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-pinterest' -%}
+                  {{- 'icon-pinterest.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
                 </a>
               </li>
@@ -51,7 +51,7 @@
             {%- if settings.social_instagram_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_instagram_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-instagram' -%}
+                  {{- 'icon-instagram.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
                 </a>
               </li>
@@ -59,7 +59,7 @@
             {%- if settings.social_tiktok_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_tiktok_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-tiktok' -%}
+                  {{- 'icon-tiktok.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
                 </a>
               </li>
@@ -67,7 +67,7 @@
             {%- if settings.social_tumblr_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_tumblr_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-tumblr' -%}
+                  {{- 'icon-tumblr.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
                 </a>
               </li>
@@ -75,7 +75,7 @@
             {%- if settings.social_snapchat_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_snapchat_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-snapchat' -%}
+                  {{- 'icon-snapchat.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
                 </a>
               </li>
@@ -83,7 +83,7 @@
             {%- if settings.social_youtube_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_youtube_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-youtube' -%}
+                  {{- 'icon-youtube.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
                 </a>
               </li>
@@ -91,7 +91,7 @@
             {%- if settings.social_vimeo_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_vimeo_link }}" class="list-social__link link" target="_blank" style="padding: 0.6rem">
-                  {%- render 'icon-vimeo' -%}
+                  {{- 'icon-vimeo.svg' | inline_asset_content -}}
                   <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
                 </a>
               </li>
@@ -122,27 +122,27 @@
           "options": [
             {
               "value": "background-1",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__1.label"
+              "label": "Background 1"
             },
             {
               "value": "background-2",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__2.label"
+              "label": "Background 2"
             },
             {
               "value": "inverse",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__3.label"
+              "label": "Inverse"
             },
             {
               "value": "accent-1",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__4.label"
+              "label": "Accent 1"
             },
             {
               "value": "accent-2",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.options__5.label"
+              "label": "Accent 2"
             }
           ],
           "default": "accent-1",
-          "label": "t:sections.announcement-bar.blocks.announcement.settings.color_scheme.label"
+          "label": "Color scheme"
         },
         {
           "type": "url",

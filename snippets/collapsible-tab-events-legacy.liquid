@@ -1,5 +1,12 @@
 {% assign next_dates = product.metafields.my_fields.events.value %}
+{% assign is_course = product.metafields.my_fields.is_course.value %}
+{% if product.metafields.custom.activity_is_course.type == 'boolean' %}
+  {% assign is_course = product.metafields.custom.activity_is_course.value %}
+{% endif %}
 {% assign course_duration = product.metafields.my_fields.duration.value %}
+{% if product.metafields.custom.activity_duration_days.type == 'number_integer' %}
+  {% assign course_duration = product.metafields.custom.activity_duration_days.value %}
+{% endif %}
 {%- if next_dates -%}
   <div class="product__accordion accordion quick-add-hidden" id="collapsible_tab_events" {{ block.shopify_attributes }}>
     <details id="Details-{{ block.id }}-{{ section.id }}" open>
@@ -46,7 +53,13 @@
               {% assign rendered_dates = rendered_dates | plus: 1 %}
               {% assign modulo_result = rendered_dates | minus: 1 | modulo: course_duration %}
               {% if modulo_result == 0 and course_duration > 1%}
-                <div class="product__date-course-label">{{ 'my.corso.one' | t: count: rendered_course_counter }}</div>
+                <div class="product__date-course-label">
+                  {% if is_course %}
+                    {{ 'my.corso.one' | t: count: rendered_course_counter }}
+                  {% else %}
+                    {{ 'my.departure.one' | t: count: rendered_course_counter }}
+                  {% endif %}
+                </div>
                 {% assign rendered_course_counter = rendered_course_counter | plus: 1 %}
               {% endif %}
 

@@ -1,4 +1,8 @@
 {% assign next_dates = product.metafields.my_fields.events.value %}
+{% assign is_course = product.metafields.my_fields.is_course.value %}
+{% if product.metafields.custom.activity_is_course.type == 'boolean' %}
+  {% assign is_course = product.metafields.custom.activity_is_course.value %}
+{% endif %}
 {% if next_dates != blank %}
   {% if next_dates.first.edition_id == blank %}
     {% render 'collapsible-tab-events-legacy', product: product, block: block, section: section %}
@@ -33,7 +37,7 @@
                     <div class="product__date-course-label">
                       {% if day.edition_label != blank %}
                         {{ day.edition_label | escape }}
-                      {% elsif product.metafields.my_fields.is_course.value %}
+                      {% elsif is_course %}
                         {{ 'my.corso.one' | t: count: edition_number }}
                       {% else %}
                         {{ 'my.departure.one' | t: count: edition_number }}

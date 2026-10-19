@@ -115,11 +115,17 @@
 
   
       {% assign next_dates = product.metafields.my_fields.events.value %}
+      {% assign is_course = product.metafields.my_fields.is_course.value %}
+      {% if product.metafields.custom.activity_is_course.type == 'boolean' %}
+        {% assign is_course = product.metafields.custom.activity_is_course.value %}
+      {% endif %}
       {% if next_dates != blank %}
         {% assign today = 'now' | date: '%Y-%m-%d' %}
         {% if next_dates.first.edition_id == blank %}
-          {% assign is_course = product.metafields.my_fields.is_course.value %}
           {% assign course_duration = product.metafields.my_fields.duration.value | default: 1 %}
+          {% if product.metafields.custom.activity_duration_days.type == 'number_integer' %}
+            {% assign course_duration = product.metafields.custom.activity_duration_days.value %}
+          {% endif %}
           <div class="field">
             <select name="contact[data-evento]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
               <option value="" disabled selected hidden>
@@ -164,7 +170,7 @@
                     {% assign edition_bookable = day.edition_bookable %}
                     {% if day.edition_label != blank %}
                       {% assign edition_title = day.edition_label %}
-                    {% elsif product.metafields.my_fields.is_course.value %}
+                    {% elsif is_course %}
                       {% assign edition_title = 'my.corso.one' | t: count: edition_number %}
                     {% else %}
                       {% assign edition_title = 'my.departure.one' | t: count: edition_number %}

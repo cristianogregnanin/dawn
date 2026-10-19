@@ -13,5 +13,11 @@ class="color-{{ block.settings.my_button_color_scheme }} button {% if block.sett
   <span class="my-button-request-info__icon" aria-hidden="true">
     {{- 'icon-chat-bubble.svg' | inline_asset_content -}}
   </span>
-  <span>{{ block.settings.my_button_text }}</span>
+  <span>
+    {% if block.settings.my_button_text == 'Richiedi informazioni' %}
+      {{ 'my.request_information' | t }}
+    {% else %}
+      {{ block.settings.my_button_text }}
+    {% endif %}
+  </span>
 </a>  

@@ -957,6 +957,15 @@
   "my": {
     "other_dates": "Other dates",
     "choose_date": "Choose a date",
+    "available_dates": "Available dates",
+    "choose_edition": "Choose an available departure",
+    "day_of_edition": "Scheduled day",
+    "edition_in_progress": "In progress",
+    "next_departure": "Next departure",
+    "more_dates": "{{ count }} more dates available",
+    "view_departure": "View departure",
+    "request_information": "Request information",
+    "departure": { "one": "Departure {{ count }}" },
     "corso": {
       "one": "Course {{ count }}",
       "choose": "Choose a course"

@@ -115,43 +115,74 @@
 
   
       {% assign next_dates = product.metafields.my_fields.events.value %}
-
-      {%- if next_dates -%}
-        {% assign is_course = product.metafields.my_fields.is_course.value %}
-        {% assign course_duration = product.metafields.my_fields.duration.value %}
-        {% assign today_date = 'now' | date: '%s' %}
-        
-        {%- if is_course == false -%}
-          <div class="field" >
+      {% if next_dates != blank %}
+        {% assign today = 'now' | date: '%Y-%m-%d' %}
+        {% if next_dates.first.edition_id == blank %}
+          {% assign is_course = product.metafields.my_fields.is_course.value %}
+          {% assign course_duration = product.metafields.my_fields.duration.value | default: 1 %}
+          <div class="field">
             <select name="contact[data-evento]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
-              <option value="" disabled selected hidden>{{ 'my.choose_date' | t }}</option>
-              {%- for date in next_dates -%}
-                {% assign event_date = date.start_time.normal | date: '%s' %}
-                {%- if event_date > today_date -%}
-                  <option value="{{ date.start_time.normal }}">{{ date.start_time.normal | time_tag: format: 'date' }}</option>
-                {%- endif -%}
+              <option value="" disabled selected hidden>
+                {% if is_course %}{{ 'my.corso.choose' | t }}{% else %}{{ 'my.choose_date' | t }}{% endif %}
+              </option>
+              {% assign course_counter = 1 %}
+              {% for day in next_dates %}
+                {% assign day_on = day.start_time.normal | date: '%Y-%m-%d' %}
+                {% if day_on >= today %}
+                  {% if is_course %}
+                    {% assign remainder = forloop.index0 | modulo: course_duration %}
+                    {% if remainder == 0 %}
+                      <option value="{{ 'my.corso.one' | t: count: course_counter }}">{{ 'my.corso.one' | t: count: course_counter }}</option>
+                      {% assign course_counter = course_counter | plus: 1 %}
+                    {% endif %}
+                  {% else %}
+                    <option value="{{ day.start_time.normal }}">{{ day.start_time.normal | time_tag: format: 'date' }}</option>
+                  {% endif %}
+                {% endif %}
               {% endfor %}
-            </select>  
+            </select>
           </div>
-        {%- else -%}
-        <div class="field" >
-          <select name="contact[data-evento]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
-            <option value="" disabled selected hidden>{{ 'my.corso.choose' | t }}</option>
-            {% assign course_counter = 1 %}
-            {%- for date in next_dates -%}
-              {% assign resto = forloop.index0 | modulo: course_duration %}              
-              {% if forloop.index0 == 0 or resto == 0 %}
-                <option value="{{ 'my.corso.one' | t: count: course_counter }}">
-                  {{ 'my.corso.one' | t: count: course_counter }}
-                </option>
-                {% assign course_counter = course_counter | plus: 1 %}
-              {%- endif -%}
-            {% endfor %}
-          </select>  
-        </div>
-        {%- endif -%}
-    {%- endif -%}
-      
+        {% else %}
+          <div class="field">
+            <select name="contact[edition]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
+              <option value="" disabled selected hidden>{{ 'my.choose_edition' | t }}</option>
+              {% assign current_edition_id = blank %}
+              {% assign edition_number = 0 %}
+              {% assign edition_dates = '' %}
+              {% assign edition_title = '' %}
+              {% assign edition_bookable = false %}
+              {% for day in next_dates %}
+                {% assign day_on = day.start_time.normal | date: '%Y-%m-%d' %}
+                {% if day_on >= today %}
+                  {% if day.edition_id != current_edition_id %}
+                    {% if current_edition_id != blank and edition_bookable %}
+                      <option value="{{ current_edition_id }} — {{ edition_dates | escape }}">{{ edition_title | escape }} — {{ edition_dates }}</option>
+                    {% endif %}
+                    {% assign current_edition_id = day.edition_id %}
+                    {% assign edition_number = edition_number | plus: 1 %}
+                    {% assign edition_dates = '' %}
+                    {% assign edition_bookable = day.edition_bookable %}
+                    {% if day.edition_label != blank %}
+                      {% assign edition_title = day.edition_label %}
+                    {% elsif product.metafields.my_fields.is_course.value %}
+                      {% assign edition_title = 'my.corso.one' | t: count: edition_number %}
+                    {% else %}
+                      {% assign edition_title = 'my.departure.one' | t: count: edition_number %}
+                    {% endif %}
+                  {% endif %}
+                  {% assign formatted_day = day.start_time.normal | date: '%d/%m/%Y' %}
+                  {% if edition_dates != blank %}{% assign edition_dates = edition_dates | append: ', ' %}{% endif %}
+                  {% assign edition_dates = edition_dates | append: formatted_day %}
+                {% endif %}
+              {% endfor %}
+              {% if current_edition_id != blank and edition_bookable %}
+                <option value="{{ current_edition_id }} — {{ edition_dates | escape }}">{{ edition_title | escape }} — {{ edition_dates }}</option>
+              {% endif %}
+            </select>
+          </div>
+        {% endif %}
+      {% endif %}
+
       {%- if product.title -%}
         <div class="field">
           <input type="text" id="ContactForm-product" class="field__input" name="contact[{{product.title}}]" value="{{ product.title }}" readonly style="padding-bottom: 15px;padding-top: 15px;">

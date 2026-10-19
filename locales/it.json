@@ -546,6 +546,15 @@
   "my": {
     "other_dates": "Altre date",
     "choose_date": "Scegli una data",
+    "available_dates": "Date disponibili",
+    "choose_edition": "Scegli una partenza disponibile",
+    "day_of_edition": "Giornata prevista",
+    "edition_in_progress": "In corso",
+    "next_departure": "Prossima uscita",
+    "more_dates": "{{ count }} altre date disponibili",
+    "view_departure": "Vedi uscita",
+    "request_information": "Richiedi informazioni",
+    "departure": { "one": "Partenza {{ count }}" },
     "corso": {
       "one": "Corso {{ count }}",
       "choose": "Scegli un corso"

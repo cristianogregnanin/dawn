@@ -45,10 +45,11 @@
   {% assign future_dates_count = 0 %}
   {% assign next_dates = card_product.metafields.my_fields.events.value %}
   {%- if next_dates -%}
-    {% assign today_date = 'now' | date: '%s' %}
+    {% assign today_date = 'now' | date: '%Y-%m-%d' %}
     {%- for date in next_dates -%}
       {% assign event_date = date.start_time.normal | date: '%s' %}
-      {%- if event_date > today_date -%}
+      {% assign event_day = date.start_time.normal | date: '%Y-%m-%d' %}
+      {%- if event_day >= today_date -%}
         {% assign future_dates_count = future_dates_count | plus: 1 %}
         {%- if next_event_timestamp == blank or event_date < next_event_timestamp -%}
           {% assign next_event_date = date.start_time.normal %}
@@ -187,13 +188,14 @@
             {%- if next_event_date != blank -%}
               <div class="card__bottom">
                 <div class="card__bottom-left">
-                  <span class="card__bottom-kicker">Prossima uscita</span>
+                  <span class="card__bottom-kicker">{{ 'my.next_departure' | t }}</span>
                   <span class="card__bottom-date">{{ next_event_date | time_tag: format: 'date' }}</span>
                   {%- if future_dates_count > 1 -%}
-                    <span class="card__bottom-more">{{ future_dates_count | minus: 1 }} altra data disponibile</span>
+                    {% assign more_count = future_dates_count | minus: 1 %}
+                    <span class="card__bottom-more">{{ 'my.more_dates' | t: count: more_count }}</span>
                   {%- endif -%}
                 </div>
-                <a class="card__bottom-cta" href="{{ card_product.url }}">Vedi uscita</a>
+                <a class="card__bottom-cta" href="{{ card_product.url }}">{{ 'my.view_departure' | t }}</a>
               </div>
             {%- endif -%}
             <div class="card-information">

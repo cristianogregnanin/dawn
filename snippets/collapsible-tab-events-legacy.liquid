@@ -1,0 +1,63 @@
+{% assign next_dates = product.metafields.my_fields.events.value %}
+{% assign course_duration = product.metafields.my_fields.duration.value %}
+{%- if next_dates -%}
+  <div class="product__accordion accordion quick-add-hidden" id="collapsible_tab_events" {{ block.shopify_attributes }}>
+    <details id="Details-{{ block.id }}-{{ section.id }}" open>
+      <summary>
+        <div class="summary__title">
+          {% render 'icon-accordion', icon: block.settings.icon %}
+          <h2 class="h4 accordion__title">
+            {{ 'my.available_dates' | t }}
+          </h2>
+        </div>        
+        {{- 'icon-caret.svg' | inline_asset_content -}}
+      </summary>
+      <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+        <p class="product__dates-subtitle">{{ 'my.choose_edition' | t }}</p>
+        <div class="product__dates-grid">
+          {% assign today_date = 'now' | date: '%Y-%m-%d' %}
+          {% assign future_dates_count = 0 %}
+          {%- for date in next_dates -%}
+            {% assign event_day = date.start_time.normal | date: '%Y-%m-%d' %}
+            {%- if event_day >= today_date -%}
+              {% assign future_dates_count = future_dates_count | plus: 1 %}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {% assign rendered_dates = 0 %}
+          {% assign rendered_course_counter = 1 %}
+          {% assign previous_timestamp = '0' %}
+          {%- for i in (1..future_dates_count) -%}
+            {% assign selected_date = blank %}
+            {% assign selected_timestamp = blank %}
+            {%- for date in next_dates -%}
+              {% assign event_date = date.start_time.normal | date: '%s' %}
+              {% assign event_day = date.start_time.normal | date: '%Y-%m-%d' %}
+              {%- if event_day >= today_date and event_date > previous_timestamp -%}
+                {%- if selected_timestamp == blank or event_date < selected_timestamp -%}
+                  {% assign selected_date = date %}
+                  {% assign selected_timestamp = event_date %}
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+            {%- if selected_date != blank -%}
+              {% assign previous_timestamp = selected_timestamp %}
+              {% assign rendered_dates = rendered_dates | plus: 1 %}
+              {% assign modulo_result = rendered_dates | minus: 1 | modulo: course_duration %}
+              {% if modulo_result == 0 and course_duration > 1%}
+                <div class="product__date-course-label">{{ 'my.corso.one' | t: count: rendered_course_counter }}</div>
+                {% assign rendered_course_counter = rendered_course_counter | plus: 1 %}
+              {% endif %}
+
+              <a class="product__date-card" href="#MyContactForm">
+                <span class="product__date-badge">{{ 'my.day_of_edition' | t }}</span>
+                <span class="product__date-full">{{ selected_date.start_time.normal | time_tag: format: 'date' }}</span>
+              </a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </details>
+  </div>
+{%- endif -%}  

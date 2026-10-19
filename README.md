@@ -1,5 +1,7 @@
 # Dawn
 
+This fork renders La Guida Alpina product dates from the Rails backend's `my_fields.events` JSON. See [the edition contract](docs/product_editions.md) for the rollout and translation checks. Use `shopify theme check` and `shopify theme dev` for local verification; the development preview does not publish the live theme.
+
 [![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)
 

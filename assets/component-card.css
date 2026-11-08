@@ -444,6 +444,12 @@
   color: rgb(33, 38, 33);
 }
 
+.card__bottom-duration {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgb(33, 38, 33);
+}
+
 .card__bottom-more {
   font-size: 1rem;
   color: rgba(33, 38, 33, 0.72);

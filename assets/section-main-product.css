@@ -910,6 +910,13 @@ a.product__text {
   font-size: 1.3rem;
 }
 
+.product__dates-duration {
+  margin: 0 0 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(var(--color-foreground));
+}
+
 .product__dates-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
@@ -923,6 +930,13 @@ a.product__text {
   font-size: 1.2rem;
   font-weight: 600;
   color: rgba(var(--color-foreground), 0.55);
+}
+
+.product__edition-duration {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 1.4rem;
+  color: rgb(var(--color-foreground));
 }
 
 .product__date-card {
@@ -942,9 +956,16 @@ a.product__text {
   overflow: visible;
 }
 
+.product__date-card--range {
+  min-height: 13.4rem;
+  padding-top: 3.4rem;
+}
+
 .product__date-full {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   flex: 1;
   font-family: var(--font-heading-family);
   font-size: 1.35rem;

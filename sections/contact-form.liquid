@@ -153,10 +153,13 @@
             <select name="contact[edition]" id="my-next_dates" class="field__input" style="padding-top: 0.8rem;">
               <option value="" disabled selected hidden>{{ 'my.choose_edition' | t }}</option>
               {% assign current_edition_id = blank %}
-              {% assign edition_number = 0 %}
               {% assign edition_dates = '' %}
               {% assign edition_title = '' %}
               {% assign edition_bookable = false %}
+              {% assign product_duration_days = product.metafields.my_fields.duration.value | default: 1 | plus: 0 %}
+              {% if product.metafields.custom.activity_duration_days.type == 'number_integer' %}
+                {% assign product_duration_days = product.metafields.custom.activity_duration_days.value | plus: 0 %}
+              {% endif %}
               {% for day in next_dates %}
                 {% assign day_on = day.start_time.normal | date: '%Y-%m-%d' %}
                 {% if day_on >= today %}
@@ -165,18 +168,32 @@
                       <option value="{{ current_edition_id }} — {{ edition_dates | escape }}">{{ edition_title | escape }} — {{ edition_dates }}</option>
                     {% endif %}
                     {% assign current_edition_id = day.edition_id %}
-                    {% assign edition_number = edition_number | plus: 1 %}
                     {% assign edition_dates = '' %}
                     {% assign edition_bookable = day.edition_bookable %}
+                    {% for edition_day in next_dates %}
+                      {% assign edition_day_on = edition_day.start_time.normal | date: '%Y-%m-%d' %}
+                      {% if edition_day.edition_id == day.edition_id and edition_day_on < today %}
+                        {% assign edition_bookable = false %}
+                      {% endif %}
+                    {% endfor %}
                     {% if day.edition_label != blank %}
                       {% assign edition_title = day.edition_label %}
                     {% elsif is_course %}
-                      {% assign edition_title = 'my.corso.one' | t: count: edition_number %}
+                      {% assign edition_title = 'my.edition_label' | t %}
                     {% else %}
-                      {% assign edition_title = 'my.departure.one' | t: count: edition_number %}
+                      {% assign edition_title = 'my.departure_label' | t %}
+                    {% endif %}
+                    {% assign edition_duration_days = day.edition_duration_days | default: product_duration_days | plus: 0 %}
+                    {% if edition_duration_days > 1 %}
+                      {% assign duration_label = 'my.duration_days_short' | t: count: edition_duration_days %}
+                      {% assign edition_title = edition_title | append: ' (' | append: duration_label | append: ')' %}
                     {% endif %}
                   {% endif %}
                   {% assign formatted_day = day.start_time.normal | date: '%d/%m/%Y' %}
+                  {% if day.end_time.normal != day.start_time.normal %}
+                    {% assign formatted_end = day.end_time.normal | date: '%d/%m/%Y' %}
+                    {% assign formatted_day = formatted_day | append: '–' | append: formatted_end %}
+                  {% endif %}
                   {% if edition_dates != blank %}{% assign edition_dates = edition_dates | append: ', ' %}{% endif %}
                   {% assign edition_dates = edition_dates | append: formatted_day %}
                 {% endif %}

@@ -42,7 +42,12 @@
   -%}
   {% assign next_event_timestamp = blank %}
   {% assign next_event_date = blank %}
+  {% assign next_event_end_date = blank %}
+  {% assign next_event_span_days = 1 %}
+  {% assign next_edition_duration_days = blank %}
   {% assign future_dates_count = 0 %}
+  {% assign future_editions_count = 0 %}
+  {% assign seen_edition_ids = '|' %}
   {% assign next_dates = card_product.metafields.my_fields.events.value %}
   {%- if next_dates -%}
     {% assign today_date = 'now' | date: '%Y-%m-%d' %}
@@ -51,9 +56,20 @@
       {% assign event_day = date.start_time.normal | date: '%Y-%m-%d' %}
       {%- if event_day >= today_date -%}
         {% assign future_dates_count = future_dates_count | plus: 1 %}
+        {% if date.edition_id != blank %}
+          {% assign edition_marker = '|' | append: date.edition_id | append: '|' %}
+          {% unless seen_edition_ids contains edition_marker %}
+            {% assign future_editions_count = future_editions_count | plus: 1 %}
+            {% assign seen_edition_ids = seen_edition_ids | append: date.edition_id | append: '|' %}
+          {% endunless %}
+        {% endif %}
         {%- if next_event_timestamp == blank or event_date < next_event_timestamp -%}
           {% assign next_event_date = date.start_time.normal %}
+          {% assign next_event_end_date = date.end_time.normal %}
+          {% assign event_end_timestamp = date.end_time.normal | date: '%s' %}
+          {% assign next_event_span_days = event_end_timestamp | minus: event_date | divided_by: 86400 | plus: 1 %}
           {% assign next_event_timestamp = event_date %}
+          {% assign next_edition_duration_days = date.edition_duration_days %}
         {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
@@ -189,13 +205,26 @@
               <div class="card__bottom">
                 <div class="card__bottom-left">
                   <span class="card__bottom-kicker">{{ 'my.next_departure' | t }}</span>
-                  <span class="card__bottom-date">{{ next_event_date | time_tag: format: 'date' }}</span>
-                  {%- if future_dates_count > 1 -%}
+                  <span class="card__bottom-date">
+                    {%- if next_event_end_date != blank and next_event_end_date != next_event_date and next_event_span_days == next_edition_duration_days -%}
+                      {{ 'my.from_date' | t }}
+                    {%- endif -%}
+                    {{ next_event_date | time_tag: format: 'date' }}
+                    {%- if next_event_end_date != blank and next_event_end_date != next_event_date and next_event_span_days == next_edition_duration_days -%}
+                      {{ 'my.to_date' | t }} {{ next_event_end_date | time_tag: format: 'date' }}
+                    {%- endif -%}
+                  </span>
+                  {%- if next_edition_duration_days != blank -%}
+                    <span class="card__bottom-duration">{{ 'my.edition_duration_summary' | t: count: next_edition_duration_days }}</span>
+                  {%- endif -%}
+                  {%- if future_editions_count > 1 -%}
+                    <span class="card__bottom-more">{{ 'my.other_dates_available' | t }}</span>
+                  {%- elsif future_editions_count == 0 and future_dates_count > 1 -%}
                     {% assign more_count = future_dates_count | minus: 1 %}
                     <span class="card__bottom-more">{{ 'my.more_dates' | t: count: more_count }}</span>
                   {%- endif -%}
                 </div>
-                <a class="card__bottom-cta" href="{{ card_product.url }}">{{ 'my.view_departure' | t }}</a>
+                <a class="card__bottom-cta" href="{{ card_product.url }}">{{ 'my.view_all_dates' | t }}</a>
               </div>
             {%- endif -%}
             <div class="card-information">

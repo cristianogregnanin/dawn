@@ -3,6 +3,10 @@
 {% if product.metafields.custom.activity_is_course.type == 'boolean' %}
   {% assign is_course = product.metafields.custom.activity_is_course.value %}
 {% endif %}
+{% assign duration_days = product.metafields.my_fields.duration.value | default: 1 | plus: 0 %}
+{% if product.metafields.custom.activity_duration_days.type == 'number_integer' %}
+  {% assign duration_days = product.metafields.custom.activity_duration_days.value | plus: 0 %}
+{% endif %}
 {% if next_dates != blank %}
   {% if next_dates.first.edition_id == blank %}
     {% render 'collapsible-tab-events-legacy', product: product, block: block, section: section %}
@@ -27,28 +31,60 @@
             <p class="product__dates-subtitle">{{ 'my.choose_edition' | t }}</p>
             <div class="product__dates-grid">
               {% assign previous_edition_id = blank %}
-              {% assign edition_number = 0 %}
+              {% assign edition_in_progress = false %}
               {% for day in next_dates %}
                 {% assign day_on = day.start_time.normal | date: '%Y-%m-%d' %}
                 {% if day_on >= today %}
                   {% if day.edition_id != previous_edition_id %}
-                    {% assign edition_number = edition_number | plus: 1 %}
                     {% assign previous_edition_id = day.edition_id %}
+                    {% assign edition_duration_days = day.edition_duration_days | default: duration_days | plus: 0 %}
+                    {% assign edition_in_progress = false %}
+                    {% unless day.edition_bookable %}{% assign edition_in_progress = true %}{% endunless %}
+                    {% for edition_day in next_dates %}
+                      {% assign edition_day_on = edition_day.start_time.normal | date: '%Y-%m-%d' %}
+                      {% if edition_day.edition_id == day.edition_id and edition_day_on < today %}
+                        {% assign edition_in_progress = true %}
+                      {% endif %}
+                    {% endfor %}
                     <div class="product__date-course-label">
                       {% if day.edition_label != blank %}
                         {{ day.edition_label | escape }}
+                        {% if edition_in_progress %} · {{ 'my.edition_in_progress' | t }}{% endif %}
+                      {% elsif edition_in_progress and is_course %}
+                        {{ 'my.edition_in_progress_title' | t }}
+                      {% elsif edition_in_progress %}
+                        {{ 'my.departure_in_progress_title' | t }}
                       {% elsif is_course %}
-                        {{ 'my.corso.one' | t: count: edition_number }}
+                        {% assign first_date = day.start_time.normal | date: '%d/%m/%Y' %}
+                        {{ 'my.edition_starting' | t: date: first_date }}
                       {% else %}
-                        {{ 'my.departure.one' | t: count: edition_number }}
+                        {% assign first_date = day.start_time.normal | date: '%d/%m/%Y' %}
+                        {{ 'my.departure_starting' | t: date: first_date }}
                       {% endif %}
-                      {% unless day.edition_bookable %} · {{ 'my.edition_in_progress' | t }}{% endunless %}
+                      {% if edition_duration_days > 1 %}
+                        <span class="product__edition-duration">
+                          {% if is_course %}
+                            {{ 'my.course_duration_days' | t: count: edition_duration_days }}
+                          {% else %}
+                            {{ 'my.activity_duration_days' | t: count: edition_duration_days }}
+                          {% endif %}
+                        </span>
+                      {% endif %}
                     </div>
                   {% endif %}
-                  <a class="product__date-card" href="#MyContactForm" data-edition-id="{{ day.edition_id | escape }}">
+                  {% if edition_in_progress %}
+                    <div class="product__date-card{% if day.end_time.normal != day.start_time.normal %} product__date-card--range{% endif %}" data-edition-id="{{ day.edition_id | escape }}">
+                  {% else %}
+                    <a class="product__date-card{% if day.end_time.normal != day.start_time.normal %} product__date-card--range{% endif %}" href="#MyContactForm" data-edition-id="{{ day.edition_id | escape }}">
+                  {% endif %}
                     <span class="product__date-badge">{{ 'my.day_of_edition' | t }}</span>
-                    <span class="product__date-full">{{ day.start_time.normal | time_tag: format: 'date' }}</span>
-                  </a>
+                    <span class="product__date-full">
+                      {{ day.start_time.normal | time_tag: format: 'date' }}
+                      {% if day.end_time.normal != day.start_time.normal %}
+                        – {{ day.end_time.normal | time_tag: format: 'date' }}
+                      {% endif %}
+                    </span>
+                  {% if edition_in_progress %}</div>{% else %}</a>{% endif %}
                 {% endif %}
               {% endfor %}
             </div>

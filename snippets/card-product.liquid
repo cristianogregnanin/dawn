@@ -54,7 +54,7 @@
     {%- for date in next_dates -%}
       {% assign event_date = date.start_time.normal | date: '%s' %}
       {% assign event_day = date.start_time.normal | date: '%Y-%m-%d' %}
-      {%- if event_day >= today_date -%}
+      {%- if event_day >= today_date and date.edition_bookable != false -%}
         {% assign future_dates_count = future_dates_count | plus: 1 %}
         {% if date.edition_id != blank %}
           {% assign edition_marker = '|' | append: date.edition_id | append: '|' %}

@@ -16,4 +16,20 @@ Nei 19 template JSON di prodotto si trovano 36 occorrenze di «Richiedi informaz
 
 Traduzioni consigliate: «Request information», «Questions?», «Difficulty», «Locations and logistics», «Average walking time», «Elevation gain». Prima di registrarle, censire le chiavi traducibili effettive e le traduzioni già presenti nello shop: l'editor del tema può rigenerare i JSON dei template. Shopify espone queste impostazioni come risorse `ONLINE_STORE_THEME_JSON_TEMPLATE`.
 
+### Inventario operativo dei template prodotto
+
+In Translate & Adapt selezionare la lingua inglese e cercare il contenuto del tema pubblicato, template per template. Tradurre solo i campi ancora vuoti o errati, conservando i riferimenti Liquid (`{{ ... }}`) nei testi ricchi. I nomi dei blocchi qui sotto sono quelli presenti nel repository: nell'editor Shopify possono apparire con etichette più leggibili.
+
+| Contenuto italiano | Dove si trova nel template | Presenza | Testo inglese da verificare |
+| --- | --- | ---: | --- |
+| Richiedi informazioni | `main` → pulsante `my_button_text` | 19 template | Request information |
+| Richiedi informazioni | blocco pulsante `button_label` | 17 template | Request information |
+| Domande? | titolo della sezione FAQ `heading` | 18 template | Questions? |
+| Luoghi e Dettagli Logistici | titolo del blocco logistica | 1 template, `product.attivita_di_un_giorno.json` | Locations and logistics |
+| Difficoltà, Tempo medio di percorrenza, Dislivello/Dislivelli | blocco rich text dei dettagli tecnici | 16 template contengono almeno «Difficoltà» | Difficulty, Average walking time, Elevation gain |
+
+Il pulsante principale `my-button-request-info.liquid` traduce già «Richiedi informazioni» tramite `my.request_information`. Anche le etichette di date e durata hanno chiavi corrispondenti in `locales/it.json` e `locales/en.default.json`; non richiedono interventi in Translate & Adapt. La traduzione dei titoli FAQ e dei blocchi rich text deve essere verificata separatamente per ogni template effettivamente usato: una traduzione presente su un prodotto non dimostra che gli altri template siano completi.
+
+Per il controllo finale aprire almeno una pagina `/en/products/...` per ciascun template usato, verificando pulsanti, dettagli tecnici, FAQ, modulo di contatto e tutte le date. Se un prodotto usa FAQ da `my_fields.faq_for_product` o contenuti da metaobject, controllare anche i valori inglesi di quelle risorse: non sono impostazioni del template.
+
 Per la verifica locale eseguire `shopify theme check` e aprire il tema di sviluppo con `shopify theme dev`. Il tema di sviluppo non pubblica il tema live. Se la CLI segnala un disallineamento tra ID del tema di sviluppo e tema live, fermare il processo e creare una nuova sessione di sviluppo senza usare `--allow-live`.

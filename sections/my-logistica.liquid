@@ -29,7 +29,11 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                {{ block.settings.heading }}
+                {% if block.settings.heading == 'Luoghi e Dettagli Logistici' %}
+                  {{ 'my.locations_and_logistics' | t }}
+                {% else %}
+                  {{ block.settings.heading }}
+                {% endif %}
               </h2>
             {%- when 'caption' -%}
               <p

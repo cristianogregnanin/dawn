@@ -569,6 +569,8 @@
     "from_date": "Dal",
     "to_date": "al",
     "request_information": "Richiedi informazioni",
+    "product_questions": "Domande?",
+    "locations_and_logistics": "Luoghi e Dettagli Logistici",
     "departure": { "one": "Partenza {{ count }}" },
     "corso": {
       "one": "Corso {{ count }}",

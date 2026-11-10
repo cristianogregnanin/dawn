@@ -980,6 +980,8 @@
     "from_date": "From",
     "to_date": "to",
     "request_information": "Request information",
+    "product_questions": "Questions?",
+    "locations_and_logistics": "Locations and logistics",
     "departure": { "one": "Departure {{ count }}" },
     "corso": {
       "one": "Course {{ count }}",

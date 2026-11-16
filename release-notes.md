@@ -1,12 +1,7 @@
-Adds support for standard storefront events and a new section and block to display product disclosures.
-
-### Added
-
-- [Storefront Events & Actions] Added support for app, agent, and AI cart interactions without page reloads.
-- [Product disclosures] New section and block to display product disclosures on product pages.
+This update includes various fixes for cart interactions. Notably, a fix to the quick order list section on product pages when variants are part of "Buy X, Get Y" type discounts.
 
 ### Fixes and improvements
 
-- [Accessibility] Fixed aria labels and focus management on search and filtering components
-- [Performance] Changed body layout styles for improved cumulative layout shift (CLS)
-- Fixed missing theme setting translation strings in "Icons with Text" section
+- [Products] Fixed bulk quick-add and quick order list quantity changes and removals when discounts split a variant across multiple cart lines.
+- [Cart] Pressing Enter in a quantity field now updates the quantity and no longer starts checkout.
+- [Cart] The cart icon and cart drawer now refresh without a page reload when a storefront integration updates the cart.
